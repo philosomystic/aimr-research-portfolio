@@ -28,3 +28,5 @@
 @media (pointer:coarse), (max-width:680px){
   .construct,.fault,.study,.chip,.smallbtn,.bridge,.ghost,.close{min-height:44px}
 }
+
+.modal-actions{display:flex;align-items:center;gap:7px}.modal-actions .ghost{min-height:42px}
