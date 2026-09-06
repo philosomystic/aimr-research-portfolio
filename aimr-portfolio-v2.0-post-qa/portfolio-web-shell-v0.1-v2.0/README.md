@@ -17,4 +17,4 @@ No build command is required for Vercel.
 ## Production QA
 
 Browser QA is performed against the exact static production build in Chromium at desktop and mobile viewport sizes. The landscape app uses direct JSON loading (with CDN compression), keyboard territory navigation, focus-managed dialog behavior, responsive touch targets, and a full-screen route in addition to the portfolio embed.
-deployment trigger
+deployment trigger 2
