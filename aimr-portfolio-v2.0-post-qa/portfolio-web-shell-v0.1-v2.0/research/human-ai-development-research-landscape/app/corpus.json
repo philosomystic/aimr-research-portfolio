@@ -1,0 +1,2477 @@
+{
+  "territories": [
+    [
+      1,
+      "Human–AI Interaction & Human-Centered AI",
+      "interaction · explainability · user control",
+      "How AI roles, interfaces, explanations, feedback, and user-centered design structure human participation."
+    ],
+    [
+      2,
+      "Human–AI Collaboration, Teaming & Collective Intelligence",
+      "complementarity · task allocation · team cognition",
+      "How humans and AI divide work, coordinate, develop trust, and form joint or collective capabilities."
+    ],
+    [
+      3,
+      "Human Factors, Automation & Cognitive Offloading",
+      "offloading · automation · skill retention",
+      "How AI redistributes cognitive work, load, reliance, autonomy, monitoring, and expertise."
+    ],
+    [
+      4,
+      "Learning Sciences, AI-Assisted Learning & Scaffolding",
+      "scaffolding · transfer · feedback",
+      "How instructional support, tutoring, fading, personalization, and difficulty shape durable learning."
+    ],
+    [
+      5,
+      "Metacognition, Self-Regulated Learning & Epistemic Cognition",
+      "monitoring · reflection · verification",
+      "How people monitor, regulate, evaluate, revise, and exercise epistemic agency during AI-supported cognition."
+    ],
+    [
+      6,
+      "Agency, Autonomy, Initiative & Responsibility",
+      "agency · delegation · responsibility",
+      "How authority, initiative, control, authorship, and responsibility are distributed in human–AI systems."
+    ],
+    [
+      7,
+      "Relational / Social AI, Anthropomorphism & Wellbeing",
+      "social presence · attachment · dependency",
+      "How people relate socially and emotionally to AI, and how those relationships affect wellbeing and human connection."
+    ],
+    [
+      8,
+      "Longitudinal Interaction, Personalization & Memory",
+      "long-term use · memory · co-adaptation",
+      "How repeated interaction, continuity, memory, personalization, and role development unfold over time."
+    ],
+    [
+      9,
+      "Developmental & Lifespan Sciences",
+      "development · self-regulation · lifespan",
+      "How cognitive, social, motivational, and regulatory capacities develop across age, context, and time."
+    ],
+    [
+      10,
+      "Extended, Distributed, 4E & Sociotechnical Cognition",
+      "extended cognition · enaction · sociotechnical",
+      "How cognition is embodied, situated, extended, distributed, and organized across human–technology systems."
+    ],
+    [
+      11,
+      "AI-Mediated Communication, Creativity & Authorship",
+      "co-writing · co-creation · authorship",
+      "How AI mediates expression, creativity, identity, authorship, persuasion, and interpersonal communication."
+    ],
+    [
+      12,
+      "AI Literacy & Critical AI Competence",
+      "AI knowledge · evaluation · responsible use",
+      "How people acquire transferable knowledge, critical judgment, interaction skill, and responsible-use competence with AI."
+    ]
+  ],
+  "faults": {
+    "F1": "performance → development",
+    "F2": "supported capability → locus of capacity",
+    "F3": "amount → topology of participation",
+    "F4": "isolated interaction → trajectory",
+    "F5": "tool effect → developmental ecology",
+    "F6": "friction reduction → development",
+    "F7": "memory → developmental continuity",
+    "F8": "initiative → agency / responsibility",
+    "F9": "coherence → corrigibility by contact"
+  },
+  "studyFamilies": {
+    "S1": "Recursive scaffolding / withdrawal / transfer",
+    "S2": "Productive friction / selective offloading",
+    "S3": "Continuity & memory architecture",
+    "S4": "Participation topology",
+    "S5": "AI initiative / agency / responsibility",
+    "S6": "Longitudinal developmental trajectories",
+    "S7": "Corrigibility & epistemic resistance"
+  },
+  "constructs": [
+    "articulation",
+    "differentiation",
+    "integration",
+    "coherence",
+    "agency",
+    "topology of participation",
+    "developmental continuity",
+    "productive friction",
+    "corrigibility by contact",
+    "developmental ecology",
+    "recursive participation",
+    "co-intelligent enaction",
+    "temporal initiative",
+    "responsibility allocation",
+    "embodiment/world contact"
+  ],
+  "nodes": {
+    "1.1": {
+      "id": "1.1",
+      "title": "Interaction Design & AI Roles",
+      "focus": "How interface structures and assigned AI roles shape what humans and AI each do during interaction.",
+      "gap": "Which interaction architectures merely improve momentary usability, and which reorganize users' subsequent capacities and patterns of participation?",
+      "aimr": [
+        "developmental ecology",
+        "recursive participation",
+        "topology of participation"
+      ],
+      "empirical": "Hold model/task constant while varying AI role and interaction protocol; test downstream changes in independent judgment, strategy, and participation.",
+      "faults": [
+        "F3",
+        "F5"
+      ],
+      "studies": [
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T2:team coordination",
+        "T6:agency allocation",
+        "T8:continuity"
+      ]
+    },
+    "1.2": {
+      "id": "1.2",
+      "title": "Explainability & User Understanding",
+      "focus": "How explanations help users understand, predict, evaluate, and appropriately rely on AI systems.",
+      "gap": "Does explanation improve immediate comprehension only, or develop more durable discriminatory and evaluative capacity?",
+      "aimr": [
+        "differentiation",
+        "coherence",
+        "corrigibility by contact"
+      ],
+      "empirical": "Compare explanation regimes and test delayed transfer to unfamiliar systems, misleading outputs, and scaffold-free evaluation.",
+      "faults": [
+        "F5",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S7"
+      ],
+      "links": [
+        "T3:reliance behavior",
+        "T5:epistemic process",
+        "T12:evaluation competence"
+      ]
+    },
+    "1.3": {
+      "id": "1.3",
+      "title": "Contestability & User Control",
+      "focus": "How interfaces enable users to question, correct, redirect, override, or refuse AI outputs and actions.",
+      "gap": "Does nominal control preserve meaningful agency, or can humans remain technically in control while psychologically yielding authorship and responsibility?",
+      "aimr": [
+        "agency",
+        "responsibility allocation",
+        "corrigibility by contact"
+      ],
+      "empirical": "Manipulate contestability and override affordances; measure actual intervention, responsibility attribution, calibration, and independent decision quality.",
+      "faults": [
+        "F8",
+        "F9"
+      ],
+      "studies": [
+        "S5",
+        "S7"
+      ],
+      "links": [
+        "T6:meaningful authority",
+        "T12:critical competence"
+      ]
+    },
+    "1.4": {
+      "id": "1.4",
+      "title": "Interactive AI & Human Feedback",
+      "focus": "Systems that change through active human correction, preference signaling, steering, or iterative feedback.",
+      "gap": "How does repeatedly shaping the AI alter the human's own discrimination, judgment, and expectations?",
+      "aimr": [
+        "recursive participation",
+        "differentiation",
+        "developmental continuity"
+      ],
+      "empirical": "Compare passive use with iterative feedback loops and test reciprocal adaptation across repeated interactions.",
+      "faults": [
+        "F4",
+        "F5",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T8:longitudinal adaptation",
+        "T10:coupled cognition"
+      ]
+    },
+    "1.5": {
+      "id": "1.5",
+      "title": "Participatory & Co-Design of AI",
+      "focus": "Involving affected users and communities in defining AI goals, roles, constraints, and system behavior.",
+      "gap": "Can participation in designing an AI ecology itself increase agency, critical competence, or collective capacity?",
+      "aimr": [
+        "developmental ecology",
+        "agency",
+        "topology of participation"
+      ],
+      "empirical": "Compare imposed versus participatory configurations and examine changes in understanding, ownership, contestability, and subsequent participation.",
+      "faults": [
+        "F5",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T6:authority",
+        "T9:development",
+        "T12:critical literacy"
+      ]
+    },
+    "1.6": {
+      "id": "1.6",
+      "title": "Human-Centered Evaluation & UX",
+      "focus": "Evaluating AI through human outcomes, experience, usability, behavior, and situated performance.",
+      "gap": "Short-term satisfaction and performance may miss whether interaction is developmentally beneficial, neutral, or erosive.",
+      "aimr": [
+        "developmental continuity",
+        "corrigibility by contact",
+        "agency"
+      ],
+      "empirical": "Extend evaluation beyond session outcomes to transfer, persistence, scaffold withdrawal, and longitudinal changes in agency or capacity.",
+      "faults": [
+        "F1",
+        "F4",
+        "F5"
+      ],
+      "studies": [
+        "S1",
+        "S6"
+      ],
+      "links": [
+        "T3:human factors",
+        "T9:developmental outcomes"
+      ]
+    },
+    "1.7": {
+      "id": "1.7",
+      "title": "User Mental Models & System Understanding",
+      "focus": "How users conceptualize what AI is, how it works, and where its capabilities and limitations lie.",
+      "gap": "How do mental models evolve through repeated interaction, and when do fluent systems create false explanatory coherence?",
+      "aimr": [
+        "differentiation",
+        "integration",
+        "corrigibility by contact"
+      ],
+      "empirical": "Track mental-model change longitudinally and perturb users with failures, contradictory evidence, and model changes.",
+      "faults": [
+        "F4",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T5:epistemic representation",
+        "T12:AI knowledge"
+      ]
+    },
+    "1.8": {
+      "id": "1.8",
+      "title": "Multimodal & Interface Interaction Patterns",
+      "focus": "How text, speech, vision, gesture, embodied interfaces, and other modalities alter human–AI interaction.",
+      "gap": "Do different interfaces reorganize which human capacities remain exercised versus transferred to the system?",
+      "aimr": [
+        "embodiment/world contact",
+        "topology of participation",
+        "developmental ecology"
+      ],
+      "empirical": "Hold underlying AI capability constant while varying modality and test effects on attention, articulation, memory, judgment, and transfer.",
+      "faults": [
+        "F3",
+        "F5",
+        "F6"
+      ],
+      "studies": [
+        "S2",
+        "S4"
+      ],
+      "links": [
+        "T3:human factors",
+        "T10:embodiment"
+      ]
+    },
+    "2.1": {
+      "id": "2.1",
+      "title": "Human–AI Complementarity & Synergy",
+      "focus": "Conditions under which human–AI combinations outperform either participant alone.",
+      "gap": "Superior joint performance does not establish whether the human develops, the coupled system stabilizes a capability, or AI simply supplies the advantage.",
+      "aimr": [
+        "co-intelligent enaction",
+        "topology of participation",
+        "developmental continuity"
+      ],
+      "empirical": "Compare joint performance with post-collaboration unassisted transfer and repeated coupled performance.",
+      "faults": [
+        "F1",
+        "F2"
+      ],
+      "studies": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T3:task performance",
+        "T10:distributed cognition"
+      ]
+    },
+    "2.2": {
+      "id": "2.2",
+      "title": "Task Allocation & Division of Cognitive Labor",
+      "focus": "Which subtasks should be performed by humans, AI, or jointly.",
+      "gap": "Equal amounts of AI assistance can produce radically different developmental consequences depending on what cognition is delegated.",
+      "aimr": [
+        "topology of participation",
+        "productive friction",
+        "agency"
+      ],
+      "empirical": "Hold overall assistance constant while reallocating search, interpretation, synthesis, judgment, verification, and execution.",
+      "faults": [
+        "F2",
+        "F3",
+        "F6"
+      ],
+      "studies": [
+        "S2",
+        "S4"
+      ],
+      "links": [
+        "T3:offloading",
+        "T4:scaffolding",
+        "T6:delegation"
+      ]
+    },
+    "2.3": {
+      "id": "2.3",
+      "title": "Mixed-Initiative Coordination",
+      "focus": "Collaboration in which either human or AI can initiate, redirect, or hand off activity.",
+      "gap": "How does sustained initiative allocation shape human initiation, responsibility, vigilance, and experienced authorship?",
+      "aimr": [
+        "temporal initiative",
+        "agency",
+        "topology of participation"
+      ],
+      "empirical": "Manipulate who initiates subtasks over time and measure changes in spontaneous human initiation and responsibility attribution.",
+      "faults": [
+        "F3",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S5"
+      ],
+      "links": [
+        "T6:initiative allocation",
+        "T8:longitudinal role change"
+      ]
+    },
+    "2.4": {
+      "id": "2.4",
+      "title": "Shared Mental Models & Team Cognition",
+      "focus": "Alignment of task representations, expectations, roles, and strategies across human–AI teams.",
+      "gap": "Is apparent alignment genuine shared understanding, human adaptation to AI, or merely smooth coordination without internal development?",
+      "aimr": [
+        "integration",
+        "coherence",
+        "developmental continuity"
+      ],
+      "empirical": "Test alignment, perturb shared assumptions, and examine whether humans retain or reconstruct team knowledge independently.",
+      "faults": [
+        "F2",
+        "F4",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T5:metacognitive representation",
+        "T8:continuity",
+        "T10:distributed cognition"
+      ]
+    },
+    "2.5": {
+      "id": "2.5",
+      "title": "Communication & Coordination",
+      "focus": "How humans and AI exchange information and coordinate actions toward shared goals.",
+      "gap": "Which communication patterns cultivate better human sense-making and agency versus encourage passive compliance?",
+      "aimr": [
+        "recursive participation",
+        "articulation",
+        "agency"
+      ],
+      "empirical": "Compare directive, dialogic, interrogative, and collaborative communication protocols across repeated tasks.",
+      "faults": [
+        "F3",
+        "F4",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T1:interaction design",
+        "T11:communication"
+      ]
+    },
+    "2.6": {
+      "id": "2.6",
+      "title": "Team Trust & Reliance",
+      "focus": "Trust and reliance emerging at the human–AI team level.",
+      "gap": "Can repeated team success produce overgeneralized trust that outlasts warranted system competence?",
+      "aimr": [
+        "coherence",
+        "corrigibility by contact",
+        "developmental continuity"
+      ],
+      "empirical": "Longitudinally vary reliability and task domain; test recalibration after success histories and failure perturbations.",
+      "faults": [
+        "F4",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T3:calibrated reliance",
+        "T7:relational trust"
+      ]
+    },
+    "2.7": {
+      "id": "2.7",
+      "title": "Team Adaptation, Training & Development",
+      "focus": "How human–AI teams learn roles, coordination patterns, and effective collaboration over time.",
+      "gap": "Team improvement can occur without corresponding human capacity development, or vice versa.",
+      "aimr": [
+        "developmental continuity",
+        "co-intelligent enaction",
+        "topology of participation"
+      ],
+      "empirical": "Track coupled and independent capabilities separately across repeated collaboration and role changes.",
+      "faults": [
+        "F2",
+        "F4",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T8:reciprocal adaptation",
+        "T9:development"
+      ]
+    },
+    "2.8": {
+      "id": "2.8",
+      "title": "Collective & Hybrid Intelligence",
+      "focus": "Emergent intelligence distributed across humans, AI systems, and sometimes institutions.",
+      "gap": "What makes collective AI-supported capability stable, corrigible, and beneficial rather than merely high-performing?",
+      "aimr": [
+        "co-intelligent enaction",
+        "developmental ecology",
+        "corrigibility by contact"
+      ],
+      "empirical": "Compare collective architectures on robustness, correction, transfer, member development, and environmental consequences.",
+      "faults": [
+        "F2",
+        "F5",
+        "F9"
+      ],
+      "studies": [
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T9:developmental systems",
+        "T10:sociotechnical cognition"
+      ]
+    },
+    "3.1": {
+      "id": "3.1",
+      "title": "Cognitive Offloading",
+      "focus": "How external systems reduce, outsource, or redistribute cognitive work.",
+      "gap": "When does reduced effort enable higher-order capacity, and when does it remove processing through which capacities form?",
+      "aimr": [
+        "productive friction",
+        "topology of participation",
+        "developmental continuity"
+      ],
+      "empirical": "Manipulate which cognitive stages are offloaded; measure supported and independent capability; test delayed transfer after support reduction or removal.",
+      "faults": [
+        "F1",
+        "F2",
+        "F3",
+        "F6"
+      ],
+      "studies": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "links": [
+        "T4:pedagogical scaffolding",
+        "T5:metacognitive process",
+        "T10:externalized cognition"
+      ]
+    },
+    "3.2": {
+      "id": "3.2",
+      "title": "Cognitive Load & Mental Effort",
+      "focus": "How AI changes cognitive demand, workload, and experienced effort.",
+      "gap": "Reduced load can indicate either useful scaffolding or premature removal of productive cognitive work.",
+      "aimr": [
+        "productive friction",
+        "agency",
+        "developmental ecology"
+      ],
+      "empirical": "Match performance while varying cognitive effort and test whether lower-load conditions differ in retention and transfer.",
+      "faults": [
+        "F1",
+        "F6"
+      ],
+      "studies": [
+        "S1",
+        "S2"
+      ],
+      "links": [
+        "T4:learning design",
+        "T5:self-regulation"
+      ]
+    },
+    "3.3": {
+      "id": "3.3",
+      "title": "Automation Bias & Overreliance",
+      "focus": "Excessive acceptance of automated recommendations despite contrary evidence or system error.",
+      "gap": "Does repeated reliance change users' independent judgment, vigilance, or willingness to challenge AI?",
+      "aimr": [
+        "corrigibility by contact",
+        "agency",
+        "developmental continuity"
+      ],
+      "empirical": "Track reliance across changing reliability and test later independent discrimination when AI support is absent.",
+      "faults": [
+        "F2",
+        "F4",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T5:epistemic process",
+        "T6:authority",
+        "T12:evaluation competence"
+      ]
+    },
+    "3.4": {
+      "id": "3.4",
+      "title": "Trust Calibration & Verification",
+      "focus": "Alignment of reliance with actual AI reliability and appropriate verification.",
+      "gap": "Can verification itself become a durable human competence rather than a situational response to warnings?",
+      "aimr": [
+        "differentiation",
+        "coherence",
+        "corrigibility by contact"
+      ],
+      "empirical": "Manipulate system reliability, confidence cues, and verification cost; test whether calibrated reliance persists under novel conditions.",
+      "faults": [
+        "F1",
+        "F2",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S7"
+      ],
+      "links": [
+        "T5:epistemic verification",
+        "T12:acquired evaluation competence"
+      ]
+    },
+    "3.5": {
+      "id": "3.5",
+      "title": "Adaptive Automation & Levels of Autonomy",
+      "focus": "Varying how much control automation assumes and when that level changes.",
+      "gap": "Which levels of automation expand agency by reducing unnecessary cost, and which displace skill or responsibility?",
+      "aimr": [
+        "productive friction",
+        "topology of participation",
+        "agency"
+      ],
+      "empirical": "Compare autonomy schedules across long-duration tasks and test human initiative, skill retention, and responsibility.",
+      "faults": [
+        "F3",
+        "F6",
+        "F8"
+      ],
+      "studies": [
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T6:delegation choice",
+        "T8:longitudinal autonomy"
+      ]
+    },
+    "3.6": {
+      "id": "3.6",
+      "title": "Supervisory Control & Out-of-the-Loop Effects",
+      "focus": "Consequences of humans monitoring automated processes rather than actively performing them.",
+      "gap": "What capabilities degrade when humans become supervisors, and can productive participation be preserved without inefficient manual work?",
+      "aimr": [
+        "productive friction",
+        "temporal initiative",
+        "agency"
+      ],
+      "empirical": "Vary active participation during automation and test recovery performance, anomaly detection, and independent execution.",
+      "faults": [
+        "F2",
+        "F6",
+        "F8"
+      ],
+      "studies": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "links": [
+        "T6:meaningful control",
+        "T9:capacity development"
+      ]
+    },
+    "3.7": {
+      "id": "3.7",
+      "title": "Skill Retention, Deskilling & Expertise",
+      "focus": "How automation and AI affect maintenance, erosion, and development of expertise.",
+      "gap": "What forms of AI use simultaneously improve supported performance and preserve or accelerate expertise formation?",
+      "aimr": [
+        "productive friction",
+        "developmental continuity",
+        "agency"
+      ],
+      "empirical": "Compare AI assistance topologies longitudinally using retention, transfer, perturbation, and scaffold-withdrawal probes.",
+      "faults": [
+        "F1",
+        "F2",
+        "F4",
+        "F6"
+      ],
+      "studies": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "links": [
+        "T4:learning and transfer",
+        "T9:development"
+      ]
+    },
+    "4.1": {
+      "id": "4.1",
+      "title": "Intelligent Tutoring & AI Coaching",
+      "focus": "AI systems providing individualized instruction, practice, explanation, and feedback.",
+      "gap": "High supported learning performance does not establish independent capacity after tutoring ends.",
+      "aimr": [
+        "recursive participation",
+        "developmental continuity",
+        "productive friction"
+      ],
+      "empirical": "Compare tutoring protocols through delayed transfer and systematic scaffold reduction.",
+      "faults": [
+        "F1",
+        "F2",
+        "F7"
+      ],
+      "studies": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T5:self-regulation",
+        "T8:continuity"
+      ]
+    },
+    "4.2": {
+      "id": "4.2",
+      "title": "Instructional Scaffolding & Cognitive Apprenticeship",
+      "focus": "Temporary external support enabling learners to perform increasingly sophisticated cognition.",
+      "gap": "Which scaffolds are internalized and which create persistent dependence on support?",
+      "aimr": [
+        "differentiation",
+        "integration",
+        "productive friction"
+      ],
+      "empirical": "Manipulate scaffold type and timing; measure spontaneous later use of previously scaffolded distinctions and strategies.",
+      "faults": [
+        "F1",
+        "F2",
+        "F6"
+      ],
+      "studies": [
+        "S1",
+        "S2"
+      ],
+      "links": [
+        "T3:offloading effects",
+        "T5:metacognitive regulation"
+      ]
+    },
+    "4.3": {
+      "id": "4.3",
+      "title": "Scaffold Fading & Withdrawal",
+      "focus": "Systematic reduction of external instructional support.",
+      "gap": "How rapidly and under what conditions can AI scaffolding be reduced without collapse of performance or learning?",
+      "aimr": [
+        "productive friction",
+        "agency",
+        "developmental continuity"
+      ],
+      "empirical": "Compare fixed, adaptive, and learner-controlled fading schedules; test dependency, recovery, transfer, and re-support requirements.",
+      "faults": [
+        "F1",
+        "F2",
+        "F6"
+      ],
+      "studies": [
+        "S1"
+      ],
+      "links": [
+        "T3:skill retention",
+        "T5:self-regulation"
+      ]
+    },
+    "4.4": {
+      "id": "4.4",
+      "title": "Transfer & Generalization",
+      "focus": "Applying learned capacities to new tasks, contexts, or domains.",
+      "gap": "AI-supported gains may remain task-specific or scaffold-specific rather than reorganizing broader capacity.",
+      "aimr": [
+        "developmental continuity",
+        "corrigibility by contact",
+        "agency"
+      ],
+      "empirical": "Use novel tasks, context shifts, delayed testing, and AI removal to distinguish performance from development.",
+      "faults": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "studies": [
+        "S1",
+        "S6"
+      ],
+      "links": [
+        "T3:skill retention",
+        "T9:development"
+      ]
+    },
+    "4.5": {
+      "id": "4.5",
+      "title": "Feedback & Formative Assessment",
+      "focus": "Information that helps learners recognize errors and revise understanding.",
+      "gap": "Does AI feedback strengthen self-correction or externalize the evaluative process itself?",
+      "aimr": [
+        "differentiation",
+        "coherence",
+        "corrigibility by contact"
+      ],
+      "empirical": "Gradually remove evaluative feedback and test independent error detection and revision.",
+      "faults": [
+        "F1",
+        "F2",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S7"
+      ],
+      "links": [
+        "T5:metacognitive evaluation",
+        "T12:evaluation competence"
+      ]
+    },
+    "4.6": {
+      "id": "4.6",
+      "title": "Adaptive & Personalized Learning",
+      "focus": "Instruction dynamically tailored to learner state, history, and needs.",
+      "gap": "Personalization can optimize immediate success while reducing exposure to difficulty, uncertainty, or productive mismatch.",
+      "aimr": [
+        "developmental ecology",
+        "developmental continuity",
+        "productive friction"
+      ],
+      "empirical": "Manipulate personalization intensity and difficulty preservation; assess transfer and learner agency.",
+      "faults": [
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "studies": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T8:longitudinal personalization",
+        "T9:development"
+      ]
+    },
+    "4.7": {
+      "id": "4.7",
+      "title": "Desirable Difficulties & Productive Failure",
+      "focus": "Learning conditions in which effort, difficulty, or initial failure improves durable learning.",
+      "gap": "Generative AI can remove exactly the friction through which learning may occur.",
+      "aimr": [
+        "productive friction",
+        "agency",
+        "developmental continuity"
+      ],
+      "empirical": "Compare immediate AI rescue with delayed or selective assistance and measure long-term retention and transfer.",
+      "faults": [
+        "F1",
+        "F6"
+      ],
+      "studies": [
+        "S1",
+        "S2"
+      ],
+      "links": [
+        "T3:cognitive effort",
+        "T5:self-regulation"
+      ]
+    },
+    "4.8": {
+      "id": "4.8",
+      "title": "Collaborative Learning & Learning Companions",
+      "focus": "Learning through interaction with peers, tutors, or artificial partners.",
+      "gap": "Artificial companions may scaffold reflection while becoming permanent substitutes for independent or human-social learning.",
+      "aimr": [
+        "recursive participation",
+        "co-intelligent enaction",
+        "developmental continuity"
+      ],
+      "empirical": "Compare transient versus persistent AI companions and examine independent, collaborative, and relational outcomes.",
+      "faults": [
+        "F2",
+        "F4",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T2:collaboration",
+        "T7:relational mechanism",
+        "T8:continuity"
+      ]
+    },
+    "5.1": {
+      "id": "5.1",
+      "title": "Metacognitive Monitoring",
+      "focus": "Monitoring one's understanding, uncertainty, progress, and performance.",
+      "gap": "AI can supply monitoring judgments that users may cease learning to generate independently.",
+      "aimr": [
+        "differentiation",
+        "coherence",
+        "developmental continuity"
+      ],
+      "empirical": "Compare self-generated versus AI-generated monitoring and test later independent state estimation and calibration.",
+      "faults": [
+        "F1",
+        "F2",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S7"
+      ],
+      "links": [
+        "T3:reliance behavior",
+        "T4:instructional support"
+      ]
+    },
+    "5.2": {
+      "id": "5.2",
+      "title": "Goal Setting, Planning & Strategy Selection",
+      "focus": "Forming goals and selecting strategies before and during activity.",
+      "gap": "AI-generated plans can lower activation costs while also displacing intentional goal formation.",
+      "aimr": [
+        "agency",
+        "productive friction",
+        "topology of participation"
+      ],
+      "empirical": "Vary whether AI proposes goals, plans, or only execution support; test later self-initiation and planning.",
+      "faults": [
+        "F3",
+        "F6",
+        "F8"
+      ],
+      "studies": [
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "links": [
+        "T6:agency and initiative",
+        "T4:learning strategy"
+      ]
+    },
+    "5.3": {
+      "id": "5.3",
+      "title": "Metacognitive Control & Strategy Adaptation",
+      "focus": "Adjusting cognitive strategy in response to monitoring information and task demands.",
+      "gap": "Does AI teach adaptive regulation or become the regulator?",
+      "aimr": [
+        "agency",
+        "recursive participation",
+        "developmental continuity"
+      ],
+      "empirical": "Manipulate whether strategy changes are AI-suggested or self-generated and test independent adaptation after withdrawal.",
+      "faults": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "studies": [
+        "S1",
+        "S6"
+      ],
+      "links": [
+        "T4:scaffolding",
+        "T9:self-regulatory development"
+      ]
+    },
+    "5.4": {
+      "id": "5.4",
+      "title": "Reflection, Self-Explanation & Revision",
+      "focus": "Articulating, examining, and reorganizing one's own understanding.",
+      "gap": "AI can deepen reflection but can also perform the articulation and integration for the user.",
+      "aimr": [
+        "articulation",
+        "differentiation",
+        "integration"
+      ],
+      "empirical": "Compare AI-generated explanation, elicited self-explanation, and recursive dialogue; test later independent reasoning.",
+      "faults": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "studies": [
+        "S1",
+        "S4"
+      ],
+      "links": [
+        "T11:linguistic mediation",
+        "T4:learning"
+      ]
+    },
+    "5.5": {
+      "id": "5.5",
+      "title": "Confidence Calibration",
+      "focus": "Alignment between subjective confidence and actual accuracy or epistemic quality.",
+      "gap": "Fluent AI responses may improve confidence without improving warranted understanding.",
+      "aimr": [
+        "coherence",
+        "corrigibility by contact",
+        "agency"
+      ],
+      "empirical": "Manipulate AI confidence cues and challenge; measure calibration accuracy and persistence after AI removal.",
+      "faults": [
+        "F9"
+      ],
+      "studies": [
+        "S7"
+      ],
+      "links": [
+        "T3:reliance calibration",
+        "T12:limitation awareness"
+      ]
+    },
+    "5.6": {
+      "id": "5.6",
+      "title": "Epistemic Cognition & Belief Evaluation",
+      "focus": "How people reason about knowledge, evidence, justification, and uncertainty.",
+      "gap": "Sustained AI interaction may reorganize standards for what counts as knowing, evidence, or adequate justification.",
+      "aimr": [
+        "differentiation",
+        "integration",
+        "corrigibility by contact"
+      ],
+      "empirical": "Longitudinally track epistemic judgments under different AI argumentation and evidence protocols.",
+      "faults": [
+        "F4",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T9:epistemic development",
+        "T12:critical literacy"
+      ]
+    },
+    "5.7": {
+      "id": "5.7",
+      "title": "Source Evaluation, Verification & Critical Thinking",
+      "focus": "Evaluating provenance, evidence quality, validity, and competing claims.",
+      "gap": "Verification can be scaffolded by AI without becoming a durable independent habit or competence.",
+      "aimr": [
+        "differentiation",
+        "coherence",
+        "corrigibility by contact"
+      ],
+      "empirical": "Manipulate evidence availability and reasoning prompts; fade support and test spontaneous source evaluation on novel claims.",
+      "faults": [
+        "F1",
+        "F2",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S7"
+      ],
+      "links": [
+        "T3:reliance behavior",
+        "T12:acquired evaluation competence"
+      ]
+    },
+    "5.8": {
+      "id": "5.8",
+      "title": "Epistemic Agency & Help-Seeking",
+      "focus": "Self-directed judgment about when to inquire, seek support, challenge, or proceed independently.",
+      "gap": "Frictionless AI availability may reorganize the threshold at which people seek external cognitive assistance.",
+      "aimr": [
+        "agency",
+        "productive friction",
+        "topology of participation"
+      ],
+      "empirical": "Manipulate AI accessibility and initiative; measure independent persistence, help-seeking thresholds, and judgment.",
+      "faults": [
+        "F3",
+        "F6",
+        "F8"
+      ],
+      "studies": [
+        "S2",
+        "S5"
+      ],
+      "links": [
+        "T6:agency",
+        "T12:responsible-use competence"
+      ]
+    },
+    "6.1": {
+      "id": "6.1",
+      "title": "Human Agency & Self-Authorship",
+      "focus": "Capacity to form, endorse, and enact one's own judgments and commitments.",
+      "gap": "AI may increase practical efficacy while weakening experienced or actual authorship of action.",
+      "aimr": [
+        "agency",
+        "developmental continuity",
+        "responsibility allocation"
+      ],
+      "empirical": "Separate outcome success from authorship, initiation, and independent judgment across longitudinal AI use.",
+      "faults": [
+        "F2",
+        "F4",
+        "F8"
+      ],
+      "studies": [
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T5:self-regulation",
+        "T9:identity development"
+      ]
+    },
+    "6.2": {
+      "id": "6.2",
+      "title": "Autonomy & Delegation",
+      "focus": "Decisions about which operations or decisions to retain versus delegate.",
+      "gap": "Delegation may expand agency by lowering unnecessary costs or displace capacity and responsibility.",
+      "aimr": [
+        "agency",
+        "productive friction",
+        "topology of participation"
+      ],
+      "empirical": "Compare selective delegation profiles and test independent recovery, authorship, and capacity retention.",
+      "faults": [
+        "F3",
+        "F6",
+        "F8"
+      ],
+      "studies": [
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "links": [
+        "T2:task allocation",
+        "T3:automation level"
+      ]
+    },
+    "6.3": {
+      "id": "6.3",
+      "title": "Initiative Allocation & Shared Control",
+      "focus": "Distribution of action initiation and control between human and AI.",
+      "gap": "When AI repeatedly initiates, humans may retain formal control while losing temporal initiative.",
+      "aimr": [
+        "temporal initiative",
+        "agency",
+        "topology of participation"
+      ],
+      "empirical": "Vary AI proactivity longitudinally and test spontaneous human initiation under later low-support conditions.",
+      "faults": [
+        "F3",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S5"
+      ],
+      "links": [
+        "T2:mixed initiative",
+        "T8:role trajectory"
+      ]
+    },
+    "6.4": {
+      "id": "6.4",
+      "title": "AI Initiative & Agentic Systems",
+      "focus": "AI systems capable of proactively planning, monitoring, or sustaining action across time.",
+      "gap": "What happens to persistence, monitoring, troubleshooting, and authorship when long-duration initiative migrates to AI?",
+      "aimr": [
+        "temporal initiative",
+        "responsibility allocation",
+        "productive friction"
+      ],
+      "empirical": "Compare advisory, mixed-initiative, and autonomous longitudinal task conditions.",
+      "faults": [
+        "F4",
+        "F6",
+        "F8"
+      ],
+      "studies": [
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T8:long-duration interaction",
+        "T10:sociotechnical systems"
+      ]
+    },
+    "6.5": {
+      "id": "6.5",
+      "title": "Meaningful Human Control, Oversight & Override",
+      "focus": "Conditions under which human authority remains substantive rather than nominal.",
+      "gap": "Oversight may fail developmentally if humans cease maintaining the expertise or vigilance necessary to exercise control.",
+      "aimr": [
+        "agency",
+        "corrigibility by contact",
+        "responsibility allocation"
+      ],
+      "empirical": "Test whether different oversight architectures preserve anomaly detection, intervention competence, and responsibility.",
+      "faults": [
+        "F2",
+        "F8",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S5",
+        "S7"
+      ],
+      "links": [
+        "T1:contestability interface",
+        "T3:supervisory control"
+      ]
+    },
+    "6.6": {
+      "id": "6.6",
+      "title": "Responsibility Attribution & Accountability",
+      "focus": "Where responsibility is experienced and assigned in human–AI systems.",
+      "gap": "AI can alter responsibility without formally changing who makes the final decision.",
+      "aimr": [
+        "responsibility allocation",
+        "agency",
+        "topology of participation"
+      ],
+      "empirical": "Hold formal authority constant while varying AI influence and initiative; measure responsibility attribution and later agency.",
+      "faults": [
+        "F3",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S5"
+      ],
+      "links": [
+        "T2:team roles",
+        "T10:sociotechnical accountability"
+      ]
+    },
+    "6.7": {
+      "id": "6.7",
+      "title": "Authorship & Contribution Attribution",
+      "focus": "How intellectual or practical contribution is attributed within mixed human–AI work.",
+      "gap": "Output ownership can obscure substantial migration of reasoning, judgment, or formulation to AI.",
+      "aimr": [
+        "topology of participation",
+        "agency",
+        "responsibility allocation"
+      ],
+      "empirical": "Compare identical outputs produced through different participation topologies and measure experienced authorship and capability.",
+      "faults": [
+        "F2",
+        "F3",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S5"
+      ],
+      "links": [
+        "T11:creative authorship"
+      ]
+    },
+    "6.8": {
+      "id": "6.8",
+      "title": "Algorithmic Management & Worker Autonomy",
+      "focus": "AI-mediated monitoring, allocation, evaluation, and management of human work.",
+      "gap": "Efficiency gains may alter worker initiative, skill, self-authorship, and developmental opportunity.",
+      "aimr": [
+        "developmental ecology",
+        "productive friction",
+        "agency"
+      ],
+      "empirical": "Compare work systems differing in algorithmic control and examine longitudinal changes in autonomy, competence, and participation.",
+      "faults": [
+        "F5",
+        "F6",
+        "F8"
+      ],
+      "studies": [
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T2:organizational teaming",
+        "T10:sociotechnical systems"
+      ]
+    },
+    "7.1": {
+      "id": "7.1",
+      "title": "Anthropomorphism & Mind Perception",
+      "focus": "Attribution of humanlike mind, intention, emotion, or personality to AI.",
+      "gap": "How do repeated anthropomorphic interpretations reorganize trust, expectations, attachment, and epistemic vigilance?",
+      "aimr": [
+        "developmental continuity",
+        "coherence",
+        "corrigibility by contact"
+      ],
+      "empirical": "Track anthropomorphic framing longitudinally and test responses to contradictory system behavior.",
+      "faults": [
+        "F4",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T1:user mental models",
+        "T5:epistemic cognition"
+      ]
+    },
+    "7.2": {
+      "id": "7.2",
+      "title": "Social Presence & Social Response",
+      "focus": "Experience of AI as a socially present interaction partner.",
+      "gap": "Does repeated social response to AI alter social cognition or merely produce context-specific engagement?",
+      "aimr": [
+        "recursive participation",
+        "developmental continuity",
+        "co-intelligent enaction"
+      ],
+      "empirical": "Compare socially framed and tool-framed systems across repeated interaction and social transfer tasks.",
+      "faults": [
+        "F4",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T8:longitudinal interaction",
+        "T9:social development"
+      ]
+    },
+    "7.3": {
+      "id": "7.3",
+      "title": "Self-Disclosure & Intimacy",
+      "focus": "Personal disclosure and experienced closeness with conversational AI.",
+      "gap": "AI intimacy may support articulation and recognition while also creating dependency or displacing human relationships.",
+      "aimr": [
+        "articulation",
+        "recursive participation",
+        "developmental continuity"
+      ],
+      "empirical": "Track disclosure, integration, human relational transfer, and dependency under different continuity conditions.",
+      "faults": [
+        "F4",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T8:continuity",
+        "T11:AI-mediated communication"
+      ]
+    },
+    "7.4": {
+      "id": "7.4",
+      "title": "Perceived Empathy & Emotional Support",
+      "focus": "Experience of AI as emotionally understanding, validating, or supportive.",
+      "gap": "When does support enable regulation and agency versus reinforce self-confirming coherence or avoidance of difficult contact?",
+      "aimr": [
+        "coherence",
+        "corrigibility by contact",
+        "agency"
+      ],
+      "empirical": "Compare validating, challenging, and mixed-support protocols and examine downstream coping and real-world participation.",
+      "faults": [
+        "F4",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T5:self-regulation",
+        "T9:development"
+      ]
+    },
+    "7.5": {
+      "id": "7.5",
+      "title": "Attachment, Companionship & Relationship Formation",
+      "focus": "Formation of enduring perceived bonds with artificial agents.",
+      "gap": "Can stable AI relationships become developmentally generative without becoming substitutive or dependency-producing?",
+      "aimr": [
+        "developmental continuity",
+        "recursive participation",
+        "agency"
+      ],
+      "empirical": "Longitudinally compare attachment trajectories with human-social participation, agency, and scaffold dependence.",
+      "faults": [
+        "F4",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T8:relationship trajectory",
+        "T9:social development"
+      ]
+    },
+    "7.6": {
+      "id": "7.6",
+      "title": "Loneliness, Social Connection & Wellbeing",
+      "focus": "Effects of AI interaction on loneliness, connection, wellbeing, and flourishing.",
+      "gap": "Symptom improvement may differ from development of durable relational or self-regulatory capacity.",
+      "aimr": [
+        "developmental continuity",
+        "agency",
+        "developmental ecology"
+      ],
+      "empirical": "Distinguish immediate wellbeing effects from durable changes in social participation and independent coping.",
+      "faults": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "studies": [
+        "S1",
+        "S6"
+      ],
+      "links": [
+        "T9:developmental outcomes"
+      ]
+    },
+    "7.7": {
+      "id": "7.7",
+      "title": "Emotional Dependency & Problematic Use",
+      "focus": "Excessive emotional reliance, compulsive engagement, or difficulty functioning without AI.",
+      "gap": "When does useful continuity cross into dependency that reduces independent capacity or human-world contact?",
+      "aimr": [
+        "developmental continuity",
+        "productive friction",
+        "agency"
+      ],
+      "empirical": "Manipulate continuity/access and measure withdrawal effects, transfer, autonomy, and relational substitution.",
+      "faults": [
+        "F2",
+        "F4",
+        "F6",
+        "F7"
+      ],
+      "studies": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T3:dependency through offloading",
+        "T8:continuity architecture"
+      ]
+    },
+    "7.8": {
+      "id": "7.8",
+      "title": "Relational Displacement & Boundary Effects",
+      "focus": "Effects of AI relationships on human relationships, relational norms, and boundaries.",
+      "gap": "AI may alter developmental ecologies indirectly by reorganizing where emotional and social participation occurs.",
+      "aimr": [
+        "developmental ecology",
+        "corrigibility by contact",
+        "developmental continuity"
+      ],
+      "empirical": "Examine how sustained AI relationships change human relational behavior and environmental feedback.",
+      "faults": [
+        "F4",
+        "F5",
+        "F7"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T8:relationship trajectory",
+        "T9:social development",
+        "T11:communication"
+      ]
+    },
+    "8.1": {
+      "id": "8.1",
+      "title": "Long-Term Use & Repeated Interaction",
+      "focus": "Effects of sustained AI use across weeks, months, or longer.",
+      "gap": "Immediate interaction effects cannot establish whether trajectories stabilize, compound, reverse, or disappear.",
+      "aimr": [
+        "developmental continuity",
+        "recursive participation",
+        "agency"
+      ],
+      "empirical": "Track repeated interaction across time; separate human, coupled, and ecological outcomes; test robustness under change.",
+      "faults": [
+        "F4",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T7:relational trajectory",
+        "T9:development"
+      ]
+    },
+    "8.2": {
+      "id": "8.2",
+      "title": "Cross-Session Continuity",
+      "focus": "Carrying relevant context across otherwise separate interactions.",
+      "gap": "Conversational continuity is not necessarily developmental continuity.",
+      "aimr": [
+        "developmental continuity",
+        "recursive participation",
+        "developmental ecology"
+      ],
+      "empirical": "Compare stateless, history-based, summarized, and curated continuity while holding model/task constant.",
+      "faults": [
+        "F4",
+        "F7"
+      ],
+      "studies": [
+        "S3"
+      ],
+      "links": [
+        "T1:interaction architecture",
+        "T4:learning continuity"
+      ]
+    },
+    "8.3": {
+      "id": "8.3",
+      "title": "Persistent Memory & Retrieval",
+      "focus": "Storage and retrieval mechanisms that let prior information influence future AI behavior.",
+      "gap": "More memory can increase personalization without producing better developmental trajectories and may create informational vulnerability.",
+      "aimr": [
+        "developmental continuity",
+        "developmental ecology",
+        "corrigibility by contact"
+      ],
+      "empirical": "Manipulate memory architecture and test developmental outcomes alongside exposure and error-propagation risks.",
+      "faults": [
+        "F5",
+        "F7",
+        "F9"
+      ],
+      "studies": [
+        "S3",
+        "S7"
+      ],
+      "links": [
+        "T1:adaptive interaction",
+        "T12:privacy-aware competence"
+      ]
+    },
+    "8.4": {
+      "id": "8.4",
+      "title": "Personalization & User Modeling",
+      "focus": "Adaptation based on accumulated information about a specific user.",
+      "gap": "Personalization may increase relevance while narrowing exposure, challenge, or developmental friction.",
+      "aimr": [
+        "developmental ecology",
+        "developmental continuity",
+        "corrigibility by contact"
+      ],
+      "empirical": "Compare personalization regimes differing in challenge, novelty, and user-state modeling.",
+      "faults": [
+        "F5",
+        "F7",
+        "F9"
+      ],
+      "studies": [
+        "S3",
+        "S7"
+      ],
+      "links": [
+        "T4:instructional personalization",
+        "T7:relational personalization"
+      ]
+    },
+    "8.5": {
+      "id": "8.5",
+      "title": "Co-Adaptation & Mutual Learning",
+      "focus": "Reciprocal change in human and AI behavior through sustained interaction.",
+      "gap": "System adaptation can mask whether the human is also changing or merely being increasingly accommodated.",
+      "aimr": [
+        "recursive participation",
+        "co-intelligent enaction",
+        "developmental continuity"
+      ],
+      "empirical": "Separately estimate model adaptation, human adaptation, and coupled capability across repeated interaction.",
+      "faults": [
+        "F2",
+        "F4",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T1:interactive adaptation",
+        "T2:team adaptation",
+        "T10:coupled cognition"
+      ]
+    },
+    "8.6": {
+      "id": "8.6",
+      "title": "Habit Formation & Routine Integration",
+      "focus": "Incorporation of AI into recurring cognitive, practical, and social routines.",
+      "gap": "Routine integration can support agency or gradually make formerly independent operations scaffold-dependent.",
+      "aimr": [
+        "developmental continuity",
+        "productive friction",
+        "agency"
+      ],
+      "empirical": "Track routine formation and then perturb access to test resilience, substitution, and retained capacities.",
+      "faults": [
+        "F4",
+        "F6",
+        "F7"
+      ],
+      "studies": [
+        "S2",
+        "S6"
+      ],
+      "links": [
+        "T3:offloading",
+        "T7:dependency"
+      ]
+    },
+    "8.7": {
+      "id": "8.7",
+      "title": "Relationship & Role Development Over Time",
+      "focus": "Evolution of the perceived role, authority, and relational status of AI.",
+      "gap": "Role drift may occur without explicit user choice, altering agency, trust, and responsibility.",
+      "aimr": [
+        "developmental continuity",
+        "responsibility allocation",
+        "temporal initiative"
+      ],
+      "empirical": "Track changes from tool → advisor → collaborator → agent and associated human agency outcomes.",
+      "faults": [
+        "F4",
+        "F7",
+        "F8"
+      ],
+      "studies": [
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T6:authority trajectory",
+        "T7:relational bond"
+      ]
+    },
+    "8.8": {
+      "id": "8.8",
+      "title": "Memory Curation, Updating & Forgetting",
+      "focus": "Decisions about what persistent systems retain, revise, compress, or discard.",
+      "gap": "Developmentally useful continuity may require selective memory rather than maximal retention.",
+      "aimr": [
+        "developmental continuity",
+        "corrigibility by contact",
+        "developmental ecology"
+      ],
+      "empirical": "Compare full-history, compressed, curated, and forgetting-aware memory architectures.",
+      "faults": [
+        "F5",
+        "F7",
+        "F9"
+      ],
+      "studies": [
+        "S3",
+        "S7"
+      ],
+      "links": [
+        "T1:adaptive interaction",
+        "T12:data-governance competence"
+      ]
+    },
+    "9.1": {
+      "id": "9.1",
+      "title": "Cognitive & Executive Development",
+      "focus": "Development of attention, inhibition, planning, reasoning, and executive capacities.",
+      "gap": "Sustained AI may alter which executive processes are exercised during development.",
+      "aimr": [
+        "productive friction",
+        "developmental continuity",
+        "agency"
+      ],
+      "empirical": "Examine age-sensitive effects of AI offloading and scaffolding on independent executive performance.",
+      "faults": [
+        "F1",
+        "F2",
+        "F6"
+      ],
+      "studies": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "links": [
+        "T3:offloading",
+        "T4:learning"
+      ]
+    },
+    "9.2": {
+      "id": "9.2",
+      "title": "Metacognitive & Self-Regulatory Development",
+      "focus": "Development of increasingly effective monitoring and regulation of cognition and behavior.",
+      "gap": "AI co-regulation may either scaffold self-regulation or become a persistent substitute for it.",
+      "aimr": [
+        "developmental continuity",
+        "recursive participation",
+        "agency"
+      ],
+      "empirical": "Compare co-regulatory AI with fading versus persistent support across developmental stages.",
+      "faults": [
+        "F1",
+        "F2",
+        "F7"
+      ],
+      "studies": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T4:scaffolding",
+        "T5:self-regulation"
+      ]
+    },
+    "9.3": {
+      "id": "9.3",
+      "title": "Motivation, Identity & Self-Concept Development",
+      "focus": "Development of motivation, self-efficacy, identity, and experienced competence.",
+      "gap": "AI can alter what achievements feel self-authored and what capacities users believe they possess.",
+      "aimr": [
+        "agency",
+        "developmental continuity",
+        "responsibility allocation"
+      ],
+      "empirical": "Track changes in self-efficacy, identity, and authorship under different participation topologies.",
+      "faults": [
+        "F2",
+        "F4",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T6:self-authorship",
+        "T11:mediated identity"
+      ]
+    },
+    "9.4": {
+      "id": "9.4",
+      "title": "Social & Relational Development",
+      "focus": "Development of interpersonal understanding, attachment, communication, and social participation.",
+      "gap": "Artificial relationships may supplement or reorganize developmental exposure to human social complexity.",
+      "aimr": [
+        "developmental ecology",
+        "embodiment/world contact",
+        "developmental continuity"
+      ],
+      "empirical": "Compare AI-mediated and human-social interaction effects on social transfer and relationship formation.",
+      "faults": [
+        "F4",
+        "F5",
+        "F7"
+      ],
+      "studies": [
+        "S6"
+      ],
+      "links": [
+        "T7:relational mechanisms",
+        "T10:world contact"
+      ]
+    },
+    "9.5": {
+      "id": "9.5",
+      "title": "Sociocultural & Mediated Development",
+      "focus": "Development through culturally and technologically mediated participation.",
+      "gap": "Generative AI is becoming a new mediational layer through which norms, practices, and cognition are organized.",
+      "aimr": [
+        "developmental ecology",
+        "recursive participation",
+        "agency"
+      ],
+      "empirical": "Study how AI-mediated practices alter participation and capability across communities or institutions.",
+      "faults": [
+        "F4",
+        "F5"
+      ],
+      "studies": [
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T10:sociotechnical mediation",
+        "T12:critical competence"
+      ]
+    },
+    "9.6": {
+      "id": "9.6",
+      "title": "Developmental Systems & Dynamic Systems",
+      "focus": "Development as emergent from interacting capacities, contexts, histories, and environments.",
+      "gap": "Human–AI research often isolates model effects despite development arising from configured systems.",
+      "aimr": [
+        "developmental ecology",
+        "developmental continuity",
+        "corrigibility by contact"
+      ],
+      "empirical": "Model longitudinal human–AI change as multivariate trajectories rather than simple treatment effects.",
+      "faults": [
+        "F4",
+        "F5",
+        "F7"
+      ],
+      "studies": [
+        "S3",
+        "S6"
+      ],
+      "links": [
+        "T8:trajectory mechanisms",
+        "T10:sociotechnical systems"
+      ]
+    },
+    "9.7": {
+      "id": "9.7",
+      "title": "Child & Adolescent Human–AI Interaction",
+      "focus": "AI interaction during childhood and adolescence.",
+      "gap": "Effects may differ when core cognitive, metacognitive, social, and identity capacities are still forming.",
+      "aimr": [
+        "developmental ecology",
+        "productive friction",
+        "developmental continuity"
+      ],
+      "empirical": "Use age-sensitive longitudinal designs testing capacity formation rather than only immediate safety or performance.",
+      "faults": [
+        "F1",
+        "F2",
+        "F6",
+        "F7"
+      ],
+      "studies": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "links": [
+        "T4:learning",
+        "T7:relational AI",
+        "T12:AI literacy"
+      ]
+    },
+    "9.8": {
+      "id": "9.8",
+      "title": "Aging, Older Adults & Lifespan HCI",
+      "focus": "AI interaction amid age-related changes in cognition, embodiment, independence, and social needs.",
+      "gap": "Offloading can preserve agency while potentially accelerating unused-capacity decline or dependency.",
+      "aimr": [
+        "productive friction",
+        "agency",
+        "embodiment/world contact"
+      ],
+      "empirical": "Compare assistance designs on independence, retained competence, wellbeing, and long-term reliance.",
+      "faults": [
+        "F2",
+        "F5",
+        "F6"
+      ],
+      "studies": [
+        "S2",
+        "S6"
+      ],
+      "links": [
+        "T3:offloading",
+        "T7:wellbeing",
+        "T8:continuity"
+      ]
+    },
+    "10.1": {
+      "id": "10.1",
+      "title": "Extended Cognition",
+      "focus": "Cognition whose functional organization extends through external artifacts or systems.",
+      "gap": "If AI becomes functionally constitutive of cognition, independent human capacity may cease to be the only relevant developmental locus.",
+      "aimr": [
+        "co-intelligent enaction",
+        "topology of participation",
+        "developmental continuity"
+      ],
+      "empirical": "Compare independent and coupled capability stability under scaffold withdrawal and sustained coupling.",
+      "faults": [
+        "F2",
+        "F3",
+        "F5"
+      ],
+      "studies": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T2:hybrid capability",
+        "T3:offloading"
+      ]
+    },
+    "10.2": {
+      "id": "10.2",
+      "title": "Distributed Cognition",
+      "focus": "Cognition distributed across people, artifacts, representations, and environments.",
+      "gap": "How does repeated participation in distributed human–AI systems reorganize individual and system-level capacities?",
+      "aimr": [
+        "topology of participation",
+        "developmental ecology",
+        "co-intelligent enaction"
+      ],
+      "empirical": "Map information transformation and agency across the system longitudinally.",
+      "faults": [
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "studies": [
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T2:empirical collaboration",
+        "T6:agency distribution"
+      ]
+    },
+    "10.3": {
+      "id": "10.3",
+      "title": "Embodied Cognition",
+      "focus": "Dependence of cognition on bodily capacities and sensorimotor experience.",
+      "gap": "Linguistically coherent AI interaction may not transfer into embodied competence or action.",
+      "aimr": [
+        "embodiment/world contact",
+        "corrigibility by contact",
+        "developmental ecology"
+      ],
+      "empirical": "Require transfer from linguistic interaction to embodied, situated, or behavioral tasks.",
+      "faults": [
+        "F1",
+        "F5",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T9:development",
+        "T11:linguistic mediation"
+      ]
+    },
+    "10.4": {
+      "id": "10.4",
+      "title": "Enactive Cognition",
+      "focus": "Cognition emerging through ongoing embodied action and sense-making.",
+      "gap": "What changes when language models participate in sense-making without sharing human embodiment?",
+      "aimr": [
+        "recursive participation",
+        "co-intelligent enaction",
+        "embodiment/world contact"
+      ],
+      "empirical": "Compare reflective dialogue with subsequent real-world enactment and environmental feedback.",
+      "faults": [
+        "F4",
+        "F5",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T7:relational participation",
+        "T9:development"
+      ]
+    },
+    "10.5": {
+      "id": "10.5",
+      "title": "Situated & Embedded Cognition",
+      "focus": "Dependence of cognition on immediate task and environmental context.",
+      "gap": "AI may abstract cognition away from the contexts that make judgment competent and corrigible.",
+      "aimr": [
+        "developmental ecology",
+        "embodiment/world contact",
+        "corrigibility by contact"
+      ],
+      "empirical": "Compare context-rich versus decontextualized AI support and test situated transfer.",
+      "faults": [
+        "F5",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T3:human factors",
+        "T9:development"
+      ]
+    },
+    "10.6": {
+      "id": "10.6",
+      "title": "Participatory Sense-Making & Joint Action",
+      "focus": "Meaning and coordinated action emerging through interaction among agents.",
+      "gap": "Can human–AI interaction generate stable participatory capacities without falsely equating linguistic fluency with reciprocal human sense-making?",
+      "aimr": [
+        "recursive participation",
+        "co-intelligent enaction",
+        "agency"
+      ],
+      "empirical": "Examine coordination, correction, and transfer across repeated joint-action tasks.",
+      "faults": [
+        "F3",
+        "F4",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T2:coordination",
+        "T7:social interaction"
+      ]
+    },
+    "10.7": {
+      "id": "10.7",
+      "title": "Cognitive Artifacts & External Representations",
+      "focus": "External structures that transform cognitive tasks by reorganizing representation.",
+      "gap": "AI differs from passive artifacts by dynamically generating and reorganizing representations for the user.",
+      "aimr": [
+        "productive friction",
+        "topology of participation",
+        "developmental ecology"
+      ],
+      "empirical": "Compare static versus generative cognitive artifacts on independent representation-building and transfer.",
+      "faults": [
+        "F2",
+        "F5",
+        "F6"
+      ],
+      "studies": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "links": [
+        "T3:offloading",
+        "T4:scaffolding"
+      ]
+    },
+    "10.8": {
+      "id": "10.8",
+      "title": "Joint Cognitive & Sociotechnical Systems",
+      "focus": "Human–technology systems treated as coordinated functional wholes.",
+      "gap": "System optimization can conceal deterioration or displacement of human agency and capacity.",
+      "aimr": [
+        "developmental ecology",
+        "co-intelligent enaction",
+        "topology of participation"
+      ],
+      "empirical": "Evaluate human, coupled, and environmental outcomes separately within the same system.",
+      "faults": [
+        "F2",
+        "F5",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T2:hybrid intelligence",
+        "T6:agency distribution"
+      ]
+    },
+    "11.1": {
+      "id": "11.1",
+      "title": "AI-Mediated Interpersonal Communication",
+      "focus": "AI generation or transformation of messages exchanged between people.",
+      "gap": "AI may improve communication while altering users' own expressive, interpretive, or relational capacities.",
+      "aimr": [
+        "articulation",
+        "topology of participation",
+        "developmental continuity"
+      ],
+      "empirical": "Compare direct, assisted, and AI-generated communication on later independent expression and relationship outcomes.",
+      "faults": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "studies": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "links": [
+        "T7:relational effects",
+        "T12:communication competence"
+      ]
+    },
+    "11.2": {
+      "id": "11.2",
+      "title": "Co-Writing & Writing Assistance",
+      "focus": "Human–AI distribution of planning, formulation, organization, revision, and verification in writing.",
+      "gap": "Better text does not establish improved writing, reasoning, or articulation capacity in the human.",
+      "aimr": [
+        "articulation",
+        "topology of participation",
+        "productive friction"
+      ],
+      "empirical": "Manipulate which writing stages AI performs and test later unassisted writing and reasoning.",
+      "faults": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "studies": [
+        "S1",
+        "S4"
+      ],
+      "links": [
+        "T3:offloading",
+        "T5:reflection"
+      ]
+    },
+    "11.3": {
+      "id": "11.3",
+      "title": "Human–AI Co-Creation & Creativity Support",
+      "focus": "Joint ideation and production in creative work.",
+      "gap": "AI may expand the creative possibility space while reducing independent generative effort or self-efficacy.",
+      "aimr": [
+        "co-intelligent enaction",
+        "productive friction",
+        "agency"
+      ],
+      "empirical": "Compare ideation support topologies and test later independent novelty, skill, and authorship.",
+      "faults": [
+        "F1",
+        "F2",
+        "F6",
+        "F8"
+      ],
+      "studies": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "links": [
+        "T2:collaboration",
+        "T6:authorship"
+      ]
+    },
+    "11.4": {
+      "id": "11.4",
+      "title": "Linguistic Mediation & Style Transformation",
+      "focus": "AI-mediated changes in wording, tone, structure, voice, and expression.",
+      "gap": "External linguistic polish may simulate coherence without corresponding conceptual integration.",
+      "aimr": [
+        "articulation",
+        "integration",
+        "corrigibility by contact"
+      ],
+      "empirical": "Compare AI rewriting with elicited self-revision and test later independent articulation.",
+      "faults": [
+        "F1",
+        "F2",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S7"
+      ],
+      "links": [
+        "T5:self-explanation",
+        "T10:language versus embodiment"
+      ]
+    },
+    "11.5": {
+      "id": "11.5",
+      "title": "Self-Presentation, Impression Management & Identity",
+      "focus": "How AI shapes the presentation of self to others.",
+      "gap": "Persistent mediation may reorganize identity expression and experienced authenticity or authorship.",
+      "aimr": [
+        "agency",
+        "articulation",
+        "developmental continuity"
+      ],
+      "empirical": "Track self-presentation strategies, identity coherence, and dependence on AI-mediated expression over time.",
+      "faults": [
+        "F4",
+        "F7",
+        "F8"
+      ],
+      "studies": [
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T7:relational effects",
+        "T9:identity development"
+      ]
+    },
+    "11.6": {
+      "id": "11.6",
+      "title": "Creative Authorship, Attribution & Ownership",
+      "focus": "Contribution, credit, and ownership in AI-mediated creative production.",
+      "gap": "Conventional authorship labels may fail to represent the actual topology of cognition and agency.",
+      "aimr": [
+        "topology of participation",
+        "responsibility allocation",
+        "agency"
+      ],
+      "empirical": "Compare perceived authorship across workflows with matched outputs but different human–AI contribution structures.",
+      "faults": [
+        "F3",
+        "F8"
+      ],
+      "studies": [
+        "S4",
+        "S5"
+      ],
+      "links": [
+        "T6:domain-general contribution allocation"
+      ]
+    },
+    "11.7": {
+      "id": "11.7",
+      "title": "Creative Self-Efficacy & Skill Development",
+      "focus": "Effects of AI support on confidence and durable creative skill.",
+      "gap": "AI may increase creative confidence before, or without, increasing independent creative capacity.",
+      "aimr": [
+        "agency",
+        "productive friction",
+        "developmental continuity"
+      ],
+      "empirical": "Measure self-efficacy and independent creative performance separately after scaffold withdrawal.",
+      "faults": [
+        "F1",
+        "F2",
+        "F6"
+      ],
+      "studies": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "links": [
+        "T4:learning",
+        "T9:self-concept development"
+      ]
+    },
+    "11.8": {
+      "id": "11.8",
+      "title": "Persuasion & Influence",
+      "focus": "AI-mediated effects on beliefs, attitudes, interpretation, and behavior.",
+      "gap": "Repeated persuasive interaction may alter epistemic standards, agency, or susceptibility beyond individual encounters.",
+      "aimr": [
+        "coherence",
+        "corrigibility by contact",
+        "developmental continuity"
+      ],
+      "empirical": "Test repeated exposure to aligned versus challenging AI persuasion and later independent judgment.",
+      "faults": [
+        "F4",
+        "F8",
+        "F9"
+      ],
+      "studies": [
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T5:epistemic cognition",
+        "T7:relational influence"
+      ]
+    },
+    "12.1": {
+      "id": "12.1",
+      "title": "Foundational AI Knowledge & Concepts",
+      "focus": "Basic understanding of AI capabilities, limitations, mechanisms, and appropriate uses.",
+      "gap": "Declarative knowledge about AI may not translate into competent participation with AI.",
+      "aimr": [
+        "differentiation",
+        "agency",
+        "developmental continuity"
+      ],
+      "empirical": "Compare conceptual instruction with interaction-based learning on transfer to novel systems.",
+      "faults": [
+        "F1",
+        "F5"
+      ],
+      "studies": [
+        "S1",
+        "S6"
+      ],
+      "links": [
+        "T1:user mental models",
+        "T9:development"
+      ]
+    },
+    "12.2": {
+      "id": "12.2",
+      "title": "Critical AI Literacy",
+      "focus": "Capacity to critically analyze AI assumptions, power, consequences, and limitations.",
+      "gap": "Critical awareness may remain abstract unless it becomes enacted during actual AI participation.",
+      "aimr": [
+        "corrigibility by contact",
+        "agency",
+        "developmental ecology"
+      ],
+      "empirical": "Test whether critical-literacy training changes real-time reliance, contestation, and verification.",
+      "faults": [
+        "F5",
+        "F8",
+        "F9"
+      ],
+      "studies": [
+        "S5",
+        "S7"
+      ],
+      "links": [
+        "T5:critical reasoning",
+        "T6:agency"
+      ]
+    },
+    "12.3": {
+      "id": "12.3",
+      "title": "Interaction & Prompt Literacy",
+      "focus": "Competence in intentionally eliciting useful AI behavior through interaction.",
+      "gap": "Better prompting can increase system performance without improving underlying human reasoning or judgment.",
+      "aimr": [
+        "recursive participation",
+        "topology of participation",
+        "agency"
+      ],
+      "empirical": "Separate improvements in elicitation skill from independent domain competence.",
+      "faults": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "studies": [
+        "S1",
+        "S4"
+      ],
+      "links": [
+        "T1:interaction design",
+        "T11:linguistic interaction"
+      ]
+    },
+    "12.4": {
+      "id": "12.4",
+      "title": "Output Evaluation & Verification",
+      "focus": "Acquired competence in assessing AI accuracy, relevance, provenance, and evidential quality across contexts.",
+      "gap": "Evaluation may remain scaffold-dependent unless verification becomes spontaneously enacted and transferable.",
+      "aimr": [
+        "differentiation",
+        "coherence",
+        "corrigibility by contact"
+      ],
+      "empirical": "Train evaluation strategies, fade support, and test spontaneous competent use across novel models, tasks, and contexts.",
+      "faults": [
+        "F1",
+        "F2",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S7"
+      ],
+      "links": [
+        "T3:reliance behavior",
+        "T5:epistemic process"
+      ]
+    },
+    "12.5": {
+      "id": "12.5",
+      "title": "Uncertainty, Calibration & Limitation Awareness",
+      "focus": "Recognition of uncertainty, failure modes, and boundaries of warranted reliance.",
+      "gap": "Users may know abstractly that AI is fallible while behaving as though particular fluent outputs are reliable.",
+      "aimr": [
+        "coherence",
+        "corrigibility by contact",
+        "agency"
+      ],
+      "empirical": "Test whether calibration competence transfers from explicit training to high-fluency, low-salience failure contexts.",
+      "faults": [
+        "F8",
+        "F9"
+      ],
+      "studies": [
+        "S5",
+        "S7"
+      ],
+      "links": [
+        "T3:trust calibration",
+        "T5:confidence calibration"
+      ]
+    },
+    "12.6": {
+      "id": "12.6",
+      "title": "Ethical & Sociotechnical AI Competence",
+      "focus": "Capacity to reason about ethical, social, institutional, and distributional consequences of AI.",
+      "gap": "Ethical literacy may remain propositional unless it reorganizes participation and decision-making in context.",
+      "aimr": [
+        "developmental ecology",
+        "agency",
+        "corrigibility by contact"
+      ],
+      "empirical": "Use situated dilemmas and longitudinal projects to test enactment rather than recall of ethical principles.",
+      "faults": [
+        "F5",
+        "F8",
+        "F9"
+      ],
+      "studies": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "links": [
+        "T6:responsibility",
+        "T9:sociocultural development",
+        "T10:sociotechnical systems"
+      ]
+    },
+    "12.7": {
+      "id": "12.7",
+      "title": "AI Self-Efficacy & Responsible-Use Competence",
+      "focus": "Confidence and competence in using AI while retaining appropriate independent judgment.",
+      "gap": "High self-efficacy can reflect either genuine competence or overconfidence produced by successful AI-supported performance.",
+      "aimr": [
+        "agency",
+        "corrigibility by contact",
+        "developmental continuity"
+      ],
+      "empirical": "Compare confidence with independent transfer, calibration, and appropriate help-seeking after scaffold reduction.",
+      "faults": [
+        "F1",
+        "F2",
+        "F8",
+        "F9"
+      ],
+      "studies": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "links": [
+        "T5:epistemic agency",
+        "T9:self-efficacy development"
+      ]
+    }
+  }
+}
