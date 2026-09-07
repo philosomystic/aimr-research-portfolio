@@ -98,14 +98,30 @@
 <script>
 (function(){
   const frame = document.getElementById('landscape-frame');
-  if (!frame) return;
+  const embed = document.getElementById('landscape-embed');
+  if (!frame || !embed) return;
+
+  const headerOffset = () => {
+    const h = document.querySelector('.site-header');
+    return (h ? h.getBoundingClientRect().height : 0) + 12;
+  };
+
+  function bringMapIntoView(){
+    const y = window.scrollY + embed.getBoundingClientRect().top - headerOffset();
+    window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
+  }
+
   document.querySelectorAll('[data-landscape-jump]').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const target = btn.dataset.landscapeJump;
-      document.getElementById('landscape-embed')?.scrollIntoView({behavior:'smooth',block:'start'});
+      bringMapIntoView();
+
       const send = ()=>frame.contentWindow?.postMessage({type:'aimr-jump',target}, location.origin);
-      if (frame.contentWindow) send();
-      else frame.addEventListener('load', send, {once:true});
+      if (frame.contentWindow) {
+        setTimeout(send, 220);
+      } else {
+        frame.addEventListener('load', ()=>setTimeout(send,220), {once:true});
+      }
     });
   });
 })();
