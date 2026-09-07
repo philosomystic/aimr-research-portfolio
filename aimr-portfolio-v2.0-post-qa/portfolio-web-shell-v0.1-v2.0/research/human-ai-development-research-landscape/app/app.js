@@ -60,6 +60,33 @@ window.addEventListener('scroll',updateBackTop,{passive:true});
 grid.addEventListener('keydown',territoryKeyboard);
 search.addEventListener('input',()=>{renderAll();syncHash(true);announce(matchingNodes().length+' matching research subtopics.')});clearFilter.addEventListener('click',()=>{facet=null;renderAll();syncHash()});clearSearch.addEventListener('click',()=>{search.value='';renderAll();syncHash();search.focus()});showRel.addEventListener('click',()=>{facet=null;search.value='';focusN=activeN;renderAll();syncHash()});bridge.addEventListener('click',openModal);$('#show-node-rel').addEventListener('click',()=>{if(!activeN)return;closeModal(false);focusN=activeN;renderAll();syncHash();browser.focus();announce('Relationship focus shown for '+nodes[activeN].title+'.')});close.addEventListener('click',()=>closeModal(true));modal.addEventListener('click',e=>{if(e.target===modal)closeModal(true)});$('#skip').addEventListener('click',()=>{browser.focus();search.focus()});$('#reset').addEventListener('click',()=>{browser.classList.remove('sheet-open');genericBrowserHead.hidden=false;sheetBackdrop.hidden=true;document.body.classList.remove('sheet-active');activeT=null;activeN=null;focusN=null;facet=null;search.value='';renderAll();syncHash();announce('Landscape reset to overview.')});$('#share').addEventListener('click',async()=>{syncHash(true);try{await navigator.clipboard.writeText(location.href);announce('Link to this view copied.')}catch(e){announce('This view is encoded in the page address for sharing.')}});document.addEventListener('keydown',e=>{if(!modal.hidden){if(e.key==='Escape'){e.preventDefault();closeModal(true);return}if(e.key==='Tab'){const items=focusables();if(!items.length)return;const first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}}});window.addEventListener('hashchange',restoreHash);window.addEventListener('resize',()=>{reportEmbeddedHeight();if(!isMobile()){browser.classList.remove('sheet-open');genericBrowserHead.hidden=false;sheetBackdrop.hidden=true;document.body.classList.remove('sheet-active')}});if('ResizeObserver' in window)new ResizeObserver(reportEmbeddedHeight).observe(document.body);if(location.hash)restoreHash();else{renderAll();
 
+
+function navigateAfterFieldSelection(kind,id){
+  const embedded=document.documentElement.classList.contains('embedded-atlas');
+  const target =
+    kind==='fault' ? document.querySelector('#browser') :
+    kind==='construct' ? document.querySelector('#browser') :
+    kind==='study' ? document.querySelector('#browser') :
+    document.querySelector('#grid');
+
+  if(!target)return;
+
+  const scroller=document.scrollingElement||document.documentElement;
+  const orientation=document.querySelector('.atlas-orientation');
+  const offset=(!embedded && orientation)
+    ? orientation.getBoundingClientRect().height + 64
+    : 12;
+
+  const y=scroller.scrollTop+target.getBoundingClientRect().top-offset;
+  scroller.scrollTo({
+    top:Math.max(0,y),
+    behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'
+  });
+
+  target.classList.add('jump-target');
+  setTimeout(()=>target.classList.remove('jump-target'),1000);
+}
+
 function jumpToLandscapeTarget(target){
   const embedded=document.documentElement.classList.contains('embedded-atlas');
   const scroller=document.scrollingElement||document.documentElement;
@@ -119,3 +146,28 @@ window.addEventListener('message',e=>{
 document.querySelectorAll('[data-jump]').forEach(btn=>btn.addEventListener('click',()=>jumpToLandscapeTarget(btn.dataset.jump)));
 announce('Human–AI Development Research Landscape ready.')}setTimeout(()=>{reportEmbeddedHeight();updateBackTop()},0);
 })().catch(err=>{console.error(err);document.body.innerHTML='<p style="padding:2rem;font-family:sans-serif">The research landscape could not initialize.</p>'});
+
+
+document.addEventListener('click',e=>{
+  const faultBtn=e.target.closest('[data-fault]');
+  if(faultBtn){
+    const id=faultBtn.dataset.fault;
+    if(typeof setFieldMode==='function')setFieldMode('fault',id);
+    navigateAfterFieldSelection('fault',id);
+    return;
+  }
+  const constructBtn=e.target.closest('[data-construct]');
+  if(constructBtn){
+    const id=constructBtn.dataset.construct;
+    if(typeof setFieldMode==='function')setFieldMode('construct',id);
+    navigateAfterFieldSelection('construct',id);
+    return;
+  }
+  const studyBtn=e.target.closest('[data-study]');
+  if(studyBtn){
+    const id=studyBtn.dataset.study;
+    if(typeof setFieldMode==='function')setFieldMode('study',id);
+    navigateAfterFieldSelection('study',id);
+    return;
+  }
+});
