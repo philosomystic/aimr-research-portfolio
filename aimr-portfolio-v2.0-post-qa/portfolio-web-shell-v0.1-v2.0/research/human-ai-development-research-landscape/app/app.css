@@ -165,3 +165,23 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     display:flex!important;
   }
 }
+
+
+/* V2.1 orientation repair r13 */
+.atlas-orientation{display:grid!important}
+@media(max-width:840px){
+  html.embedded-atlas .atlas-orientation{
+    position:static!important;
+    top:auto!important;
+    z-index:auto!important;
+    background:transparent!important;
+    backdrop-filter:none!important;
+    -webkit-backdrop-filter:none!important;
+  }
+  html:not(.embedded-atlas) .atlas-orientation{
+    display:grid!important;
+    position:sticky!important;
+    top:calc(env(safe-area-inset-top) + 54px)!important;
+    z-index:35!important;
+  }
+}

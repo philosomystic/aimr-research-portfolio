@@ -59,23 +59,29 @@ search.addEventListener('input',()=>{renderAll();syncHash(true);announce(matchin
 
 function jumpToLandscapeTarget(target){
   const embedded=document.documentElement.classList.contains('embedded-atlas');
-  const smoothTo=(el,focusEl)=>{
-    if(!el)return;
-    if(embedded){
-      el.scrollIntoView({behavior:'smooth',block:'start'});
-    }else{
-      const sticky=document.querySelector('.atlas-orientation');
-      const offset=(sticky?.getBoundingClientRect().height||0)+68;
-      const y=window.scrollY+el.getBoundingClientRect().top-offset;
-      window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
-    }
-    if(focusEl)requestAnimationFrame(()=>focusEl.focus({preventScroll:true}));
+
+  const targetEl=()=>{
+    if(target==='browser')return document.querySelector('#browser');
+    if(target==='faults')return document.querySelector('#faults');
+    if(target==='constructs')return document.querySelector('#constructs');
+    if(target==='studies')return document.querySelector('#studies');
+    return document.querySelector('#grid');
   };
-  if(target==='browser'){smoothTo(document.querySelector('#browser'),document.querySelector('#search'));return;}
-  if(target==='faults'){smoothTo(document.querySelector('#faults'));return;}
-  if(target==='constructs'){smoothTo(document.querySelector('#constructs'));return;}
-  if(target==='studies'){smoothTo(document.querySelector('#studies'));return;}
-  smoothTo(document.querySelector('#grid'));
+
+  const el=targetEl();
+  if(!el)return;
+
+  if(embedded){
+    // Keep the parent page fixed. Move only the iframe's own document.
+    const y=window.scrollY + el.getBoundingClientRect().top - 10;
+    window.scrollTo({top:Math.max(0,y),behavior:'auto'});
+    return;
+  }
+
+  const sticky=document.querySelector('.atlas-orientation');
+  const offset=(sticky?.getBoundingClientRect().height||0)+68;
+  const y=window.scrollY+el.getBoundingClientRect().top-offset;
+  window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
 }
 window.addEventListener('message',e=>{
   if(e.origin!==location.origin) return;
