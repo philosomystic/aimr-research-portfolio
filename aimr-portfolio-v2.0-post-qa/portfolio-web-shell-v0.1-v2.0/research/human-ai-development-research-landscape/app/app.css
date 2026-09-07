@@ -127,3 +127,22 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
   .embedded-atlas .wrap{padding-top:16px!important}
   body.modal-open .portfolio-return{display:none!important}
 }
+
+
+/* V2.1 orientation redesign */
+.atlas-orientation{display:grid;grid-template-columns:1fr auto;gap:8px 14px;padding:10px 0 12px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.atlas-wayin,.atlas-key{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.atlas-label{font-size:8px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--muted);margin-right:2px}
+.atlas-wayin button{min-height:30px;border:1px solid var(--line);border-radius:999px;background:var(--surface);padding:4px 7px;font-size:9px}
+.atlas-key span:not(.atlas-label){display:inline-flex;align-items:center;gap:4px;font-size:8.5px;color:var(--muted)}
+.key-swatch{width:9px;height:9px;border-radius:2px;border:1px solid var(--line);display:inline-block}
+.key-swatch.blue{background:#557b9e}.key-swatch.orange{background:#bd7b3d}.key-swatch.green{background:#4f846f}.key-swatch.purple{background:#80669b}.key-swatch.gray{background:#a1a6a2}
+.atlas-context{grid-column:1/-1;font-size:8.5px;color:var(--muted);line-height:1.45}
+.atlas-context strong{color:var(--text)}
+@media(max-width:840px){
+  .atlas-orientation{grid-template-columns:1fr;padding-top:2px}
+  .atlas-wayin,.atlas-key{gap:5px}
+  .atlas-wayin button{min-height:38px;font-size:10px}
+  .atlas-key span:not(.atlas-label){font-size:9.5px}
+  .atlas-context{font-size:9.5px}
+}
