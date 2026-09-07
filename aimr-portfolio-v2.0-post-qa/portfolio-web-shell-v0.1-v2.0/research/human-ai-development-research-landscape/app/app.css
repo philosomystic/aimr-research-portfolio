@@ -396,3 +396,19 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     max-width:calc(100% - 64px);
   }
 }
+
+/* V2.1 local-diagnostic facet navigation r23 */
+@media(max-width:840px){
+  .browser.sheet-open.facet-results{
+    position:fixed!important;left:6px!important;right:6px!important;bottom:6px!important;top:auto!important;
+    z-index:95!important;max-height:78dvh!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important;
+    background:#fff!important;border:1px solid var(--border)!important;border-radius:18px!important;
+    padding:0 14px 16px!important;box-shadow:0 -12px 42px rgba(23,26,24,.18)!important
+  }
+  .browser.sheet-open.facet-results > #result-head{display:flex!important}
+  .browser.sheet-open.facet-results > #results{display:grid!important}
+  .browser.sheet-open.facet-results > #sublist,
+  .browser.sheet-open.facet-results > #empty,
+  .browser.sheet-open.facet-results > #browser-head,
+  .browser.sheet-open.facet-results > #meta{display:none!important}
+}
