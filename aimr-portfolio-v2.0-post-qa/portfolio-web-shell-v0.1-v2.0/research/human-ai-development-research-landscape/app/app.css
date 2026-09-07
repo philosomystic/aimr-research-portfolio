@@ -88,3 +88,33 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     overscroll-behavior:contain!important;padding-top:max(12px,env(safe-area-inset-top))!important;
     padding-bottom:max(12px,env(safe-area-inset-bottom))!important}
 }
+
+
+/* V2.1 mobile repair r5: clean sheet layering */
+.sheet-backdrop{display:none}
+@media(max-width:840px){
+  .sheet-backdrop:not([hidden]){
+    display:block;position:fixed;inset:0;z-index:44;
+    background:rgba(248,248,246,.82);
+    backdrop-filter:blur(2px);
+    -webkit-backdrop-filter:blur(2px);
+  }
+  body.sheet-active{overflow:hidden}
+  .browser.sheet-open{
+    z-index:50!important;
+    background:#fff!important;
+    opacity:1!important;
+    isolation:isolate;
+  }
+  .browser.sheet-open > #browser-head{display:none!important}
+  .browser.sheet-open > .browser-head{display:none!important}
+  .browser.sheet-open > #empty{display:none!important}
+  .browser.sheet-open > #sublist{display:grid!important}
+  .browser.sheet-open > #meta{display:none!important}
+  .browser.sheet-open .mobile-sheet-bar{
+    display:flex!important;align-items:flex-start;justify-content:space-between;gap:12px;
+    border-bottom:1px solid var(--line);padding:6px 0 10px;margin:0 0 8px;
+    background:#fff!important;
+  }
+  .browser.sheet-open .mobile-sheet-title{font-size:14px;line-height:1.35;font-weight:760}
+}
