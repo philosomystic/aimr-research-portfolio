@@ -379,3 +379,20 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     scroll-margin-top:12px;
   }
 }
+
+
+/* V2.1 field-result transition repair r21 */
+@media(max-width:840px){
+  .browser.sheet-open.field-sheet > #browser-head{display:none!important}
+  .browser.sheet-open.field-sheet > #sublist{display:none!important}
+  .browser.sheet-open.field-sheet > #empty{display:none!important}
+  .browser.sheet-open.field-sheet > #result-head{display:flex!important}
+  .browser.sheet-open.field-sheet > #results{display:grid!important}
+  .browser.sheet-open.field-sheet > #meta{display:none!important}
+  .browser.sheet-open.field-sheet{
+    max-height:min(82dvh,800px)!important;
+  }
+  .browser.sheet-open.field-sheet .mobile-sheet-title{
+    max-width:calc(100% - 64px);
+  }
+}
