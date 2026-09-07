@@ -62,8 +62,9 @@ search.addEventListener('input',()=>{renderAll();syncHash(true);announce(matchin
 
 function jumpToLandscapeTarget(target){
   const embedded=document.documentElement.classList.contains('embedded-atlas');
+  const scroller=document.scrollingElement||document.documentElement;
 
-  const targetEl=()=>{
+  const getTarget=()=>{
     if(target==='browser')return document.querySelector('#browser');
     if(target==='faults')return document.querySelector('#faults');
     if(target==='constructs')return document.querySelector('#constructs');
@@ -71,20 +72,44 @@ function jumpToLandscapeTarget(target){
     return document.querySelector('#grid');
   };
 
-  const el=targetEl();
+  const el=getTarget();
   if(!el)return;
 
-  if(embedded){
-    // Keep the parent page fixed. Move only the iframe's own document.
-    const y=window.scrollY + el.getBoundingClientRect().top - 10;
-    window.scrollTo({top:Math.max(0,y),behavior:'auto'});
-    return;
+  // Search is a functional entry point, not just a visual anchor.
+  if(target==='browser' && isMobile()){
+    browser.classList.remove('sheet-open');
+    genericBrowserHead.hidden=false;
+    sheetBackdrop.hidden=true;
+    document.body.classList.remove('sheet-active');
   }
 
-  const sticky=document.querySelector('.atlas-orientation');
-  const offset=(sticky?.getBoundingClientRect().height||0)+68;
-  const y=window.scrollY+el.getBoundingClientRect().top-offset;
-  window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
+  const orientation=document.querySelector('.atlas-orientation');
+  const stickyOffset=(!embedded && orientation)
+    ? orientation.getBoundingClientRect().height + 64
+    : 12;
+
+  const y=scroller.scrollTop + el.getBoundingClientRect().top - stickyOffset;
+  scroller.scrollTo({
+    top:Math.max(0,y),
+    behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'
+  });
+
+  // Give search a visible affordance after navigation, but avoid focusing it on mobile Safari.
+  if(target==='browser'){
+    search.classList.add('jump-target');
+    setTimeout(()=>search.classList.remove('jump-target'),1200);
+  } else {
+    el.classList.add('jump-target');
+    setTimeout(()=>el.classList.remove('jump-target'),1200);
+  }
+
+  announce(
+    target==='browser'?'Search all 94 subtopics':
+    target==='faults'?'Empirical fault lines':
+    target==='constructs'?'AIMR constructs':
+    target==='studies'?'Study families':
+    'Research territories'
+  );
 }
 window.addEventListener('message',e=>{
   if(e.origin!==location.origin) return;
