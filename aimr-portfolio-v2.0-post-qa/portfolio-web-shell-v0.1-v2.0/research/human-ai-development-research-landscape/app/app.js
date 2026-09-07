@@ -62,7 +62,7 @@ document.querySelectorAll('[data-jump]').forEach(btn=>btn.addEventListener('clic
   if(target==='faults'){document.querySelector('#faults')?.scrollIntoView({behavior:'smooth',block:'center'});return;}
   if(target==='constructs'){document.querySelector('#constructs')?.scrollIntoView({behavior:'smooth',block:'center'});return;}
   if(target==='studies'){document.querySelector('#studies')?.scrollIntoView({behavior:'smooth',block:'center'});return;}
-  document.querySelector('#territories')?.scrollIntoView({behavior:'smooth',block:'start'});
+  document.querySelector('#grid')?.scrollIntoView({behavior:'smooth',block:'start'});
 }));
 announce('Human–AI Development Research Landscape ready.')}setTimeout(()=>{reportEmbeddedHeight();updateBackTop()},0);
 })().catch(err=>{console.error(err);document.body.innerHTML='<p style="padding:2rem;font-family:sans-serif">The research landscape could not initialize.</p>'});
