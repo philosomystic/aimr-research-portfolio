@@ -309,3 +309,40 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     display:none!important;
   }
 }
+
+
+/* V2.1 Bridge Card internal layering repair r18 */
+.modal-layer{
+  isolation:isolate!important;
+}
+.modal-card{
+  position:relative!important;
+  z-index:2!important;
+  background:#fff!important;
+  overflow:visible!important;
+}
+.modal-card .bridge-grid,
+.modal-card .block,
+.modal-card .chips,
+.modal-card .chip,
+.modal-card .meta-panel,
+.modal-card details,
+.modal-card summary{
+  position:relative!important;
+  z-index:3!important;
+}
+.modal-card .chip{
+  background:#fff!important;
+}
+@media(max-width:840px){
+  .modal-layer{
+    z-index:100!important;
+    background:rgba(248,248,246,.92)!important;
+    backdrop-filter:blur(2px)!important;
+    -webkit-backdrop-filter:blur(2px)!important;
+  }
+  .modal-card{
+    z-index:101!important;
+    box-shadow:0 18px 60px rgba(23,26,24,.16)!important;
+  }
+}
