@@ -2,7 +2,13 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Interactive field-positioning atlas connecting established human–AI research territories to unresolved developmental fault lines, AIMR constructs, and candidate empirical programs.">
 <meta name="theme-color" content="#fbfbf9"><title>Human–AI Development Research Landscape</title>
-<link rel="stylesheet" href="app.css"><script defer src="app.js"></script></head>
+<link rel="stylesheet" href="app.css"><script defer src="app.js"></script><script>
+(function(){
+  if (new URLSearchParams(location.search).has('embed')) {
+    document.documentElement.classList.add('embedded-atlas');
+  }
+})();
+</script></head>
 <body><a class="portfolio-return" href="../?desktop=1" aria-label="Exit full-screen atlas and return to the portfolio landscape page">← Exit full screen</a><div class="wrap">
 <button id="skip" type="button" class="skip">Skip to research browser</button>
 <header class="mast"><div><div class="kicker">AIMR · Interactive field map</div><div class="main-title">Human–AI Development Research Landscape</div><div class="dek">AIMR does not occupy an empty research territory. This map shows how its developmental questions emerge across established research traditions—and how those literatures converge on unresolved questions about capacity, agency, continuity, participation, and change over time.</div></div>

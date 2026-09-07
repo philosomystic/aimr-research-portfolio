@@ -118,3 +118,12 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
   }
   .browser.sheet-open .mobile-sheet-title{font-size:14px;line-height:1.35;font-weight:760}
 }
+
+
+/* V2.1 mobile repair r8: embedded/full-screen context separation */
+.embedded-atlas .portfolio-return{display:none!important}
+@media(max-width:840px){
+  .embedded-atlas body{overflow:auto!important}
+  .embedded-atlas .wrap{padding-top:16px!important}
+  body.modal-open .portfolio-return{display:none!important}
+}
