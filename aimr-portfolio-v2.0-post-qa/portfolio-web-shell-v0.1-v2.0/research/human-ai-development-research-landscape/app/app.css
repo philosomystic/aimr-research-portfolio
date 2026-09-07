@@ -396,30 +396,3 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     max-width:calc(100% - 64px);
   }
 }
-
-
-/* V2.1 deterministic field-results navigation r22 */
-@media(max-width:1000px), (pointer:coarse){
-  .browser.sheet-open.field-sheet{
-    position:fixed!important;
-    left:6px!important;
-    right:6px!important;
-    bottom:6px!important;
-    top:auto!important;
-    z-index:90!important;
-    max-height:82dvh!important;
-    overflow-y:auto!important;
-    -webkit-overflow-scrolling:touch!important;
-    overscroll-behavior:contain!important;
-    background:#fff!important;
-    border:1px solid var(--border)!important;
-    border-radius:18px!important;
-    box-shadow:0 -14px 48px rgba(23,26,24,.18)!important;
-  }
-  .browser.sheet-open.field-sheet > #result-head{display:flex!important}
-  .browser.sheet-open.field-sheet > #results{display:grid!important}
-  .browser.sheet-open.field-sheet > #sublist,
-  .browser.sheet-open.field-sheet > #empty,
-  .browser.sheet-open.field-sheet > #browser-head,
-  .browser.sheet-open.field-sheet > #meta{display:none!important}
-}
