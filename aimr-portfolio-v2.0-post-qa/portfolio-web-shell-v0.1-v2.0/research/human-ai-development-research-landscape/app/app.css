@@ -233,3 +233,57 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     row-gap:7px!important;
   }
 }
+
+
+/* V2.1 orientation polish r15: full-screen controls match portfolio pills */
+@media(max-width:840px){
+  html:not(.embedded-atlas) .atlas-wayin{
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    column-gap:8px!important;
+    row-gap:8px!important;
+    align-items:stretch!important;
+  }
+
+  html:not(.embedded-atlas) .atlas-wayin .atlas-label{
+    grid-column:1/-1!important;
+    margin:0 0 2px 0!important;
+    color:var(--text)!important;
+    font-size:9px!important;
+    letter-spacing:.14em!important;
+  }
+
+  html:not(.embedded-atlas) .atlas-wayin button{
+    width:100%!important;
+    min-height:44px!important;
+    padding:9px 12px!important;
+    border:1px solid var(--border)!important;
+    border-radius:999px!important;
+    background:var(--card)!important;
+    color:var(--text)!important;
+    box-shadow:0 1px 0 rgba(23,26,24,.03)!important;
+    font-size:11px!important;
+    font-weight:650!important;
+    line-height:1.2!important;
+    text-align:center!important;
+    appearance:none!important;
+    -webkit-appearance:none!important;
+  }
+
+  html:not(.embedded-atlas) .atlas-wayin button:active{
+    background:var(--accent-bg)!important;
+    border-color:var(--accent)!important;
+  }
+
+  html:not(.embedded-atlas) .atlas-wayin button:first-of-type,
+  html:not(.embedded-atlas) .atlas-wayin button:nth-of-type(2),
+  html:not(.embedded-atlas) .atlas-wayin button:nth-of-type(3),
+  html:not(.embedded-atlas) .atlas-wayin button:nth-of-type(4),
+  html:not(.embedded-atlas) .atlas-wayin button:nth-of-type(5){
+    grid-column:auto!important;
+  }
+
+  html:not(.embedded-atlas) .atlas-wayin button:nth-of-type(5){
+    grid-column:1/2!important;
+  }
+}
