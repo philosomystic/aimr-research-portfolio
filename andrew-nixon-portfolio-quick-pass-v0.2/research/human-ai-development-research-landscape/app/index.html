@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive field-positioning atlas connecting established human–AI research territories to unresolved developmental fault lines, AIMR constructs, and candidate empirical programs.">
+<meta name="theme-color" content="#fbfbf9"><title>Human–AI Development Research Landscape</title>
+<link rel="stylesheet" href="app.css"><script defer src="app.js"></script><script>
+(function(){
+  if (new URLSearchParams(location.search).has('embed')) {
+    document.documentElement.classList.add('embedded-atlas');
+  }
+})();
+</script></head>
+<body><a class="portfolio-return" href="../?desktop=1" aria-label="Exit full-screen atlas and return to the portfolio landscape page">← Exit full screen</a><div class="wrap">
+<button id="skip" type="button" class="skip">Skip to research browser</button>
+<header class="mast"><div><div class="kicker">AI-Mediated Reflection (AIMR) · Interactive field map</div><div class="main-title">Human–AI Development Research Landscape</div><div class="dek"><strong>AI-Mediated Reflection (AIMR)</strong> does not occupy an empty research territory. This map shows how its developmental questions emerge across established research traditions—and how those literatures converge on unresolved questions about capacity, agency, continuity, participation, and change over time.</div></div>
+<div class="mast-actions"><span class="stat"><strong>12</strong> territories</span><span class="stat"><strong>94</strong> subtopics</span><span class="stat"><strong>9</strong> fault lines</span><button type="button" id="share" class="ghost">Share view</button><button type="button" id="reset" class="ghost">Reset</button></div></header>
+<section class="atlas-orientation" aria-label="How to enter and read the landscape">
+  <div class="atlas-wayin">
+    <span class="atlas-label">Choose a way in</span>
+    <button type="button" data-jump="territories">Territories</button>
+    <button type="button" data-jump="browser">Search 94 subtopics</button>
+    <button type="button" data-jump="faults">Fault lines</button>
+    <button type="button" data-jump="constructs">AIMR constructs</button>
+    <button type="button" data-jump="studies">Study families</button>
+  </div>
+  <div class="atlas-key">
+    <span class="atlas-label">Legend</span>
+    <span><i class="key-swatch blue"></i>Research</span>
+    <span><i class="key-swatch orange"></i>Fault line</span>
+    <span><i class="key-swatch green"></i>AIMR</span>
+    <span><i class="key-swatch purple"></i>Study</span>
+    <span><i class="key-swatch gray"></i>Context</span>
+  </div>
+  <div class="atlas-context">
+    <strong>Cross-cutting context</strong> · privacy/data governance · fairness/equity · transparency ·
+    safety/reliability · accountability · developmental vulnerability · dependency/manipulation ·
+    rights/autonomy · societal/institutional impact · policy/regulation
+  </div>
+</section>
+
+<div class="shell"><section><div id="grid" class="atlas" role="group" aria-label="Twelve research territories and central AIMR framework"></div><div class="study-rail"><div class="study-label">Study families</div><div id="studies" class="studies"></div></div><div class="context"><strong>Cross-cutting context</strong> · ethics · governance · privacy · equity · safety · accountability · developmental vulnerability · societal/institutional effects</div><div class="legend"><span class="li"><span class="sw" style="background:var(--blue)"></span>Research territory</span><span class="li"><span class="sw" style="background:var(--orange)"></span>Empirical fault line</span><span class="li"><span class="sw" style="background:var(--green)"></span>AIMR construct</span><span class="li"><span class="sw" style="background:var(--purple)"></span>Study family</span></div></section>
+<div id="sheet-backdrop" class="sheet-backdrop" hidden></div><aside id="browser" class="browser" tabindex="-1"><div class="mobile-sheet-bar"><div><span class="mobile-sheet-level">Level 2 · Territory Topology</span><span id="mobile-sheet-title">Territory</span></div><button type="button" id="close-sheet" class="close-sheet" aria-label="Close territory panel">×</button></div><div class="browser-head"><div class="browser-kicker">Research browser</div><div class="browser-title">Explore the field</div><div class="browser-copy">Select a territory, search all 94 subtopics, or enter through a fault line, AIMR construct, or study family.</div><label for="search" class="sr-only">Search all 94 research subtopics</label><input id="search" class="search" type="search" placeholder="Search all 94 subtopics…" autocomplete="off"></div>
+<div id="banner" class="mode-banner" hidden role="status" aria-live="polite"><div id="banner-eye" class="mode-label"></div><div id="banner-text" class="mode-copy"></div><div class="actions"><button type="button" id="clear-filter" class="smallbtn" hidden>Clear field filter</button><button type="button" id="clear-search" class="smallbtn" hidden>Clear search</button><button type="button" id="show-rel" class="smallbtn" hidden>Show selected-node relationships</button></div></div>
+<div id="browser-head" class="section-head" hidden><div class="kicker">Level 2 · Territory topology</div><div id="side-title" class="section-title"></div><p id="side-desc" class="section-copy"></p></div>
+<div id="empty" class="empty-state"><div class="empty-title">Choose a way into the landscape</div><div class="empty-copy">Select one of the twelve research territories, search for a topic, or click a fault line, AIMR construct, or study family to see where that problem recurs across the field.</div></div>
+<div id="result-head" class="section-head" hidden><div id="result-label" class="section-title"></div><div id="result-count" class="section-copy"></div></div><div id="results" class="results" role="group" aria-label="Matching research subtopics" hidden></div><div id="sublist" class="sublist" role="group" aria-label="Territory subtopics" hidden></div>
+<div id="meta" hidden><div class="meta"><div class="meta-label">Selected subtopic</div><div id="selected" class="meta-node"></div><div class="meta-group"><div class="meta-label">Fault lines · filter field</div><div id="fault-chips" class="chips"></div></div><div class="meta-group"><div class="meta-label">AIMR connections · filter field</div><div id="aimr-chips" class="chips"></div></div><div class="meta-group"><div class="meta-label">Linked territories · navigate</div><div id="link-chips" class="chips"></div></div></div><button type="button" id="bridge" class="bridge">Open AIMR Bridge Card</button></div>
+<details class="about"><summary>How to read this map</summary><p><strong>Blue</strong> marks established research territories. <strong>Orange</strong> marks unresolved empirical/developmental fault lines. <strong>Green</strong> marks AIMR's organizing constructs. <strong>Purple</strong> marks candidate study families.</p></details><div class="forthcoming"><strong>Evidence-Backed Annotated Research Map</strong>The deeper literature and evidence layer is a distinct companion artifact behind this visual field map.</div></aside></div>
+<div id="modal" class="modal-layer" hidden aria-hidden="true"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-top"><div><div class="modal-kicker">AIMR Bridge Card</div><div id="modal-title" class="modal-title"></div><div id="modal-territory" class="modal-territory"></div></div><div class="modal-actions"><button type="button" id="show-node-rel" class="ghost">Show relationships</button><button type="button" id="close" class="close" aria-label="Close AIMR Bridge Card">×</button></div></div><div class="mgrid"><div class="block blue"><div class="block-tag" style="color:var(--blue)">Research Focus</div><p id="focus"></p></div><div class="block orange"><div class="block-tag" style="color:var(--orange)">Developmental Gap</div><p id="gap"></p></div><div class="block green"><div class="block-tag" style="color:var(--green)">AIMR Bridge</div><div id="modal-aimr" class="chips"></div></div><div class="block purple"><div class="block-tag" style="color:var(--purple)">Empirical Direction</div><p id="empirical"></p></div></div><details class="metadata"><summary tabindex="0">Relationship & evidentiary metadata</summary><div class="support"><div><div class="support-label">Fault lines</div><div id="modal-faults"></div></div><div><div class="support-label">Study families</div><div id="modal-studies"></div></div><div><div class="support-label">Timescale</div><div>microgenetic · mesogenetic · ontogenetic as applicable</div></div><div><div class="support-label">Locus of change</div><div>human-internalized · coupled/co-intelligent · ecological as applicable</div></div><div><div class="support-label">Typed cross-links</div><div id="modal-links" class="chips"></div></div></div></details></section></div>
+<button type="button" id="back-top" class="back-top" aria-label="Back to top">↑ <span>Top</span></button><div id="status" class="sr-only" aria-live="polite" aria-atomic="true"></div></div></body></html>
