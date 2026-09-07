@@ -53,3 +53,38 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
   .browser.sheet-open > #browser-head{display:block!important;margin:2px 0 10px}
   .browser.sheet-open > #empty{display:none!important}
 }
+
+
+/* V2.1 mobile repair r4: direct mobile atlas, no nested iframe scrolling */
+.portfolio-return{display:none}
+@media(max-width:840px){
+  html,body{min-height:100%;height:auto;overscroll-behavior-y:auto}
+  body{overflow-x:hidden;touch-action:pan-y}
+  .portfolio-return{
+    position:fixed;display:inline-flex;align-items:center;justify-content:center;
+    left:max(10px,env(safe-area-inset-left));top:max(10px,env(safe-area-inset-top));
+    z-index:60;min-height:42px;padding:8px 11px;border:1px solid var(--line);
+    border-radius:999px;background:color-mix(in srgb,var(--surface) 94%,transparent);
+    backdrop-filter:blur(10px);text-decoration:none;font-size:12px;font-weight:750;
+    box-shadow:0 4px 18px color-mix(in srgb,var(--text) 10%,transparent)
+  }
+  .wrap{padding-top:64px}
+  .browser.sheet-open{
+    position:fixed!important;left:0!important;right:0!important;bottom:0!important;
+    top:auto!important;max-height:min(78dvh,760px)!important;height:auto!important;
+    z-index:50!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important;
+    overscroll-behavior:contain!important;touch-action:pan-y!important;
+    background:var(--surface)!important;border-top:1px solid var(--line)!important;
+    border-left:0!important;padding:12px 14px calc(18px + env(safe-area-inset-bottom))!important;
+    border-radius:18px 18px 0 0!important;
+    box-shadow:0 -18px 50px color-mix(in srgb,var(--text) 18%,transparent)!important
+  }
+  .browser.sheet-open .mobile-sheet-bar{
+    position:sticky;top:0;z-index:2;background:var(--surface);
+    padding-bottom:8px;margin-bottom:4px
+  }
+  .modal-layer{position:fixed!important;inset:0!important;overflow-y:auto!important;
+    -webkit-overflow-scrolling:touch!important;touch-action:pan-y!important;
+    overscroll-behavior:contain!important;padding-top:max(12px,env(safe-area-inset-top))!important;
+    padding-bottom:max(12px,env(safe-area-inset-bottom))!important}
+}
