@@ -13,23 +13,8 @@
 .landscape-actions{display:flex;justify-content:flex-end;margin:0 0 .75rem}
 .fullscreen-cta{display:inline-flex;align-items:center;min-height:42px;padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:.78rem;font-weight:750;text-decoration:none}
 .fullscreen-cta:hover{border-color:var(--accent);color:var(--accent)}
-@media(max-width:840px){
-  .landscape-actions{justify-content:flex-start}
-  .fullscreen-cta{min-height:44px}
-}
-</style>
-
-<style>
-@media(max-width:840px){
-  .landscape-shell{overflow:hidden}
-  .landscape-shell iframe{
-    display:block;width:100%;height:72dvh;min-height:560px;max-height:760px;
-    border:0;background:var(--surface);
-  }
-}
-</style>
-
-<style>
+@media(max-width:840px){.landscape-actions{justify-content:flex-start}.fullscreen-cta{min-height:44px}}
+@media(max-width:840px){.landscape-shell{overflow:hidden}.landscape-shell iframe{display:block;width:100%;height:72dvh;min-height:560px;max-height:760px;border:0;background:var(--surface);}}
 .landscape-orientation{padding:0 0 1.6rem;border-bottom:1px solid var(--line);margin-bottom:1.25rem}
 .landscape-orientation h2{font-size:clamp(1.7rem,3.4vw,2.5rem);margin:.35rem 0 .8rem}
 .landscape-orientation>p{max-width:880px;color:var(--muted);font-family:var(--serif);font-size:1.04rem;line-height:1.7;margin:0}
@@ -43,85 +28,49 @@
 .legend-swatch.blue{background:#557b9e}.legend-swatch.orange{background:#bd7b3d}.legend-swatch.green{background:#4f846f}.legend-swatch.purple{background:#80669b}.legend-swatch.gray{background:#a1a6a2}
 .cross-context,.evidence-rollout{margin-top:.8rem;padding:.8rem 1rem;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:.82rem;line-height:1.55;color:var(--muted)}
 .cross-context strong,.evidence-rollout strong{color:var(--text)}
-@media(max-width:840px){
-  .orientation-grid{grid-template-columns:1fr}
-  .landscape-orientation{margin-top:.5rem}
-  .legend-grid{grid-template-columns:1fr}
-  .orientation-links a,.orientation-links button{min-height:40px}
-}
-</style>
-</head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="/">Research Portfolio</a><nav class="nav" aria-label="Primary"><a href="/research/" aria-current="page">Research</a><a href="/scholarship/">Scholarship</a><a href="/teaching/">Teaching</a><a href="/practice/">Practice</a></nav></div></header><main id="main"><div class="page-head"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/research/">Research</a> / Human–AI Development Research Landscape</div><div class="eyebrow">Interactive research artifact</div><h1>Human–AI Development Research Landscape</h1><p class="lede">AIMR does not occupy an empty research territory. It organizes a developmental problem that is appearing independently across multiple established and emerging literatures: how sustained human–AI participation changes human capacities, agency, relationships, and trajectories over time, and how the surrounding ecology should be structured to shape those changes.</p><div class="meta-row"><span class="pill">12 research territories</span><span class="pill">94 Level-2 nodes</span><span class="pill">9 empirical fault lines</span><span class="pill">7 study families</span></div></div>
+@media(max-width:840px){.orientation-grid{grid-template-columns:1fr}.landscape-orientation{margin-top:.5rem}.legend-grid{grid-template-columns:1fr}.orientation-links a,.orientation-links button{min-height:40px}}
+</style></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="/">Andrew Nixon <span aria-hidden="true">·</span> Research Portfolio</a><nav class="nav" aria-label="Primary"><a href="/research/" aria-current="page">Research</a><a href="/about/">About</a><a href="/cv/">CV</a></nav></div></header><main id="main"><div class="page-head"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/research/">Research</a> / Human–AI Development Research Landscape</div><div class="eyebrow">Interactive research artifact</div><h1>Human–AI Development Research Landscape</h1><p class="lede">AIMR does not occupy an empty research territory. It organizes a developmental problem that is appearing independently across multiple established and emerging literatures: how sustained human–AI participation changes human capacities, agency, relationships, and trajectories over time, and how the surrounding ecology should be structured to shape those changes.</p><div class="meta-row"><span class="pill">12 research territories</span><span class="pill">94 Level-2 nodes</span><span class="pill">9 empirical fault lines</span><span class="pill">7 study families</span></div></div>
 <section class="landscape-orientation" aria-labelledby="landscape-orientation-title">
-  <div class="eyebrow">What this landscape is showing</div>
-  <h2 id="landscape-orientation-title">A developmental ecology of human–AI interaction</h2>
-  <p>Existing literatures study constituent mechanisms and outcomes, but AIMR reorganizes them around a longitudinal developmental object: how configured human–AI ecologies redistribute cognition and agency through recursive participation, what forms of durable change result, where those changes reside, and whether they remain corrigible through contact.</p>
-
-  <div class="orientation-grid">
-    <div class="orientation-card">
-      <div class="eyebrow">Choose a way in</div>
-      <div class="orientation-links">
-        <button type="button" data-landscape-jump="territories">Browse territories</button>
-        <button type="button" data-landscape-jump="browser">Search 94 subtopics</button>
-        <button type="button" data-landscape-jump="faults">Explore fault lines</button>
-        <button type="button" data-landscape-jump="constructs">Explore AIMR constructs</button>
-        <button type="button" data-landscape-jump="studies">Explore study families</button>
-      </div>
-    </div>
-
-    <div class="orientation-card">
-      <div class="eyebrow">How to read the map</div>
-      <div class="legend-grid" aria-label="Landscape legend">
-        <span><i class="legend-swatch blue"></i>Research territories</span>
-        <span><i class="legend-swatch orange"></i>Empirical fault lines</span>
-        <span><i class="legend-swatch green"></i>AIMR constructs</span>
-        <span><i class="legend-swatch purple"></i>Study families</span>
-        <span><i class="legend-swatch gray"></i>Cross-cutting context</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="cross-context">
-    <strong>Cross-cutting context:</strong>
-    privacy/data governance · bias/fairness/equity · transparency/explainability · safety/reliability · accountability/responsibility · developmental vulnerability · dependency/manipulation · rights/dignity/autonomy · societal/institutional impact · policy/regulation
-  </div>
-
-  <div class="evidence-rollout">
-    <strong>Evidence layer — in development.</strong>
-    The landscape is being progressively connected to an evidence-backed annotated research map containing representative theories, landmark literature, recent human–AI research, established findings, contested questions, and AIMR study implications. Evidence annotations will become accessible directly from territories, subtopics, and Bridge Cards as they are completed.
-  </div>
+<div class="eyebrow">What this landscape is showing</div>
+<h2 id="landscape-orientation-title">A developmental ecology of human–AI interaction</h2>
+<p>Existing literatures study constituent mechanisms and outcomes, but AIMR reorganizes them around a longitudinal developmental object: how configured human–AI ecologies redistribute cognition and agency through recursive participation, what forms of durable change result, where those changes reside, and whether they remain corrigible through contact.</p>
+<div class="orientation-grid">
+<div class="orientation-card"><div class="eyebrow">Choose a way in</div><div class="orientation-links">
+<button type="button" data-landscape-jump="territories">Browse territories</button>
+<button type="button" data-landscape-jump="browser">Search 94 subtopics</button>
+<button type="button" data-landscape-jump="faults">Explore fault lines</button>
+<button type="button" data-landscape-jump="constructs">Explore AIMR constructs</button>
+<button type="button" data-landscape-jump="studies">Explore study families</button>
+</div></div>
+<div class="orientation-card"><div class="eyebrow">How to read the map</div><div class="legend-grid" aria-label="Landscape legend">
+<span><i class="legend-swatch blue"></i>Research territories</span><span><i class="legend-swatch orange"></i>Empirical fault lines</span><span><i class="legend-swatch green"></i>AIMR constructs</span><span><i class="legend-swatch purple"></i>Study families</span><span><i class="legend-swatch gray"></i>Cross-cutting context</span>
+</div></div></div>
+<div class="cross-context"><strong>Cross-cutting context:</strong> privacy/data governance · bias/fairness/equity · transparency/explainability · safety/reliability · accountability/responsibility · developmental vulnerability · dependency/manipulation · rights/dignity/autonomy · societal/institutional impact · policy/regulation</div>
+<div class="evidence-rollout"><strong>Evidence layer — in development.</strong> The landscape is being progressively connected to an evidence-backed annotated research map containing representative theories, landmark literature, recent human–AI research, established findings, contested questions, and AIMR study implications. Evidence annotations will become accessible directly from territories, subtopics, and Bridge Cards as they are completed.</div>
 </section>
-
-<div class="landscape-actions">
-  <a class="fullscreen-cta" href="/research/human-ai-development-research-landscape/app/?from=portfolio">Open full-screen interactive atlas →</a>
-</div>
-<div id="landscape-embed" class="landscape-shell"><iframe id="landscape-frame" title="Human–AI Development Research Landscape interactive atlas" src="/research/human-ai-development-research-landscape/app/?embed=1" loading="eager"></iframe></div><section class="section"><div class="section-head"><div><div class="eyebrow">Companion artifact</div><h2>Evidence-Backed Annotated Research Map</h2></div></div><p class="section-intro">The deeper literature-and-evidence layer will sit behind this visual overview and connect territories, theories, literature, findings, contested areas, gaps, AIMR relevance, and study implications.</p><div class="placeholder">Route reserved for Artifact 2.</div></section></main><footer class="site-footer"><div class="footer-inner"><span>AIMR research portfolio</span><span>© <span data-current-year></span></span></div></footer>
+<div class="landscape-actions"><a class="fullscreen-cta" href="/research/human-ai-development-research-landscape/app/?from=portfolio">Open full-screen interactive atlas →</a></div>
+<div id="landscape-embed" class="landscape-shell"><iframe id="landscape-frame" title="Human–AI Development Research Landscape interactive atlas" src="/research/human-ai-development-research-landscape/app/?embed=1" loading="eager"></iframe></div>
+<section class="section"><div class="section-head"><div><div class="eyebrow">Companion artifact</div><h2>Evidence-Backed Annotated Research Map</h2></div></div><p class="section-intro">The deeper literature-and-evidence layer will sit behind this visual overview and connect territories, theories, literature, findings, contested areas, gaps, AIMR relevance, and study implications.</p><div class="notice"><strong>Evidence-backed companion map currently in development.</strong></div></section>
+</main><footer class="site-footer"><div class="footer-inner"><span>Andrew Nixon · Research Portfolio</span><span>© <span data-current-year></span></span></div></footer>
 <script>
 (function(){
   const frame = document.getElementById('landscape-frame');
   const embed = document.getElementById('landscape-embed');
   if (!frame || !embed) return;
-
   function placeMap(){
     const header=document.querySelector('.site-header');
     const offset=(header?header.offsetHeight:0)+8;
     const top=window.pageYOffset+embed.getBoundingClientRect().top-offset;
     window.scrollTo({top:Math.max(0,top),behavior:'smooth'});
   }
-
   document.querySelectorAll('[data-landscape-jump]').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const target=btn.dataset.landscapeJump;
       placeMap();
-
-      // Wait until the iframe is on-screen, then perform only the iframe-internal move.
       setTimeout(()=>{
-        frame.contentWindow?.postMessage(
-          {type:'aimr-jump',target},
-          location.origin
-        );
+        frame.contentWindow?.postMessage({type:'aimr-jump',target},location.origin);
       },320);
     });
   });
 })();
-</script>
-</body></html>
+</script></body></html>
