@@ -58,25 +58,24 @@ grid.addEventListener('keydown',territoryKeyboard);
 search.addEventListener('input',()=>{renderAll();syncHash(true);announce(matchingNodes().length+' matching research subtopics.')});clearFilter.addEventListener('click',()=>{facet=null;renderAll();syncHash()});clearSearch.addEventListener('click',()=>{search.value='';renderAll();syncHash();search.focus()});showRel.addEventListener('click',()=>{facet=null;search.value='';focusN=activeN;renderAll();syncHash()});bridge.addEventListener('click',openModal);$('#show-node-rel').addEventListener('click',()=>{if(!activeN)return;closeModal(false);focusN=activeN;renderAll();syncHash();browser.focus();announce('Relationship focus shown for '+nodes[activeN].title+'.')});close.addEventListener('click',()=>closeModal(true));modal.addEventListener('click',e=>{if(e.target===modal)closeModal(true)});$('#skip').addEventListener('click',()=>{browser.focus();search.focus()});$('#reset').addEventListener('click',()=>{browser.classList.remove('sheet-open');genericBrowserHead.hidden=false;sheetBackdrop.hidden=true;document.body.classList.remove('sheet-active');activeT=null;activeN=null;focusN=null;facet=null;search.value='';renderAll();syncHash();announce('Landscape reset to overview.')});$('#share').addEventListener('click',async()=>{syncHash(true);try{await navigator.clipboard.writeText(location.href);announce('Link to this view copied.')}catch(e){announce('This view is encoded in the page address for sharing.')}});document.addEventListener('keydown',e=>{if(!modal.hidden){if(e.key==='Escape'){e.preventDefault();closeModal(true);return}if(e.key==='Tab'){const items=focusables();if(!items.length)return;const first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}}});window.addEventListener('hashchange',restoreHash);window.addEventListener('resize',()=>{reportEmbeddedHeight();if(!isMobile()){browser.classList.remove('sheet-open');genericBrowserHead.hidden=false;sheetBackdrop.hidden=true;document.body.classList.remove('sheet-active')}});if('ResizeObserver' in window)new ResizeObserver(reportEmbeddedHeight).observe(document.body);if(location.hash)restoreHash();else{renderAll();
 
 function jumpToLandscapeTarget(target){
-  if(target==='browser'){
-    const el=document.querySelector('#browser');
-    el?.scrollIntoView({behavior:'smooth',block:'start'});
-    requestAnimationFrame(()=>document.querySelector('#search')?.focus({preventScroll:true}));
-    return;
-  }
-  if(target==='faults'){
-    document.querySelector('#faults')?.scrollIntoView({behavior:'smooth',block:'center'});
-    return;
-  }
-  if(target==='constructs'){
-    document.querySelector('#constructs')?.scrollIntoView({behavior:'smooth',block:'center'});
-    return;
-  }
-  if(target==='studies'){
-    document.querySelector('#studies')?.scrollIntoView({behavior:'smooth',block:'center'});
-    return;
-  }
-  document.querySelector('#grid')?.scrollIntoView({behavior:'smooth',block:'start'});
+  const embedded=document.documentElement.classList.contains('embedded-atlas');
+  const smoothTo=(el,focusEl)=>{
+    if(!el)return;
+    if(embedded){
+      el.scrollIntoView({behavior:'smooth',block:'start'});
+    }else{
+      const sticky=document.querySelector('.atlas-orientation');
+      const offset=(sticky?.getBoundingClientRect().height||0)+68;
+      const y=window.scrollY+el.getBoundingClientRect().top-offset;
+      window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
+    }
+    if(focusEl)requestAnimationFrame(()=>focusEl.focus({preventScroll:true}));
+  };
+  if(target==='browser'){smoothTo(document.querySelector('#browser'),document.querySelector('#search'));return;}
+  if(target==='faults'){smoothTo(document.querySelector('#faults'));return;}
+  if(target==='constructs'){smoothTo(document.querySelector('#constructs'));return;}
+  if(target==='studies'){smoothTo(document.querySelector('#studies'));return;}
+  smoothTo(document.querySelector('#grid'));
 }
 window.addEventListener('message',e=>{
   if(e.origin!==location.origin) return;

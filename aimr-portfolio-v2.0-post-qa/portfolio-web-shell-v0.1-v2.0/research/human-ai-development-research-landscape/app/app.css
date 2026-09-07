@@ -146,3 +146,22 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
   .atlas-key span:not(.atlas-label){font-size:9.5px}
   .atlas-context{font-size:9.5px}
 }
+
+
+/* V2.1 orientation repair r12 */
+@media(max-width:840px){
+  html:not(.embedded-atlas) .atlas-orientation{
+    position:sticky;
+    top:calc(env(safe-area-inset-top) + 54px);
+    z-index:35;
+    background:rgba(251,251,249,.96);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    padding:8px 0 10px;
+    margin-bottom:10px;
+    border-bottom:1px solid var(--line);
+  }
+  html:not(.embedded-atlas) .atlas-wayin{
+    display:flex!important;
+  }
+}
