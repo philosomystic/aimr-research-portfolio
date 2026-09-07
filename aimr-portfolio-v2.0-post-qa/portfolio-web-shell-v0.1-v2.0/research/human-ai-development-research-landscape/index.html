@@ -101,31 +101,25 @@
   const embed = document.getElementById('landscape-embed');
   if (!frame || !embed) return;
 
-  const headerOffset = () => {
-    const h = document.querySelector('.site-header');
-    return (h ? h.offsetHeight : 0) + 12;
-  };
-
   function placeMap(){
-    const top = embed.getBoundingClientRect().top + window.pageYOffset - headerOffset();
-    window.scrollTo({top:Math.max(0, top), behavior:'auto'});
+    const header=document.querySelector('.site-header');
+    const offset=(header?header.offsetHeight:0)+8;
+    const top=window.pageYOffset+embed.getBoundingClientRect().top-offset;
+    window.scrollTo({top:Math.max(0,top),behavior:'smooth'});
   }
 
   document.querySelectorAll('[data-landscape-jump]').forEach(btn=>{
     btn.addEventListener('click',()=>{
-      const target = btn.dataset.landscapeJump;
-
-      // Establish one stable outer-page position first.
+      const target=btn.dataset.landscapeJump;
       placeMap();
 
-      // Then navigate only inside the iframe. Do not focus any iframe control,
-      // because mobile Safari may scroll the parent to reveal the focused field.
-      requestAnimationFrame(()=>{
+      // Wait until the iframe is on-screen, then perform only the iframe-internal move.
+      setTimeout(()=>{
         frame.contentWindow?.postMessage(
-          {type:'aimr-jump', target, embedded:true},
+          {type:'aimr-jump',target},
           location.origin
         );
-      });
+      },320);
     });
   });
 })();
