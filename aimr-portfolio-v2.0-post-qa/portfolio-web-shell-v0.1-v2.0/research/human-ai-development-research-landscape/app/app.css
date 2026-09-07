@@ -287,3 +287,17 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     grid-column:1/2!important;
   }
 }
+
+
+/* V2.1 bridge-card layering repair r16 */
+@media(max-width:840px){
+  body.modal-open .atlas-orientation{
+    display:none!important;
+  }
+  body.modal-open .portfolio-return{
+    display:none!important;
+  }
+  .modal-layer{
+    z-index:80!important;
+  }
+}
