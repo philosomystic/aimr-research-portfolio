@@ -3,7 +3,7 @@
 const corpus=await fetch('corpus.json').then(r=>{if(!r.ok)throw new Error('Corpus load failed: '+r.status);return r.json()});
 const {territories,faults:F,studyFamilies:studyNames,constructs:constructList,nodes}=corpus;
 const all=Object.values(nodes),tById=id=>territories.find(t=>t[0]===id),idsFor=id=>all.filter(n=>Number(n.id.split('.')[0])===id).sort((a,b)=>Number(a.id.split('.')[1])-Number(b.id.split('.')[1]));
-const $=s=>document.querySelector(s);const isMobile=()=>window.matchMedia('(max-width:840px)').matches;const grid=$('#grid'),search=$('#search'),sideTitle=$('#side-title'),sideDesc=$('#side-desc'),sublist=$('#sublist'),results=$('#results'),resultHead=$('#result-head'),resultLabel=$('#result-label'),resultCount=$('#result-count'),browserHead=$('#browser-head'),empty=$('#empty'),banner=$('#banner'),bannerEye=$('#banner-eye'),bannerText=$('#banner-text'),clearFilter=$('#clear-filter'),clearSearch=$('#clear-search'),showRel=$('#show-rel'),meta=$('#meta'),selected=$('#selected'),faultChips=$('#fault-chips'),aimrChips=$('#aimr-chips'),linkChips=$('#link-chips'),bridge=$('#bridge'),modal=$('#modal'),modalPanel=modal.querySelector('.modal'),close=$('#close'),status=$('#status'),browser=$('#browser'),closeSheet=$('#close-sheet'),backTop=$('#back-top'),mobileSheetTitle=$('#mobile-sheet-title'),genericBrowserHead=browser.querySelector(':scope > .browser-head'),sheetBackdrop=$('#sheet-backdrop');
+const $=s=>document.querySelector(s);const isMobile=()=>window.matchMedia('(max-width:840px)').matches;const useSheetMode=()=>window.matchMedia('(max-width:1000px)').matches||window.matchMedia('(pointer:coarse)').matches;const grid=$('#grid'),search=$('#search'),sideTitle=$('#side-title'),sideDesc=$('#side-desc'),sublist=$('#sublist'),results=$('#results'),resultHead=$('#result-head'),resultLabel=$('#result-label'),resultCount=$('#result-count'),browserHead=$('#browser-head'),empty=$('#empty'),banner=$('#banner'),bannerEye=$('#banner-eye'),bannerText=$('#banner-text'),clearFilter=$('#clear-filter'),clearSearch=$('#clear-search'),showRel=$('#show-rel'),meta=$('#meta'),selected=$('#selected'),faultChips=$('#fault-chips'),aimrChips=$('#aimr-chips'),linkChips=$('#link-chips'),bridge=$('#bridge'),modal=$('#modal'),modalPanel=modal.querySelector('.modal'),close=$('#close'),status=$('#status'),browser=$('#browser'),closeSheet=$('#close-sheet'),backTop=$('#back-top'),mobileSheetTitle=$('#mobile-sheet-title'),genericBrowserHead=browser.querySelector(':scope > .browser-head'),sheetBackdrop=$('#sheet-backdrop');
 let activeT=null,activeN=null,focusN=null,facet=null,lastFocused=null,restoring=false;
 function constructSet(n){const s=new Set();n.aimr.forEach(x=>{const v=x.toLowerCase();constructList.forEach(c=>{if(v===c||v.includes(c))s.add(c)})});return s}
 function linkT(n){return n.links.map(x=>Number(x.split(':')[0].replace('T',''))).filter(Number.isFinite)}
@@ -15,13 +15,62 @@ function facetCount(type,key){return all.filter(n=>type==='fault'?n.faults.inclu
 function btn(text,cls,fn){const b=document.createElement('button');b.type='button';b.className=cls;b.textContent=text;if(fn)b.addEventListener('click',fn);return b}function chip(text,fn){return btn(text,'chip',fn)}
 function syncHash(replace=false){if(restoring)return;const p=new URLSearchParams();if(activeN)p.set('node',activeN);else if(activeT)p.set('territory',String(activeT));if(facet)p.set(facet.type,facet.key);if(search.value.trim())p.set('q',search.value.trim());const h=p.toString()?'#'+p.toString():location.pathname+location.search;try{(replace?history.replaceState:history.pushState).call(history,null,'',h)}catch(e){}}
 function restoreHash(){restoring=true;const p=new URLSearchParams(location.hash.replace(/^#/,''));activeN=p.get('node')&&nodes[p.get('node')]?p.get('node'):null;activeT=activeN?Number(activeN.split('.')[0]):(p.get('territory')?Number(p.get('territory')):null);focusN=activeN;search.value=p.get('q')||'';facet=null;for(const type of ['fault','study','aimr']){const key=p.get(type);if(key){facet={type,key,label:type==='fault'?(key+' · '+(F[key]||key)):type==='study'?(key+' · '+(studyNames[key]||key)):key};break}}restoring=false;renderAll()}
-function setFacet(type,key,label){facet&&facet.type===type&&facet.key===key?facet=null:facet={type,key,label};renderAll();syncHash();announce(facet?'Field filter applied: '+label+'. '+matchingNodes().length+' matching subtopics.':'Field filter cleared.')}
+function setFacet(type,key,label){
+  const clearing=Boolean(facet&&facet.type===type&&facet.key===key);
+
+  if(!modal.hidden)closeModal(false);
+
+  facet=clearing?null:{type,key,label};
+  activeN=null;
+  focusN=null;
+
+  renderAll();
+  syncHash();
+
+  if(clearing){
+    if(browser.classList.contains('sheet-open'))closeMobileSheet();
+    announce('Field filter cleared.');
+    return;
+  }
+
+  requestAnimationFrame(()=>{
+    if(useSheetMode()){
+      openFieldResultsSheet(label);
+    }else{
+      navigateAfterFieldSelection(type==='aimr'?'construct':type,key);
+    }
+  });
+
+  announce('Field filter applied: '+label+'. '+matchingNodes().length+' matching subtopics.');
+};renderAll();syncHash();announce(facet?'Field filter applied: '+label+'. '+matchingNodes().length+' matching subtopics.':'Field filter cleared.')}
 function renderHub(){const c=$('#constructs'),f=$('#faults');c.replaceChildren();f.replaceChildren();const current=focusN?constructSet(nodes[focusN]):new Set();constructList.forEach(k=>{const b=btn(k+' · '+facetCount('aimr',k),'construct',()=>setFacet('aimr',k,k));const on=facet&&facet.type==='aimr'&&facet.key===k;b.setAttribute('aria-pressed',on?'true':'false');if(on)b.classList.add('filter-on');else if(!fieldMode()&&focusN)b.classList.add(current.has(k)?'rel-on':'rel-off');c.appendChild(b)});Object.entries(F).forEach(([k,label])=>{const b=btn(k+' · '+label+' · '+facetCount('fault',k),'fault',()=>setFacet('fault',k,k+' · '+label));const on=facet&&facet.type==='fault'&&facet.key===k;b.setAttribute('aria-pressed',on?'true':'false');if(on)b.classList.add('filter-on');else if(!fieldMode()&&focusN)b.classList.add(nodes[focusN].faults.includes(k)?'rel-on':'rel-off');f.appendChild(b)})}
 function renderStudies(){const rail=$('#studies');rail.replaceChildren();Object.entries(studyNames).forEach(([k,label])=>{const b=btn(k+' '+label+' · '+facetCount('study',k),'study',()=>setFacet('study',k,k+' · '+label));const on=facet&&facet.type==='study'&&facet.key===k;b.setAttribute('aria-pressed',on?'true':'false');if(on)b.classList.add('filter-on');else if(!fieldMode()&&focusN)b.classList.add(nodes[focusN].studies.includes(k)?'rel-on':'rel-off');rail.appendChild(b)})}
 function renderGrid(){grid.replaceChildren();territories.forEach(t=>{const b=document.createElement('button');b.type='button';b.className='territory t'+t[0];if(activeT===t[0])b.classList.add('active-panel');let aria='Territory '+t[0]+': '+t[1];if(fieldMode()){const count=countForTerritory(t[0]);b.classList.add(count?'field-match':'field-zero');aria+='; '+count+' matching subtopics';const badge=document.createElement('span');badge.className='count';badge.textContent=count;badge.setAttribute('aria-hidden','true');b.appendChild(badge)}else if(focusN){const n=nodes[focusN],src=Number(focusN.split('.')[0]),linked=linkT(n);if(t[0]===src){b.classList.add('rel-primary');aria+='; primary territory for selected node'}else if(linked.includes(t[0])){b.classList.add('rel-linked');aria+='; linked territory'}else b.classList.add('rel-muted')}b.setAttribute('aria-label',aria);const inner=document.createElement('div');inner.innerHTML='<div class="territory-head"><span class="num" aria-hidden="true">'+t[0]+'</span><div class="territory-title">'+t[1]+'</div></div><div class="territory-keys">'+t[2]+'</div>';b.appendChild(inner);b.addEventListener('click',()=>{activeT=t[0];activeN=null;renderAll();syncHash();if(isMobile())openMobileSheet(t);announce('Opened Territory '+t[0]+': '+t[1])});grid.appendChild(b)});const h=document.createElement('div');h.className='hub';h.innerHTML='<div><span class="hub-badge">AIMR · organizing framework</span><div class="hub-title">Developmental ecology</div><div class="hub-proposition">Existing evidence → unresolved developmental problem → AIMR construct → candidate empirical move.</div><div class="pathways"><div class="path"><strong>Reflective pathway</strong>articulation → differentiation → integration → coherence</div><div class="path"><strong>Practical pathway</strong>reduced friction → tractable action → environmental change</div></div><div class="convergence">Both pathways → agency → participation → contact, consequences & learning ↺</div><div id="constructs" class="constructs"></div></div><div class="fault-zone"><div class="zone-label">Empirical fault lines</div><div id="faults" class="faults"></div></div>';grid.appendChild(h);renderHub();renderStudies()}
 function renderBanner(){if(!fieldMode()&&!focusN){banner.hidden=true;return}banner.hidden=false;banner.classList.toggle('filter',fieldMode());clearFilter.hidden=!facet;clearSearch.hidden=!search.value.trim();showRel.hidden=!(fieldMode()&&activeN);if(fieldMode()){const m=matchingNodes();bannerEye.textContent='Field-level view';bannerText.textContent=(facet?facet.label:'All field nodes')+(search.value.trim()?' · search: “'+search.value.trim()+'”':'')+' → '+m.length+' matching subtopic'+(m.length===1?'':'s')+'.'}else{bannerEye.textContent='Relationship focus';bannerText.textContent=focusN+' '+nodes[focusN].title+' → linked territories, fault lines, AIMR constructs, and study families.'}}
 function openMobileSheet(t){if(!isMobile())return;mobileSheetTitle.textContent=t[0]+' · '+t[1];genericBrowserHead.hidden=true;sheetBackdrop.hidden=false;document.body.classList.add('sheet-active');browser.classList.add('sheet-open');requestAnimationFrame(()=>{browser.scrollTop=0;closeSheet.focus({preventScroll:true})})}
-function closeMobileSheet(){browser.classList.remove('sheet-open');genericBrowserHead.hidden=false;sheetBackdrop.hidden=true;document.body.classList.remove('sheet-active');const b=grid.querySelector('.territory.active-panel');if(b)b.focus()}
+function closeMobileSheet(){browser.classList.remove('sheet-open','field-sheet');genericBrowserHead.hidden=false;sheetBackdrop.hidden=true;document.body.classList.remove('sheet-active');const b=grid.querySelector('.territory.active-panel');if(b)b.focus()}
+function openFieldResultsSheet(label){
+  mobileSheetTitle.textContent='Field results · '+label;
+  genericBrowserHead.hidden=true;
+  sheetBackdrop.hidden=false;
+  document.body.classList.add('sheet-active');
+  browser.classList.remove('relationship-mode');
+  browser.classList.add('sheet-open','field-sheet');
+  browser.scrollTop=0;
+
+  // Force the field-result view after any prior territory-sheet state.
+  resultHead.hidden=false;
+  results.hidden=false;
+  sublist.hidden=true;
+  empty.hidden=true;
+  meta.hidden=true;
+
+  requestAnimationFrame(()=>{
+    browser.scrollTop=0;
+    closeSheet.focus({preventScroll:true});
+  });
+}
+
 function updateBackTop(){backTop.classList.toggle('show',window.scrollY>520)}
 function renderBrowser(){const field=fieldMode();empty.hidden=field||activeT!==null;browserHead.hidden=field||activeT===null;sublist.hidden=field||activeT===null;resultHead.hidden=!field;results.hidden=!field;if(field){const m=matchingNodes();resultLabel.textContent=facet?facet.label:(search.value.trim()?'Search results':'Field results');resultCount.textContent=m.length+' / 94';results.replaceChildren();m.forEach(n=>{const tid=Number(n.id.split('.')[0]),b=btn('','result',()=>selectNode(n.id));b.setAttribute('aria-pressed',activeN===n.id?'true':'false');b.innerHTML='<div class="territory-title">'+n.id+' '+n.title+'</div><div class="result-territory">T'+tid+' · '+tById(tid)[1]+'</div>';results.appendChild(b)});if(!m.length){const p=document.createElement('div');p.className='section-copy';p.textContent='No matching subtopics.';results.appendChild(p)}}else if(activeT!==null){const t=tById(activeT);sideTitle.textContent=activeT+' · '+t[1];sideDesc.textContent=t[3];sublist.replaceChildren();idsFor(activeT).forEach(n=>{const b=btn(n.id+' '+n.title,'sub',()=>selectNode(n.id));b.setAttribute('aria-pressed',activeN===n.id?'true':'false');sublist.appendChild(b)})}}
 function renderMeta(){if(!activeN||focusN!==activeN){meta.hidden=true;return}const n=nodes[activeN];meta.hidden=false;selected.textContent=activeN+' '+n.title;faultChips.replaceChildren(...n.faults.map(k=>chip(k+' · '+F[k],()=>setFacet('fault',k,k+' · '+F[k]))));aimrChips.replaceChildren(...Array.from(constructSet(n)).slice(0,4).map(k=>chip(k,()=>setFacet('aimr',k,k))));linkChips.replaceChildren(...n.links.slice(0,4).map(x=>{const tid=Number(x.split(':')[0].replace('T','')),rel=x.split(':').slice(1).join(':');return chip('T'+tid+' · '+rel,()=>{activeT=tid;activeN=null;renderAll();syncHash();if(isMobile())openMobileSheet(tById(tid));announce('Navigated to linked Territory '+tid)})}))}
@@ -148,26 +197,3 @@ announce('Human–AI Development Research Landscape ready.')}setTimeout(()=>{rep
 })().catch(err=>{console.error(err);document.body.innerHTML='<p style="padding:2rem;font-family:sans-serif">The research landscape could not initialize.</p>'});
 
 
-document.addEventListener('click',e=>{
-  const faultBtn=e.target.closest('[data-fault]');
-  if(faultBtn){
-    const id=faultBtn.dataset.fault;
-    if(typeof setFieldMode==='function')setFieldMode('fault',id);
-    navigateAfterFieldSelection('fault',id);
-    return;
-  }
-  const constructBtn=e.target.closest('[data-construct]');
-  if(constructBtn){
-    const id=constructBtn.dataset.construct;
-    if(typeof setFieldMode==='function')setFieldMode('construct',id);
-    navigateAfterFieldSelection('construct',id);
-    return;
-  }
-  const studyBtn=e.target.closest('[data-study]');
-  if(studyBtn){
-    const id=studyBtn.dataset.study;
-    if(typeof setFieldMode==='function')setFieldMode('study',id);
-    navigateAfterFieldSelection('study',id);
-    return;
-  }
-});
