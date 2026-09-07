@@ -301,3 +301,11 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     z-index:80!important;
   }
 }
+
+
+/* V2.1 relationship-view layering repair r17 */
+@media(max-width:840px){
+  body.relationship-mode .atlas-orientation{
+    display:none!important;
+  }
+}
