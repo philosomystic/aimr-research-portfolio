@@ -50,5 +50,6 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
 
 @media(max-width:840px){
   .browser.sheet-open > .browser-head{display:none!important}
-  .browser.sheet-open > #browser-head{display:block!important;margin-top:4px}
+  .browser.sheet-open > #browser-head{display:block!important;margin:2px 0 10px}
+  .browser.sheet-open > #empty{display:none!important}
 }
