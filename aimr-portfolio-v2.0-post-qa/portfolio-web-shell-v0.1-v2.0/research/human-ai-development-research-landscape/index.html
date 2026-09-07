@@ -36,7 +36,7 @@
 .orientation-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1.2rem}
 .orientation-card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:1rem}
 .orientation-links{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.55rem}
-.orientation-links a{display:inline-flex;align-items:center;min-height:34px;padding:.35rem .6rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:.74rem}
+.orientation-links a,.orientation-links button{display:inline-flex;align-items:center;min-height:34px;padding:.35rem .6rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:.74rem;background:var(--surface);color:inherit;cursor:pointer}
 .legend-grid{display:grid;grid-template-columns:1fr 1fr;gap:.45rem .8rem;margin-top:.6rem;font-size:.78rem;color:var(--muted)}
 .legend-grid span{display:flex;align-items:center;gap:.45rem}
 .legend-swatch{width:12px;height:12px;border-radius:3px;border:1px solid var(--line);display:inline-block;flex:0 0 auto}
@@ -47,7 +47,7 @@
   .orientation-grid{grid-template-columns:1fr}
   .landscape-orientation{margin-top:.5rem}
   .legend-grid{grid-template-columns:1fr}
-  .orientation-links a{min-height:40px}
+  .orientation-links a,.orientation-links button{min-height:40px}
 }
 </style>
 </head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="/">Research Portfolio</a><nav class="nav" aria-label="Primary"><a href="/research/" aria-current="page">Research</a><a href="/scholarship/">Scholarship</a><a href="/teaching/">Teaching</a><a href="/practice/">Practice</a></nav></div></header><main id="main"><div class="page-head"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/research/">Research</a> / Human–AI Development Research Landscape</div><div class="eyebrow">Interactive research artifact</div><h1>Human–AI Development Research Landscape</h1><p class="lede">AIMR does not occupy an empty research territory. It organizes a developmental problem that is appearing independently across multiple established and emerging literatures: how sustained human–AI participation changes human capacities, agency, relationships, and trajectories over time, and how the surrounding ecology should be structured to shape those changes.</p><div class="meta-row"><span class="pill">12 research territories</span><span class="pill">94 Level-2 nodes</span><span class="pill">9 empirical fault lines</span><span class="pill">7 study families</span></div></div>
@@ -60,11 +60,11 @@
     <div class="orientation-card">
       <div class="eyebrow">Choose a way in</div>
       <div class="orientation-links">
-        <a href="#landscape-embed">Browse territories</a>
-        <a href="/research/human-ai-development-research-landscape/app/?embed=1#browser">Search 94 subtopics</a>
-        <a href="/research/human-ai-development-research-landscape/app/?embed=1#faults">Explore fault lines</a>
-        <a href="/research/human-ai-development-research-landscape/app/?embed=1#constructs">Explore AIMR constructs</a>
-        <a href="/research/human-ai-development-research-landscape/app/?embed=1#studies">Explore study families</a>
+        <button type="button" data-landscape-jump="territories">Browse territories</button>
+        <button type="button" data-landscape-jump="browser">Search 94 subtopics</button>
+        <button type="button" data-landscape-jump="faults">Explore fault lines</button>
+        <button type="button" data-landscape-jump="constructs">Explore AIMR constructs</button>
+        <button type="button" data-landscape-jump="studies">Explore study families</button>
       </div>
     </div>
 
@@ -94,4 +94,20 @@
 <div class="landscape-actions">
   <a class="fullscreen-cta" href="/research/human-ai-development-research-landscape/app/?from=portfolio">Open full-screen interactive atlas →</a>
 </div>
-<div id="landscape-embed" class="landscape-shell"><iframe title="Human–AI Development Research Landscape interactive atlas" src="/research/human-ai-development-research-landscape/app/?embed=1" loading="eager"></iframe></div><section class="section"><div class="section-head"><div><div class="eyebrow">Companion artifact</div><h2>Evidence-Backed Annotated Research Map</h2></div></div><p class="section-intro">The deeper literature-and-evidence layer will sit behind this visual overview and connect territories, theories, literature, findings, contested areas, gaps, AIMR relevance, and study implications.</p><div class="placeholder">Route reserved for Artifact 2.</div></section></main><footer class="site-footer"><div class="footer-inner"><span>AIMR research portfolio</span><span>© <span data-current-year></span></span></div></footer></body></html>
+<div id="landscape-embed" class="landscape-shell"><iframe id="landscape-frame" title="Human–AI Development Research Landscape interactive atlas" src="/research/human-ai-development-research-landscape/app/?embed=1" loading="eager"></iframe></div><section class="section"><div class="section-head"><div><div class="eyebrow">Companion artifact</div><h2>Evidence-Backed Annotated Research Map</h2></div></div><p class="section-intro">The deeper literature-and-evidence layer will sit behind this visual overview and connect territories, theories, literature, findings, contested areas, gaps, AIMR relevance, and study implications.</p><div class="placeholder">Route reserved for Artifact 2.</div></section></main><footer class="site-footer"><div class="footer-inner"><span>AIMR research portfolio</span><span>© <span data-current-year></span></span></div></footer>
+<script>
+(function(){
+  const frame = document.getElementById('landscape-frame');
+  if (!frame) return;
+  document.querySelectorAll('[data-landscape-jump]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const target = btn.dataset.landscapeJump;
+      document.getElementById('landscape-embed')?.scrollIntoView({behavior:'smooth',block:'start'});
+      const send = ()=>frame.contentWindow?.postMessage({type:'aimr-jump',target}, location.origin);
+      if (frame.contentWindow) send();
+      else frame.addEventListener('load', send, {once:true});
+    });
+  });
+})();
+</script>
+</body></html>
