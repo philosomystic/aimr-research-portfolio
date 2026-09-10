@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Candidate architecture for specifying and testing developmental capacities, augmentation processes, capacity distribution, and trajectories in sustained human–AI participation.">
+<meta name="theme-color" content="#f8f8f6">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Candidate Developmental &amp; Augmentation Variable Architecture · Andrew Nixon">
+<meta property="og:description" content="What might change through sustained human–AI participation, where capacities reside, and how developmental trajectories can be distinguished.">
+<title>Candidate Developmental &amp; Augmentation Variable Architecture · Andrew Nixon</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<script defer src="/assets/site.js"></script>
+<style>
+/* CDAVA page-scoped presentation. Intentionally self-contained so the page does not depend on shared experimental component CSS. */
+.cdava-page .article{max-width:940px}
+.cdava-page .cdava-thesis{margin:0 0 1.5rem;padding:1.15rem 1.25rem;border-left:3px solid var(--accent);background:var(--accent-soft);font-family:var(--serif);font-size:1.08rem;line-height:1.65}
+.cdava-page .cdava-question{margin:1.4rem 0 1.6rem;padding:1.05rem 1.2rem;border:1px solid #c9d9d2;border-radius:12px;background:#f2f7f5;font-size:1.07rem}
+.cdava-page .cdava-kicker{font-family:var(--sans);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800;color:var(--accent);margin-bottom:.35rem}
+.cdava-page .cdava-section{padding:2.9rem 0;border-top:1px solid var(--line)}
+.cdava-page .cdava-section:first-of-type{border-top:0;padding-top:.8rem}
+.cdava-page .cdava-section h2{margin:0 0 .75rem!important;font-size:clamp(1.8rem,3.4vw,2.4rem)!important}
+.cdava-page .cdava-section h3{margin:1.55rem 0 .45rem!important}
+.cdava-page .cdava-section>p:first-of-type{margin-top:.35rem}
+
+/* Experimental ontology */
+.cdava-ontology{margin:1.4rem 0 2.2rem;padding:1rem;border:1px solid #cadbd4;border-radius:16px;background:linear-gradient(180deg,#eef6f2 0%,#f7faf8 100%);font-family:var(--sans)}
+.cdava-stage{padding:.95rem 1.05rem;border:1px solid #d8e3de;border-radius:12px;background:#fff;text-align:center;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.cdava-stage-title{display:block;font-size:.98rem;font-weight:800;color:#173e33;line-height:1.25}
+.cdava-stage-detail{display:block;margin-top:.25rem;color:#59645f;font-size:.82rem;line-height:1.45}
+.cdava-stage-eval{border-color:#a9c9bd;background:#f9fcfb}
+.cdava-stage-eval .cdava-stage-title{font-size:1rem;font-weight:900;color:#143d32}
+.cdava-flow-label{text-align:center;margin:.3rem 0;color:#2c6a57;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.055em}
+.cdava-flow-label .arrow{display:block;font-size:1rem;line-height:1}
+
+.cdava-diagram-wrap{max-width:760px;margin:1.35rem auto 0}
+.cdava-diagram-wrap img{width:100%;max-width:100%;margin:0 auto 1rem!important}
+.cdava-figure-note{margin:.65rem auto 0!important;max-width:760px;color:var(--muted);font-family:var(--sans);font-size:.82rem;line-height:1.55}
+
+/* Reusable panels */
+.cdava-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin:1.2rem 0 1.5rem;font-family:var(--sans)}
+.cdava-card{border:1px solid var(--line);border-radius:13px;background:var(--surface);padding:1rem 1.05rem}
+.cdava-card h3{margin:0 0 .35rem!important;font-size:.92rem!important;color:#20342d}
+.cdava-card p{margin:0!important;color:#59615d;font-size:.82rem;line-height:1.55}
+.cdava-card ul{margin:.4rem 0 0;padding-left:1.1rem;color:#59615d;font-size:.82rem;line-height:1.55}
+.cdava-card li{margin:.16rem 0}
+.cdava-card-accent{border-color:#c9d9d2;background:#f7faf8}
+
+.cdava-variable-line{margin:1rem 0 1.25rem;padding:.85rem 1rem;border:1px solid var(--line);border-radius:12px;background:#fff;font-family:var(--sans);font-weight:800;font-size:.9rem;line-height:1.55;color:#253d34}
+
+.cdava-warning{margin:1.5rem 0;padding:1rem 1.1rem;border:1px solid #e1b9b5;border-radius:12px;background:#fff5f3;font-family:var(--sans)}
+.cdava-warning strong{display:block;color:#9b3026;font-size:1.03rem;margin-bottom:.2rem}
+.cdava-warning span{color:#75443e;font-size:.82rem;line-height:1.5}
+
+/* Capacity topology */
+.cdava-topology{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.7rem;margin:1.25rem 0 1.6rem;font-family:var(--sans)}
+.cdava-topology-card{padding:1rem .85rem;border:1px solid var(--line);border-radius:13px;background:#fff;text-align:center}
+.cdava-topology-code{display:flex;width:2.15rem;height:2.15rem;align-items:center;justify-content:center;margin:0 auto .55rem;border-radius:999px;background:#e7f0ec;color:#1b5d48;font-weight:900}
+.cdava-topology-card:nth-child(2) .cdava-topology-code{background:#e9f1fb;color:#2c65a5}
+.cdava-topology-card:nth-child(3) .cdava-topology-code{background:#f0eafb;color:#6b4ba8}
+.cdava-topology-card:nth-child(4) .cdava-topology-code{background:#edf0f2;color:#59636b}
+.cdava-topology-card strong{display:block;font-size:.83rem;line-height:1.3}
+.cdava-topology-card span{display:block;margin-top:.35rem;color:var(--muted);font-size:.75rem;line-height:1.45}
+
+/* Test chain */
+.cdava-chain{display:flex;align-items:center;gap:.35rem;flex-wrap:wrap;margin:1.15rem 0 1.35rem;font-family:var(--sans)}
+.cdava-chip{padding:.48rem .7rem;border:1px solid #cadbd4;border-radius:999px;background:#f6faf8;font-size:.75rem;font-weight:800;color:#285849}
+.cdava-chain-arrow{color:#6c7772;font-weight:800}
+
+/* Trajectories */
+.cdava-trajectories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin:1.2rem 0 1.5rem;font-family:var(--sans)}
+.cdava-trajectory{padding:1rem 1.05rem;border:1px solid var(--line);border-radius:13px;background:#fff}
+.cdava-trajectory:last-child{grid-column:1/-1}
+.cdava-trajectory strong{display:block;margin-bottom:.25rem;font-size:.9rem;color:#263b33}
+.cdava-trajectory span{display:block;color:#5d6662;font-size:.8rem;line-height:1.5}
+
+/* Delegation and consequences */
+.cdava-sequence{margin:1rem 0 1.3rem;padding:.9rem 1rem;border:1px solid var(--line);border-radius:12px;background:#fff;font-family:var(--sans);font-size:.82rem;font-weight:700;line-height:1.8;color:#30483f}
+.cdava-pills{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 1.35rem;font-family:var(--sans)}
+.cdava-pill{padding:.42rem .68rem;border:1px solid #cadbd4;border-radius:999px;background:#f6faf8;color:#345e50;font-size:.76rem;font-weight:750}
+
+/* Design science */
+.cdava-design{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:stretch;gap:.5rem;margin:1.35rem 0 1.6rem;font-family:var(--sans)}
+.cdava-design-step{padding:1rem;border:1px solid #c9d9d2;border-radius:13px;background:var(--accent-soft);text-align:center}
+.cdava-design-step strong{display:block;color:#1d5543;font-size:.92rem}
+.cdava-design-step span{display:block;margin-top:.25rem;color:#56635e;font-size:.76rem;line-height:1.45}
+.cdava-design-arrow{display:flex;align-items:center;justify-content:center;color:#2b6654;font-weight:900}
+
+/* Evidence and empirical program */
+.cdava-evidence{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;margin:1rem 0 1.3rem;font-family:var(--sans)}
+.cdava-evidence .cdava-card:last-child{grid-column:1/-1}
+.cdava-program{margin:1.05rem 0 1.35rem;padding:1rem 1.1rem;border:1px solid #c9d9d2;border-radius:13px;background:#f7faf8;font-family:var(--sans);font-size:.85rem;font-weight:800;line-height:1.8;color:#26483d}
+
+.cdava-callout{margin:1.4rem 0;padding:1.05rem 1.15rem;border-left:3px solid var(--accent);background:var(--accent-soft);font-family:var(--serif);font-size:1.03rem;line-height:1.65}
+.cdava-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin:1rem 0;font-family:var(--sans)}
+.cdava-link{display:block;padding:1rem;border:1px solid var(--line);border-radius:12px;background:#fff;text-decoration:none}
+.cdava-link strong{display:block;font-size:.86rem}
+.cdava-link span{display:block;margin-top:.25rem;color:var(--accent);font-size:.76rem;font-weight:750}
+
+@media(max-width:760px){
+  .cdava-page .article{font-size:1rem}
+  .cdava-grid,.cdava-trajectories,.cdava-evidence,.cdava-links{grid-template-columns:1fr}
+  .cdava-trajectory:last-child,.cdava-evidence .cdava-card:last-child{grid-column:auto}
+  .cdava-topology{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cdava-design{grid-template-columns:1fr}
+  .cdava-design-arrow{min-height:1rem}
+  .cdava-design-arrow::before{content:"↓"}
+  .cdava-design-arrow{font-size:0}
+}
+@media(max-width:480px){
+  .cdava-topology{grid-template-columns:1fr}
+  .cdava-page .cdava-thesis{padding:1rem}
+  .cdava-ontology{padding:.75rem}
+  .cdava-stage{padding:.82rem .75rem}
+}
+</style>
+</head>
+<body class="cdava-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="header-inner"><a class="brand" href="/">Andrew Nixon <span aria-hidden="true">·</span> Research Portfolio</a><nav class="nav" aria-label="Primary"><a href="/research/" aria-current="page">Research</a><a href="/about/">About</a><a href="/cv/">CV</a></nav></div></header>
+<main id="main">
+<div class="page-head">
+  <div class="breadcrumbs"><a href="/">Home</a> / <a href="/research/">Research</a> / CDAVA</div>
+  <div class="eyebrow">Working framework</div>
+  <h1>Candidate Developmental &amp; Augmentation Variable Architecture</h1>
+  <p class="lede">A provisional architecture for specifying what might change through sustained human–AI participation, where capacities reside, and how developmental trajectories can be distinguished.</p>
+</div>
+
+<article class="article">
+<p class="cdava-thesis"><strong>AIMR is developing not only a theory of developmental change, but a candidate architecture for specifying and testing what kinds of capacities are amplified, internalized, distributed, displaced, or reorganized through sustained human–AI participation.</strong></p>
+
+<div class="cdava-question">
+  <div class="cdava-kicker">Central empirical problem</div>
+  <strong>When a human–AI system becomes more capable, what—if anything—has changed in the human?</strong>
+</div>
+
+<p>Improved coupled performance does not by itself establish human development. CDAVA therefore distinguishes the configured ecology, the processes occurring during participation, candidate human capacities, the distribution of those capacities across the human–AI system, the tests needed to establish developmental persistence, and the longitudinal trajectory that results.</p>
+
+<section class="cdava-section" id="ontology">
+<h2>1. Experimental ontology</h2>
+<p>AIMR separates what is configured, what occurs during participation, what may develop, how apparent changes are evaluated, and what trajectory ultimately results.</p>
+
+<div class="cdava-ontology" aria-label="AIMR experimental ontology">
+  <div class="cdava-stage">
+    <span class="cdava-stage-title">Configuration variables</span>
+    <span class="cdava-stage-detail">Model · continuity · memory · protocol · tools · interface/ecology · task</span>
+  </div>
+  <div class="cdava-flow-label"><span class="arrow">↓</span>influence</div>
+  <div class="cdava-stage">
+    <span class="cdava-stage-title">Participation / augmentation processes</span>
+  </div>
+  <div class="cdava-flow-label"><span class="arrow">↓</span>potentially alter</div>
+  <div class="cdava-stage">
+    <span class="cdava-stage-title">Candidate developmental capacities</span>
+  </div>
+  <div class="cdava-flow-label"><span class="arrow">↓</span>evaluated through</div>
+  <div class="cdava-stage cdava-stage-eval">
+    <strong class="cdava-stage-title">Capacity location · persistence · transfer · perturbation · withdrawal</strong>
+  </div>
+  <div class="cdava-flow-label"><span class="arrow">↓</span>yielding</div>
+  <div class="cdava-stage">
+    <span class="cdava-stage-title">Developmental trajectory</span>
+  </div>
+</div>
+
+<h3>Architecture at a glance</h3>
+<div class="cdava-diagram-wrap">
+  <img src="/assets/cdava-developmental-trajectory-mobile.png" alt="CDAVA diagram: configuration variables influence participation and augmentation processes, which may alter candidate developmental capacities evaluated through capacity location, persistence, transfer, perturbation, and withdrawal to yield developmental trajectories.">
+  <p class="cdava-figure-note"><strong>CDAVA — From AI participation to developmental trajectory.</strong> Configurable features of the developmental ecology influence participation and augmentation processes; those processes may alter candidate human capacities; developmental claims then depend on capacity location, persistence, transfer, perturbation robustness, and scaffold withdrawal before a trajectory can be classified.</p>
+</div>
+</section>
+
+<section class="cdava-section" id="configuration">
+<h2>2. Configuration variables</h2>
+<p>Core developmental-ecology configuration space:</p>
+<div class="cdava-variable-line">Model · Continuity · Memory · Interaction protocol · Tools · Interface / ecology · Task</div>
+<p>These are upstream features of the ecology, not developmental outcomes. Human capacities and intentions, prior developmental history, and broader social-material conditions can additionally function as participant/context moderators.</p>
+</section>
+
+<section class="cdava-section" id="processes">
+<h2>3. Participation / augmentation processes</h2>
+<p>Within a configured ecology, recursive participation may include:</p>
+<div class="cdava-sequence">reflection → articulation → questioning → planning → feedback → revision → action → recurrence</div>
+
+<div class="cdava-grid">
+  <div class="cdava-card cdava-card-accent">
+    <h3>Candidate augmentation processes</h3>
+    <p>cognitive-load redistribution · exploratory-time compression · representational augmentation · generative augmentation · evaluative augmentation · activation-chain compression · reflective continuity</p>
+  </div>
+  <div class="cdava-card cdava-card-accent">
+    <h3>Coupling properties</h3>
+    <p>delegation topology · human participation density · initiative allocation · scaffold density/adaptivity · evaluative authority · monitoring and correction responsibility</p>
+  </div>
+</div>
+<p>These processes can improve coupled performance without necessarily producing human development.</p>
+</section>
+
+<section class="cdava-section" id="capacities">
+<h2>4. Candidate developmental capacities</h2>
+<div class="cdava-grid">
+  <div class="cdava-card"><h3>Cognitive / epistemic</h3><p>Metacognition · differentiation · integration · developmental coherence · epistemic corrigibility · learning / transfer</p></div>
+  <div class="cdava-card"><h3>Self / agency</h3><p>Self-modeling · self-efficacy · judgment · initiative · executive organization · developmental self-regulation</p></div>
+  <div class="cdava-card"><h3>Relational / participatory</h3><p>Relational competence · embodied/ecological regulation · meaningful participation</p></div>
+  <div class="cdava-card"><h3>Measurement stance</h3><p>Where mature constructs and validated measures already exist, AIMR should borrow them rather than rename them.</p></div>
+</div>
+
+<div class="cdava-warning">
+  <strong>Supported performance ≠ development</strong>
+  <span>Better performance while AI support is present is an intermediate observation, not evidence by itself of durable human development.</span>
+</div>
+</section>
+
+<section class="cdava-section" id="capacity-location">
+<h2>5. Capacity-distribution topology</h2>
+<p>For each candidate capacity, AIMR asks where the functional capacity resides and how that distribution changes over time.</p>
+<div class="cdava-topology">
+  <div class="cdava-topology-card"><div class="cdava-topology-code">H</div><strong>Human-internalized</strong><span>Increasingly available independently, including after scaffold reduction.</span></div>
+  <div class="cdava-topology-card"><div class="cdava-topology-code">C</div><strong>Coupling-dependent</strong><span>Reliably available through AI participation but substantially reduced without the coupling.</span></div>
+  <div class="cdava-topology-card"><div class="cdava-topology-code">E</div><strong>Emergent co-intelligent</strong><span>Best explained as a capability of the recurrent human–AI system rather than either component alone.</span></div>
+  <div class="cdava-topology-card"><div class="cdava-topology-code">?</div><strong>Mixed / indeterminate</strong><span>Partially distributed or dynamically changing across H/C/E over time.</span></div>
+</div>
+<div class="cdava-callout"><strong>How should capacity be distributed across person, AI, and environment so that the overall ecology increases human developmental freedom without creating unacceptable displacement, dependency, or loss of contact?</strong></div>
+</section>
+
+<section class="cdava-section" id="tests">
+<h2>6. Developmental tests</h2>
+<div class="cdava-chain" aria-label="Developmental testing sequence">
+  <span class="cdava-chip">Supported</span><span class="cdava-chain-arrow">→</span>
+  <span class="cdava-chip">Independent</span><span class="cdava-chain-arrow">→</span>
+  <span class="cdava-chip">Delayed</span><span class="cdava-chain-arrow">→</span>
+  <span class="cdava-chip">Transfer</span><span class="cdava-chain-arrow">→</span>
+  <span class="cdava-chip">Perturbation</span><span class="cdava-chain-arrow">→</span>
+  <span class="cdava-chip">Scaffold withdrawal</span>
+</div>
+<p>Developmental claims strengthen when change persists across time, transfers across tasks or contexts, remains robust under altered conditions, survives appropriate scaffold reduction or withdrawal, is independently retrieved or reconstructed, and remains corrigible by contact with realities outside the AI interaction.</p>
+</section>
+
+<section class="cdava-section" id="trajectories">
+<h2>7. Developmental trajectories</h2>
+<div class="cdava-trajectories">
+  <div class="cdava-trajectory"><strong>Capacity amplification</strong><span>AI-supported participation contributes to stronger human capacities that increasingly persist independently.</span></div>
+  <div class="cdava-trajectory"><strong>Stable complementary offloading</strong><span>Some functions remain coupled, but delegation is intentional, beneficial, evaluable, and developmentally acceptable.</span></div>
+  <div class="cdava-trajectory"><strong>Capacity displacement</strong><span>Coupled performance rises while important independent human capacity declines or becomes inaccessible without support.</span></div>
+  <div class="cdava-trajectory"><strong>Upward reorganization of agency</strong><span>Lower-level operations are delegated while substantive higher-order capacities develop: goal selection, strategy, orchestration, evaluation, uncertainty management, correction, ethical judgment, and intervention.</span></div>
+  <div class="cdava-trajectory"><strong>Emergent co-intelligent capacity</strong><span>A stable capability develops at the level of recurrent participation without straightforward reduction to independent human capacity or simple offloading.</span></div>
+</div>
+</section>
+
+<section class="cdava-section" id="delegation">
+<h2>8. Delegation topology</h2>
+<p>The developmental consequences of AI assistance depend not only on <strong>how much</strong> is delegated, but on <strong>what is delegated</strong>.</p>
+<div class="cdava-sequence">goal selection → problem framing → information gathering → option generation → planning → execution → monitoring → evaluation → correction → completion → reflection</div>
+<div class="cdava-callout"><strong>Automate what is developmentally expendable while preserving active participation in operations that build the capacities one cares about.</strong></div>
+</section>
+
+<section class="cdava-section" id="freedom">
+<h2>9. Developmental freedom and adaptive regulation</h2>
+<p>AIMR does not assume that the best developmental outcome is maximum internalization or minimum technological reliance. A more general criterion is <strong>developmental freedom</strong>: whether the resulting ecology expands meaningful capacity to configure, evaluate, revise, reduce, withdraw from, or deliberately sustain forms of mediation and coupling.</p>
+<div class="cdava-callout"><strong>What configuration of mediation, scaffolding, delegation, friction, continuity, and world-contact best supports durable human agency while taking full advantage of beneficial co-intelligence?</strong></div>
+<p>Adaptive regulation can therefore involve increasing or fading scaffolding, preserving productive friction, delegating expendable operations, reintroducing human participation, protecting evaluative authority, strengthening world contact, or deliberately retaining beneficial coupling.</p>
+
+<h3>AIMR as design science</h3>
+<div class="cdava-design" aria-label="AIMR design science cycle">
+  <div class="cdava-design-step"><strong>Design</strong><span>configure developmental ecologies</span></div>
+  <div class="cdava-design-arrow">→</div>
+  <div class="cdava-design-step"><strong>Measurement</strong><span>distinguish supported performance, capacity location, persistence, transfer, and displacement</span></div>
+  <div class="cdava-design-arrow">→</div>
+  <div class="cdava-design-step"><strong>Adaptive regulation</strong><span>revise the ecology to promote desired trajectories while preserving developmental freedom</span></div>
+</div>
+</section>
+
+<section class="cdava-section" id="consequences">
+<h2>10. Ecological consequences</h2>
+<div class="cdava-pills">
+  <span class="cdava-pill">Wellbeing</span><span class="cdava-pill">Embodiment</span><span class="cdava-pill">Relationships</span><span class="cdava-pill">Meaningful agency</span><span class="cdava-pill">World contact</span><span class="cdava-pill">Sustainability</span>
+</div>
+<p>A cognitive or productivity gain may still be developmentally mixed if it creates unacceptable dependency, chronic overextension, relational withdrawal, or displacement of embodied/environmental experience.</p>
+</section>
+
+<section class="cdava-section" id="evidence">
+<h2>11. Evidence architecture</h2>
+<div class="cdava-evidence">
+  <div class="cdava-card"><h3>E1 — Phenomenological</h3><p>Experienced changes in cognition, affect, perception, agency, meaning, or self-understanding.</p></div>
+  <div class="cdava-card"><h3>E2 — Conversational-behavioral</h3><p>Observable changes in discourse, reasoning, differentiation, criticism, revision, retrieval, and interaction.</p></div>
+  <div class="cdava-card"><h3>E3 — Enactive</h3><p>Changes expressed through consequential participation in work, relationships, health, projects, environments, and ordinary life.</p></div>
+  <div class="cdava-card"><h3>E4 — Withdrawal / transfer</h3><p>Persistence, generalization, spontaneous reuse, perturbation robustness, and performance under reduced scaffolding.</p></div>
+  <div class="cdava-card"><h3>C1 — External corroboration</h3><p>Independent observations capable of corroborating or contradicting E1–E4 evidence.</p></div>
+</div>
+</section>
+
+<section class="cdava-section" id="empirical-program">
+<h2>12. CDAVA within the empirical program</h2>
+<p>CDAVA is a provisional, high-recall variable architecture—not a fixed confirmatory codebook and not a single omnibus scale.</p>
+<div class="cdava-program">Study 0R → Study 0R-X → CDAVA-informed construct differentiation → Study 0P → comparative / experimental program</div>
+<p>Retrospective reconstruction surfaces candidate changes. External digital traces triangulate selected claims. CDAVA differentiates constructs and capacity-location hypotheses. Prospective probes test persistence, transfer, perturbation, and withdrawal. Later experiments manipulate configuration variables across people, systems, tasks, and contexts.</p>
+<div class="cdava-callout">The central empirical object is <strong>the longitudinal reorganization of capacities, agency, and participation across a recursively coupled human–AI developmental ecology.</strong></div>
+</section>
+
+<section class="cdava-section" id="explore">
+<h2>Explore further</h2>
+<div class="cdava-links">
+  <a class="cdava-link" href="/research/aimr/"><strong>AIMR Research Program</strong><span>Return to AIMR Overview →</span></a>
+  <a class="cdava-link" href="/research/study-0/"><strong>Study 0</strong><span>Explore Study 0 →</span></a>
+  <a class="cdava-link" href="/research/experimental-program/"><strong>Experimental Program</strong><span>Explore the Experimental Program →</span></a>
+  <a class="cdava-link" href="/research/human-ai-development-research-landscape/"><strong>Research Landscape</strong><span>Explore the Human–AI Development Research Landscape →</span></a>
+</div>
+</section>
+</article>
+</main>
+<footer class="site-footer"><div class="footer-inner"><span>Andrew Nixon · Research Portfolio</span><span>© <span data-current-year></span></span></div></footer>
+</body>
+</html>
