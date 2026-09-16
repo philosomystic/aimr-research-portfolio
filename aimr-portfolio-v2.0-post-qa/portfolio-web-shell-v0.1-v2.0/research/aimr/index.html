@@ -10,6 +10,21 @@
 <meta property="og:description" content="A developing design science of developmental ecologies, currently focused on developmental change through sustained recursive human–AI participation.">
 <title>AI-Mediated Reflection (AIMR) · Andrew Nixon</title>
 <link rel="stylesheet" href="/assets/styles.css">
+<style>
+.process-architecture{margin:1.5rem 0 2rem;padding:1.25rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.process-architecture .logic-line{margin:0;padding:0;line-height:1.8;font-size:1rem}
+.process-architecture figcaption{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--line);font-size:1rem}
+.process-note{margin:1.25rem 0;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.process-note>summary{padding:1rem 1.1rem;cursor:pointer;color:var(--accent);font-family:var(--sans);font-size:1rem;font-weight:700}
+.process-note>summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:12px}
+.process-note-body{padding:0 1.1rem .35rem}
+.process-note-body h4{margin:1.5rem 0 .5rem;font-family:var(--sans);font-size:1rem;line-height:1.4}
+.process-note-body .logic-line{font-size:1rem;line-height:1.8}
+.recognition-detail{margin:1.25rem 0;padding:.85rem 1rem;border-left:3px solid var(--accent);background:var(--accent-soft)}
+.recognition-detail>summary{cursor:pointer;font-family:var(--sans);font-size:1rem;font-weight:700}
+.recognition-detail>summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+@media(max-width:620px){.process-architecture{padding:1rem}.process-note>summary{padding:.9rem 1rem}.process-note-body{padding:0 1rem .25rem}}
+</style>
 <script defer src="/assets/site.js"></script>
 </head>
 <body>
@@ -44,16 +59,47 @@
 <blockquote><strong>A developmental ecology is a longitudinal feedback system in which recurring patterns of interaction alter the conditions of subsequent development.</strong></blockquote>
 <p><strong>participation → change in person and/or environment → changed conditions of subsequent participation → further change ↺</strong></p>
 <p>What is remembered, scaffolded, practiced, delegated, made salient, made easier, or made harder in one period can reorganize later participation. Development is therefore a trajectory produced through recursive changes in both person and environment.</p>
-<h3>AIMR System Architecture</h3>
-<p><img src="/assets/aimr-system-architecture.png" alt="AIMR System Architecture"></p>
-<p><em>Developmental ecology → recursive human–AI participation → microgenetic change → repeated participation across episodes → persistence/transfer testing → developmental trajectory → changed person and environment → reconfigured conditions of subsequent participation.</em></p>
-<p>Across this trajectory, <strong>developmental coherence</strong> functions as an evaluative criterion: not whether a person becomes merely more internally consistent, but whether emerging organization remains <strong>corrigible by contact with consequential lived experience while remaining capable of further differentiation and transformation</strong>.</p>
+<h3 id="developmental-process-architecture">AIMR Developmental Process Architecture</h3>
+<p>The architecture relates the conditions of participation, the processes through which change may occur, and the longitudinal question of what becomes durably available. Its developmental logic is:</p>
+<figure class="process-architecture" aria-labelledby="developmental-process-caption">
+  <p class="logic-line">developmental ecology → recursive participation → differentiation → recognition → integration → coherence → agency → longitudinal development</p>
+  <figcaption id="developmental-process-caption"><strong>AIMR Developmental Process Architecture.</strong> Developmental ecology shapes recursive human–AI participation, within which differentiation, recognition, integration, coherence, and agency operate as recursive developmental processes. Across repeated microgenetic cycles, emerging capacities may become increasingly stable, spontaneously initiated, transferable, and potentially internalized. The architecture distinguishes changes observed within co-intelligent activity from warranted inferences about changes in human capacities: improved coupled performance alone does not establish development.</figcaption>
+</figure>
+<p>The sequence expresses developmental logic, not a rigid or invariant temporal stage sequence; recognition and other operations may recur recursively.</p>
+<p><strong>Developmental coherence</strong> evaluates organization throughout the process. Emerging organization must remain <strong>corrigible by contact with consequential lived experience while remaining capable of further differentiation and transformation</strong>. Agency returns the person to action, consequences, and renewed participation, potentially changing both the person and the developmental ecology.</p>
+<details class="process-note" id="process-explanatory-note">
+  <summary>Explanatory note: recursive loops, recognition, and developmental evidence</summary>
+  <div class="process-note-body">
+    <div class="canonical-explanatory-note">
+      <p>The AIMR Developmental Process Architecture models human development under sustained AI participation across nested temporal and analytic scales.</p>
+      <p>At the ecological level, human capacities and intentions, AI capabilities, interactional conditions, tools, contexts, and prior history shape the opportunities available within recursive participation. Within particular episodes of co-intelligent activity, a microgenetic developmental loop describes how participation and enaction can produce differentiation and articulation, recognition, integration and reorganization, coherence and correction, and increasingly agentic enactment. These processes are recursive rather than fixed stages; later operations can generate new differentiation, recognition, and renewed participation.</p>
+      <p>Recognition functions as a developmental pivot within this process. An available distinction, relation, or implication becomes salient to the participant as consequential for their existing organization. Empirically, productive recognition may be traced through recognition → reformulation → architectural consequence → preservation → later reuse. Recognition does not itself constitute development: its significance depends on the reorganization it initiates and on whether that reorganization subsequently persists and becomes increasingly independently available. AI may therefore accelerate recognition without equivalently accelerating integration or development.</p>
+      <p>Across repeated episodes, microgenetic changes may form a longitudinal trajectory of emergence → repeated enactment → stabilization → spontaneous initiation → transfer → candidate internalization. The co-intelligence/enaction loop is correspondingly developmental: human capacities and AI capacities jointly shape one episode of activity, while changes arising through participation may alter the human capacities brought to subsequent episodes.</p>
+      <p>The architecture therefore places a deliberate developmental inference boundary between observed change within the coupled human–AI system and claims about enduring change in the human participant. Improved subsequent performance with AI is not sufficient evidence of human development. Stronger developmental inference requires evidence under conditions such as delay, persistence, transfer, perturbation, and scaffold reduction.</p>
+      <p>The resulting model treats development neither as immediate performance improvement nor as a simple product of AI exposure. It is a longitudinal process through which recursive participation may reorganize what the human participant can increasingly recognize, integrate, evaluate, initiate, and enact across contexts and with decreasing dependence on the conditions that originally supported those capacities.</p>
+    </div>
+    <h4>The microgenetic developmental loop</h4>
+    <p class="logic-line">participation/enaction → differentiation/articulation → recognition → integration/reorganization → coherence/correction → agency/enactment → renewed participation</p>
+    <details class="recognition-detail">
+      <summary>Recognition as an expandable process</summary>
+      <p class="logic-line">recognition → reformulation → architectural consequence → preservation → later reuse</p>
+      <p>This is a candidate empirical trace of productive recognition. Preservation in a document or system memory does not itself establish human internalization; later reuse and increasing independent availability require further observation.</p>
+    </details>
+    <h4>The co-intelligence/enaction loop</h4>
+    <p class="logic-line">human capacities₁ + AI capacities → co-intelligent enaction₁ → recognition/integration → candidate human capacities₂ → co-intelligent enaction₂ → recognition/integration → candidate human capacities₃ …</p>
+    <p>The subscripts mark successive configurations; “candidate” makes explicit that human change and internalization remain to be demonstrated.</p>
+    <h4>The longitudinal developmental trajectory</h4>
+    <p class="logic-line">emergence → repeated enactment → stabilization → spontaneous initiation → transfer → candidate internalization</p>
+    <p>Conversation records provide observable traces from which cognitive operations and developmental trajectories may be inferred. <strong>The archive is partially observable, not transparent access to cognition.</strong></p>
+  </div>
+</details>
 <hr>
 <h2>3. The crucial empirical distinction</h2>
-<h1>Supported performance ≠ development</h1>
+<h3>Supported performance ≠ development</h3>
 <p>AI can make a person more capable <strong>while the system is present</strong> without producing any durable change in the person.</p>
 <p>AIMR therefore distinguishes <strong>augmentation</strong> from <strong>development</strong>.</p>
 <p>Improved performance during AI-supported interaction is not sufficient evidence that a human capacity has developed. Developmental claims require evidence that changes persist, generalize, and remain available when the conditions that originally supported them are altered.</p>
+<p>Evidence of durable co-intelligent capacity concerns the developing coupled system. A claim of <strong>human internalization</strong> requires additional evidence that the relevant capacity becomes available to the person with reduced reliance on the original scaffold. These are distinct empirical claims.</p>
 <p>AIMR therefore tests for:</p>
 <p><strong>Persistence</strong>  </p>
 <p>Does the change remain after a meaningful delay?</p>
@@ -79,6 +125,9 @@
 <h3>Differentiation</h3>
 <p><strong>Differentiation</strong> is increased discriminatory resolution: the capacity to perceive distinctions that were previously unavailable, conflated, vague, or inaccessible.</p>
 <p>A person may become better able to distinguish competing explanations, emotional states, conceptual categories, values, causal mechanisms, or alternative courses of action.</p>
+<h3>Recognition</h3>
+<p><strong>Recognition</strong> functions as a developmental pivot: an available distinction, relation, or implication becomes salient to the participant as consequential for their existing organization.</p>
+<p>Its developmental significance depends on the reorganization it initiates and on whether that reorganization persists and becomes increasingly independently available. <strong>AI may therefore accelerate recognition without equivalently accelerating integration or development.</strong> Recognition can recur throughout differentiation, integration, correction, and enactment.</p>
 <h3>Integration</h3>
 <p><strong>Integration</strong> concerns the organization and reorganization of relations among distinctions.</p>
 <p>Development is not simply accumulating more distinctions. Newly differentiated material must alter the structure through which subsequent perception, reasoning, and action occur.</p>
