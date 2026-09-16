@@ -62,5 +62,6 @@
   .project-page .page-head h1{font-size:clamp(2rem,8vw,2.9rem)}
   .project-page .page-head{padding-top:1rem}
   .project-table th,.project-table td{padding:.65rem .45rem}
+  .project-dimensions th{width:40%}
   #experimental-architecture,.project-page .article h2{scroll-margin-top:9rem}
 }
