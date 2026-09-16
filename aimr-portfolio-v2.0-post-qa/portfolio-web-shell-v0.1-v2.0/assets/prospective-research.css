@@ -1,4 +1,8 @@
 /* Prospective Research: extends the portfolio's existing tokens and page shell. */
+.research-page,.experimental-program-page,.project-page{overflow-wrap:anywhere}
+.research-page .card{min-width:0}
+.program-chip{max-width:100%}
+.project-card-copy>*{min-width:0;max-width:100%}
 .program-card-main{display:flex;flex:1;flex-direction:column;gap:.6rem;text-decoration:none}
 .program-card-main .arrow{padding-top:.5rem}
 .program-chip{display:inline-flex;align-items:center;align-self:flex-start;min-height:44px;padding:.4rem .65rem;border:1px solid var(--line);border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:.045em;text-decoration:none;line-height:1.4}
