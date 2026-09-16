@@ -1,0 +1,52 @@
+/* Prospective Research: extends the portfolio's existing tokens and page shell. */
+.program-card-main{display:flex;flex:1;flex-direction:column;gap:.6rem;text-decoration:none}
+.program-card-main .arrow{padding-top:.5rem}
+.program-chip{display:inline-flex;align-items:center;align-self:flex-start;min-height:44px;padding:.4rem .65rem;border:1px solid var(--line);border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:.045em;text-decoration:none;line-height:1.4}
+.program-chip:hover{border-color:var(--accent)}
+.program-card a:focus-visible,.project-card:focus-visible,.project-figure a:focus-visible,.project-return a:focus-visible,.program-jump:focus-visible{outline:3px solid var(--accent);outline-offset:4px;border-radius:6px}
+.prospective-research{padding:2.4rem 0 3rem;margin:2.3rem 0 3rem;border-top:1px solid var(--line);border-bottom:1px solid var(--line);scroll-margin-top:7.5rem}
+.prospective-research h2{font-size:clamp(2rem,4vw,3.2rem)}
+.prospective-question{max-width:52rem;font-family:var(--serif);font-size:clamp(1.15rem,2vw,1.4rem);line-height:1.55;margin:1rem 0 1.8rem;color:#353b37}
+.prospective-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem}
+.project-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:var(--surface);text-decoration:none;transition:transform .18s ease,border-color .18s ease}
+.project-card:hover{transform:translateY(-2px);border-color:#acb3ad;color:var(--text)}
+.project-card-media{aspect-ratio:3/2;overflow:hidden;background:var(--bg);border-bottom:1px solid var(--line)}
+.project-card-media img{display:block;width:100%;height:100%;object-fit:cover}
+.project-card-media--poster img{object-position:center 26%}
+.project-card-copy{display:flex;flex:1;flex-direction:column;align-items:flex-start;padding:1.25rem;gap:.7rem}
+.project-card h3{font-family:var(--serif);font-size:clamp(1.4rem,2.5vw,1.8rem);font-weight:500;line-height:1.18;letter-spacing:-.02em;overflow-wrap:break-word}
+.project-card .project-identity{margin:0;font-size:.875rem;line-height:1.5;color:var(--accent)}
+.project-card .project-summary{margin:0;font-size:1rem;line-height:1.6;color:var(--muted)}
+.project-card .project-status{margin:auto 0 0;padding-top:.35rem;font-size:.8125rem;line-height:1.5;color:var(--muted)}
+.project-card .arrow{font-size:.875rem;font-weight:700;color:var(--accent)}
+.program-jump{display:inline-block;margin:.9rem 0 0;padding:.4rem 0;font-size:.875rem;color:var(--accent);font-weight:700}
+#experimental-architecture{scroll-margin-top:7.5rem}
+.project-page .page-head h1{max-width:60rem;overflow-wrap:break-word;text-wrap:balance}
+.project-page .project-identity{margin:.85rem 0 0;font-size:.9375rem;color:var(--accent);line-height:1.6}
+.project-page .project-status{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:1.1rem 0 0;max-width:50rem}
+.project-page .breadcrumbs{font-size:.8125rem;line-height:1.75;overflow-wrap:break-word}
+.project-figure{margin:0 0 2.5rem;max-width:1000px}
+.project-figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:14px}
+.project-figure--poster{max-width:620px}
+.project-figure figcaption{margin:.7rem 0 0;font-size:.875rem;color:var(--muted);line-height:1.6}
+.project-figure figcaption a{color:var(--accent)}
+.project-page .article{overflow-wrap:break-word}
+.project-page .article h2{scroll-margin-top:7.5rem}
+.project-table{width:100%;border-collapse:collapse;margin:1.4rem 0 2rem;font-size:1rem;line-height:1.55;table-layout:fixed}
+.project-table th,.project-table td{padding:.75rem .8rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);overflow-wrap:break-word}
+.project-table thead th{background:var(--accent-soft);font-family:var(--sans);font-size:.875rem}
+.project-table tbody th{font-weight:600}
+.project-sequence{padding-left:1.5rem;margin:1rem 0 1.6rem}
+.project-sequence li{padding-left:.3rem;margin:.6rem 0}
+.project-return{display:flex;gap:.7rem 1.5rem;flex-wrap:wrap;margin:3rem 0 0;padding-top:1.3rem;border-top:1px solid var(--line);font-family:var(--sans);font-size:.875rem;font-weight:700}
+.project-return a{display:inline-flex;align-items:center;min-height:44px;color:var(--accent)}
+@media(max-width:620px){
+  .prospective-grid{grid-template-columns:minmax(0,1fr);gap:1.2rem}
+  .prospective-research{padding-top:2rem;scroll-margin-top:9rem}
+  .project-card-copy{padding:1.1rem}
+  .project-card h3{font-size:1.5rem}
+  .project-page .page-head h1{font-size:clamp(2rem,8vw,2.9rem)}
+  .project-page .page-head{padding-top:1rem}
+  .project-table th,.project-table td{padding:.65rem .45rem}
+  #experimental-architecture,.project-page .article h2{scroll-margin-top:9rem}
+}
