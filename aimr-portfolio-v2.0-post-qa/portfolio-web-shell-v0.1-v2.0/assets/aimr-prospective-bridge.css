@@ -1,0 +1,33 @@
+/* AIMR overview bridge: original production artwork, responsive live copy. */
+.aimr-bridge{margin:3rem 0 0;padding:2.5rem 0 0;border-top:1px solid var(--line);scroll-margin-top:6rem;overflow-wrap:anywhere}
+.aimr-bridge-intro{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.65fr);gap:2.5rem;align-items:start}
+.aimr-bridge-heading .eyebrow{margin:0 0 1.1rem;font-size:.75rem;line-height:1.6;letter-spacing:.14em;color:var(--accent)}
+.aimr-bridge h2{max-width:10em;font-size:clamp(2.1rem,4vw,3.4rem);text-wrap:balance}
+.aimr-bridge-copy{font-family:var(--serif);font-size:1.05rem;line-height:1.65}
+.aimr-bridge-copy p{margin:0 0 1rem}
+.aimr-bridge-copy p:last-child{margin-bottom:0}
+.aimr-bridge-question{font-size:1.18rem;line-height:1.55;color:var(--accent)}
+.aimr-bridge-question strong{font-weight:600}
+.aimr-bridge-visuals{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem;margin:1.8rem 0 1.1rem}
+.aimr-bridge-visuals figure{min-width:0;margin:0}
+.aimr-bridge-art{position:relative;aspect-ratio:500/238;overflow:hidden;background:var(--surface)}
+.aimr-bridge-art img{position:absolute;top:-131.512605%;left:var(--panel-left);display:block;width:409.6%;max-width:none;height:auto;margin:0;border:0;border-radius:0}
+.aimr-bridge-visuals figcaption{padding:.7rem .25rem 0;font-family:var(--sans);font-size:.875rem;font-weight:600;line-height:1.45;text-align:center;text-wrap:balance}
+.aimr-bridge-cta{display:flex;align-items:center;justify-content:center;width:fit-content;max-width:100%;min-height:44px;margin:1.25rem 0 0 auto;padding:.6rem 0;font-family:var(--sans);font-size:1rem;line-height:1.5;font-weight:700;color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)}
+.aimr-bridge-cta:hover{color:var(--text);border-color:var(--text)}
+.aimr-bridge-cta:focus-visible{outline:3px solid var(--accent);outline-offset:5px;border-radius:2px}
+@media(max-width:850px){
+  .aimr-bridge-intro{grid-template-columns:minmax(0,1fr);gap:1.5rem}
+  .aimr-bridge h2{max-width:18em;font-size:clamp(2rem,5vw,2.7rem)}
+  .aimr-bridge-visuals{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem 1rem}
+}
+@media(max-width:620px){
+  .aimr-bridge{padding-top:2rem;scroll-margin-top:9rem}
+  .aimr-bridge-copy{font-size:1rem;line-height:1.7}
+  .aimr-bridge-question{font-size:1.125rem}
+  .aimr-bridge-cta{margin-left:0;text-align:left;justify-content:flex-start}
+}
+@media(max-width:420px){
+  .aimr-bridge-visuals{grid-template-columns:minmax(0,1fr);gap:1.4rem}
+  .aimr-bridge-visuals figcaption{padding:.6rem 0 0;text-align:left;font-size:.9375rem;text-wrap:initial}
+}
