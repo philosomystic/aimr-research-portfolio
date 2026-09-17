@@ -1,4 +1,16 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/research/aimr",
+      "destination": "/research/human-ai-pathways/",
+      "permanent": true
+    },
+    {
+      "source": "/research/aimr/",
+      "destination": "/research/human-ai-pathways/",
+      "permanent": true
+    }
+  ]
 }
