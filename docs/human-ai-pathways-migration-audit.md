@@ -55,3 +55,17 @@ Study 0 currently says prospective probes are running, which conflicts with the 
 Preserve the established serif/sans typography, green accent, spacing, cards, portrait, prospective artwork, and all substantive sections. Use a compact responsive treatment for the longer naming hierarchy. Precise diagrams need exact text and preserved relationships; identity layers may be rendered as vector text while original diagram content remains intact. Keep historical originals.
 
 Verify all internal routes and fragments, Landscape search/filter/card behavior, the overview note, responsive layout, figure titles/captions, image loading, and preservation of all 94 corpus records. Publish through the existing GitHub → Vercel workflow and retain the existing audience and domain.
+
+## Visual audit addendum — 17 September 2026
+
+The published visual review identified identity text embedded in raster concept artwork, outside the 191 source-text occurrences. These decisions precede the corresponding artwork updates.
+
+| Asset / embedded wording | Classification | Action |
+| --- | --- | --- |
+| Developmental Dashboard: upper-left AIMR identity and in-screen AIMR logo | Program-level | Migrate both visible identities to Human–AI Pathways using precise vector labels over the original concept artwork. Preserve every dashboard measure, illustrative number, and scenic element outside the identity areas. |
+| Wayfinder: upper-left AIMR identity | Program-level | Migrate the identity; retain the developmental-learning-environments descriptor, proposal content, and illustration. |
+| Research Methodology Acquisition: AIDR / AI Developmental Research footer | Program-level, mislabeled acronym | Use Human–AI Pathways and the Human–AI Developmental Research Program descriptor. Preserve the schematic distribution of operations and all explanatory content. |
+| Prospective research bridge source: AIMR in its raster header | Historical source material, outside the displayed image crops | Retain the original source asset. Current pages display only its four artwork panels; the header is rebuilt in live HTML using the current identity. |
+| Wunderhorn artwork | No AIMR program identity | Preserve unchanged. |
+
+Current figure links and project-card images use self-contained SVG compositions with the original raster's decoded pixels preserved beneath the identity labels. Original source assets remain available as historical material. The two introductions to the historical falsifiability quotation are also clarified so they do not present the under-review criterion as settled current theory; the quotation itself is unchanged. The overview's accessible group label now says “Four prospective research projects”, avoiding confusion with longitudinal Human–AI pathways.
