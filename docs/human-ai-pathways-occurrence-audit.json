@@ -1,0 +1,1343 @@
+{
+  "baseline": "096d62fbdaa664ed747c1dc2830de7713014161a",
+  "date": "2026-09-16",
+  "occurrences": [
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/404.html",
+      "line": 1,
+      "category": "program-level",
+      "context": "th=device-width,initial-scale=1\"> <me",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/404.html",
+      "line": 1,
+      "category": "program-level",
+      "context": "und · Research Portfolio\"> Page not found · Research Portfolio <a c",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/404.html",
+      "line": 1,
+      "category": "program-level",
+      "context": "Return home → AIMR research portfolio ©",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 6,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 6,
+      "category": "program-level",
+      "context": "description\" content=\"About Andrew Nixon, independent researcher developing AI-Mediated Reflection (AIMR).\">",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 10,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 10,
+      "category": "program-level",
+      "context": "description\" content=\"About Andrew Nixon, independent researcher developing AI-Mediated Reflection (AIMR).\">",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 20,
+      "category": "program-level",
+      "context": "I am an independent researcher developing AI-Mediated Reflection (AIMR) , a research program toward a design science of developmental ecologies. Its current empirical focus is developmental change through sustained recursive human–AI participation. My work brings together que",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 20,
+      "category": "program-level",
+      "context": "div class=\"about-copy\"> I am an independent researcher developing AI-Mediated Reflection (AIMR) , a research program toward a design science of developmental ecologies. Its current empirical focus is developmental change through sustained recursive human–AI participation. My work brings together questions",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 24,
+      "category": "historical",
+      "context": "ms, under what conditions, and with what consequences for independent capacity and agency? AIMR grew from an attempt to make that question precise enough to investigate.",
+      "action": "Preserve AIMR in an explicit account of the project’s origins."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 26,
+      "category": "program-level",
+      "context": "I am now seeking doctoral training that will allow AIMR to develop as a rigorous empirical research program from the outset, combining longitudinal and experimental methods with the conceptual work needed to understand human development in increasingly persi",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/about/index.html",
+      "line": 27,
+      "category": "program-level",
+      "context": "AIMR Research Program · CV · Human–AI Development Research Landscape",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/assets/aimr-prospective-bridge.css",
+      "line": 1,
+      "category": "program-level",
+      "context": "/* AIMR overview bridge: original production artwork, responsive live copy. */",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/assets/styles.css",
+      "line": 33,
+      "category": "program-level",
+      "context": "/* AIMR architecture additions */",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 6,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 6,
+      "category": "program-level",
+      "context": "n\" content=\"Academic CV for Andrew Nixon, independent researcher developing AI-Mediated Reflection (AIMR).\">",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 10,
+      "category": "program-level",
+      "context": "property=\"og:description\" content=\"Academic CV for Andrew Nixon, independent researcher developing AI-Mediated Reflection (AIMR).\">",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 10,
+      "category": "program-level",
+      "context": "n\" content=\"Academic CV for Andrew Nixon, independent researcher developing AI-Mediated Reflection (AIMR).\">",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 17,
+      "category": "program-level",
+      "context": "class=\"eyebrow\">Curriculum vitae Andrew Nixon Independent Researcher · AI-Mediated Reflection (AIMR)",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 17,
+      "category": "program-level",
+      "context": "um vitae Andrew Nixon Independent Researcher · AI-Mediated Reflection (AIMR)",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 18,
+      "category": "program-level",
+      "context": "Independent Researcher | AI-Mediated Reflection (AIMR)",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 18,
+      "category": "program-level",
+      "context": "Independent Researcher | AI-Mediated Reflection (AIMR)",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 24,
+      "category": "program-level",
+      "context": "Primary research program: AI-Mediated Reflection (AIMR) — a developing design science of developmental ecologies, examining how environments of participation shape human capacities, agency, coherence, and developmental trajectories. Human–AI systems provide t",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 24,
+      "category": "program-level",
+      "context": "Primary research program: AI-Mediated Reflection (AIMR) — a developing design science of developmental ecologies, examining how environments of participation shape human capacities, agency, coherence, and developmental trajectories. Human–AI systems provide the pro",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 42,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR)",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 42,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR)",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 66,
+      "category": "program-level",
+      "context": "AIMR Experimental Program",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 77,
+      "category": "program-level",
+      "context": "Developing an interactive research landscape positioning AIMR within the emerging literature on long-term human–AI interaction and development.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 81,
+      "category": "theoretical/mislabeled",
+      "context": "94 AIMR bridge cards ;",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 83,
+      "category": "theoretical/mislabeled",
+      "context": "mapping of foundational disciplines, recent generative-AI research, AIMR constructs, and candidate studies;",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 102,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 104,
+      "category": "historical",
+      "context": "AIMR Research Statement. Working paper, 2026.",
+      "action": "Preserve original working-paper title; identify historical naming."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 105,
+      "category": "historical",
+      "context": "AIMR Précis. Working research-program specification, 2026.",
+      "action": "Preserve original working-paper title; identify historical naming."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 106,
+      "category": "historical",
+      "context": "AIMR — Living Framework. Evolving theoretical and methodological framework, 2026.",
+      "action": "Preserve original working-paper title; identify historical naming."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/cv/index.html",
+      "line": 123,
+      "category": "reflection-specific",
+      "context": "“Recognition Precedes Agency: How AI-Mediated Reflection Compresses the Path from Insight to Action,” 2026.",
+      "action": "Retain the reflection mechanism and original essay title."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 6,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 6,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 10,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 10,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 23,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) is a developing design science of developmental ecologies, currently focused on developmental change through sustained recursive human–AI participation.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 23,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) is a developing design science of developmental ecologies, currently focused on developmental change through sustained recursive human–AI participation.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 24,
+      "category": "program-level",
+      "context": "Rather than treating AI primarily as a discrete tool, AIMR investigates the developmental environments created through ongoing human–AI interaction: when they strengthen or weaken human capacities, agency, coherence, and independent participation.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 35,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) Research-program overview, developmental framing, constructs, and empirical direction. Enter →",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 35,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) Research-program overview, developmental framing, constructs, and empirical direction. Enter →",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/index.html",
+      "line": 45,
+      "category": "program-level",
+      "context": "AIMR is the organizing research program I want to develop, test, revise, and potentially transform through doctoral work.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 9,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 9,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 11,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) · Andrew Nixon",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 11,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) · Andrew Nixon",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 39,
+      "category": "program-level",
+      "context": "Home / Research / AIMR",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 41,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR)",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 41,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR)",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 48,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) asks a different question: what happens to the human over time through sustained participation with AI?",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 48,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) asks a different question: what happens to the human over time through sustained participation with AI?",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 50,
+      "category": "program-level",
+      "context": "AIMR’s governing empirical question is:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 55,
+      "category": "program-level",
+      "context": "AIMR treats sustained human–AI interaction as a developmental ecology : a configurable environment in which human capacities and intentions interact recursively with model characteristics, continuity, memory,",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 67,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR Developmental Process Architecture",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 71,
+      "category": "theoretical/mislabeled",
+      "context": "s/aimr-developmental-process-architecture.jpeg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open the AIMR Developmental Process Architecture diagram at full size in a new tab\">",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 72,
+      "category": "theoretical/mislabeled",
+      "context": "opmental-process-architecture.jpeg\" width=\"1223\" height=\"1286\" loading=\"lazy\" decoding=\"async\" alt=\"AIMR Developmental Process Architecture: developmental ecology shapes recursive participation, including the co-intelligence/enaction and microgenetic developmental loops. Recognition expands into reformulation, architectura",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 74,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR Developmental Process Architecture. Developmental ecology shapes recursive human–AI participation, within which differentiation, recognition, integration, coherence, and agency operate as recursive developmenta",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 82,
+      "category": "theoretical/mislabeled",
+      "context": "The AIMR Developmental Process Architecture models human development under sustained AI participation across nested temporal and analytic scales.",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 108,
+      "category": "program-level",
+      "context": "AIMR therefore distinguishes augmentation from development .",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 111,
+      "category": "program-level",
+      "context": "AIMR therefore tests for:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 124,
+      "category": "program-level",
+      "context": "This gives AIMR an explicit falsifiability criterion:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 125,
+      "category": "theoretical/mislabeled",
+      "context": "ut produces no persistent, transferable changes in human capacities after scaffold withdrawal, then AIMR’s claim that these systems can function as developmental ecologies would need substantial revision.",
+      "action": "FLAG A1: preserve proposition verbatim with a scope-of-inference note."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 128,
+      "category": "program-level",
+      "context": "4. What AIMR is trying to explain",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 129,
+      "category": "program-level",
+      "context": "AIMR proposes several interrelated processes through which sustained participation may produce developmental change.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 144,
+      "category": "program-level",
+      "context": "For AIMR, developmental coherence cannot mean mere consistency or stability. Coherence must remain corrigible by contact : capable of being revised when experience, evidence, consequences, or other perspectives r",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 147,
+      "category": "program-level",
+      "context": "AIMR therefore asks not simply whether AI makes action easier, but whether repeated participation changes where initiative, judgment, and responsibility are located within the human–AI system .",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 151,
+      "category": "theoretical/mislabeled",
+      "context": "Additional AIMR constructs",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 161,
+      "category": "program-level",
+      "context": "AIMR distinguishes several levels of the empirical problem. Features of the developmental ecology can be configured experimentally; those configurations influence participation and augmentation processes; those processes may",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 162,
+      "category": "theoretical/mislabeled",
+      "context": "",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 174,
+      "category": "program-level",
+      "context": "AIMR is developing not only a theory of developmental change, but a candidate architecture for specifying and testing what kinds of capacities are amplified, internalized, distributed, displaced, or reorganized through susta",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 199,
+      "category": "program-level",
+      "context": "For any candidate capacity, AIMR asks how functional capacity is distributed across person, AI, and environment, and how that distribution changes over time: human-internalized ↔ coupling-dependent ↔ emergent co-intelligent , with mixed",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 202,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR as design science",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 203,
+      "category": "theoretical/mislabeled",
+      "context": "",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 213,
+      "category": "program-level",
+      "context": "AIMR is not only a theory of development. It is a design science of developmental ecologies .",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 215,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR Experimental Configurations",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 216,
+      "category": "theoretical/mislabeled",
+      "context": "",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 233,
+      "category": "program-level",
+      "context": "AIMR asks how different configurations change:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 248,
+      "category": "program-level",
+      "context": "AIMR is developing through a sequence of theory generation, empirical probing, controlled experimentation, and longitudinal study.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 318,
+      "category": "program-level",
+      "context": "Together, these questions move AIMR from asking whether AI is “helpful” toward a harder question:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 322,
+      "category": "program-level",
+      "context": "AIMR draws on multiple established research traditions, including:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 325,
+      "category": "program-level",
+      "context": "Rather, AIMR identifies an emerging object that increasingly requires them to be brought together:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 328,
+      "category": "program-level",
+      "context": "AIMR’s distinctive contribution is to organize these phenomena around developmental trajectory :",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 342,
+      "category": "theoretical/mislabeled",
+      "context": "interactive map of the surrounding research territories, empirical fault lines, developmental gaps, AIMR bridges, and candidate studies.",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 351,
+      "category": "program-level",
+      "context": "AIMR is designed not only to describe developmental change under sustained AI participation, but to make that change empirically investigable.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 387,
+      "category": "historical",
+      "context": "AIMR Research Statement — working paper, 2026.",
+      "action": "Preserve original working-paper title; identify historical naming."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 388,
+      "category": "historical",
+      "context": "AIMR Précis",
+      "action": "Preserve original working-paper title; identify historical naming."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 389,
+      "category": "program-level",
+      "context": "A more structured specification of AIMR’s core propositions, constructs, mechanisms, methodological commitments, and research agenda.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/aimr/index.html",
+      "line": 390,
+      "category": "historical",
+      "context": "AIMR Précis — working research-program specification, 2026.",
+      "action": "Preserve original working-paper title; identify historical naming."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 130,
+      "category": "program-level",
+      "context": "AIMR is developing not only a theory of developmental change, but a candidate architecture for specifying and testing what kinds of capacities are amplified, internalized, distributed, displaced, or reorganized through susta",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 141,
+      "category": "program-level",
+      "context": "AIMR separates what is configured, what occurs during participation, what may develop, how apparent changes are evaluated, and what trajectory ultimately results.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 143,
+      "category": "theoretical/mislabeled",
+      "context": "",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 204,
+      "category": "program-level",
+      "context": "a-card\"> Measurement stance Where mature constructs and validated measures already exist, AIMR should borrow them rather than rename them.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 215,
+      "category": "program-level",
+      "context": "For each candidate capacity, AIMR asks where the functional capacity resides and how that distribution changes over time.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 258,
+      "category": "program-level",
+      "context": "AIMR does not assume that the best developmental outcome is maximum internalization or minimum technological reliance. A more general criterion is developmental freedom : whether the resulting ecology expands",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 262,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR as design science",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 263,
+      "category": "theoretical/mislabeled",
+      "context": "",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 302,
+      "category": "program-level",
+      "context": "AIMR Research Program Return to AIMR Overview →",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/cdava/index.html",
+      "line": 302,
+      "category": "program-level",
+      "context": "AIMR Research Program Return to AIMR Overview →",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/developmental-dashboard/index.html",
+      "line": 50,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR theory → Study 0 → measurement science → developmental inference architecture → dashboard prototype → validation → intervention/feedback system",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 9,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 11,
+      "category": "program-level",
+      "context": "AIMR Experimental Program · Andrew Nixon",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 23,
+      "category": "program-level",
+      "context": "AIMR Experimental Program",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 28,
+      "category": "program-level",
+      "context": "The AIMR Experimental Program treats features of the human–AI developmental ecology as configuration variables that can be systematically varied to test their effects on participation, augmentation, candidate hu",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 34,
+      "category": "program-level",
+      "context": "The Prospective Research Program translates AIMR’s theoretical architecture into empirical studies, developmental interventions, measurement systems, and designed human–AI environments.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 46,
+      "category": "program-level",
+      "context": "Together, the projects move AIMR from the question “What happens under sustained AI participation?” toward the experimental question:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 96,
+      "category": "theoretical/mislabeled",
+      "context": "",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 107,
+      "category": "theoretical/mislabeled",
+      "context": "",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 108,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR Experimental Configurations. Model, continuity, memory, interaction protocol, tools, interface/ecology, and task are developmental-ecology configuration variables. Experiments vary these inputs, observe partici",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 172,
+      "category": "program-level",
+      "context": "the intelligence of the activity system while simultaneously reducing pressure for human retention. AIMR therefore distinguishes improved longitudinal coordination from human developmental change.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 178,
+      "category": "theoretical/mislabeled",
+      "context": "This is the most direct experimental expression of AIMR's claim that amount of AI assistance is a poor descriptor of agency; what matters is the topology of participation.",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 209,
+      "category": "program-level",
+      "context": "AIMR is particularly interested in whether tools permit participation in previously inaccessible tasks strongly enough for new capacities to develop.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 230,
+      "category": "program-level",
+      "context": "This card extends AIMR beyond linguistic performance by asking whether reflective change reorganizes participation in the lived world.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 243,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR predicts that development cannot be inferred from improvement on the activity in which assistance was originally provided.",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 271,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR as design science",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/experimental-program/index.html",
+      "line": 272,
+      "category": "theoretical/mislabeled",
+      "context": "",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/app.js",
+      "line": 37,
+      "category": "theoretical/mislabeled",
+      "context": ");const h=document.createElement('div');h.className='hub';h.innerHTML=' AIMR · organizing framework Developmental ecology Existing evidence → unresolved developmental problem → AIMR construct → candidate empirical move. <div cla",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/app.js",
+      "line": 37,
+      "category": "theoretical/mislabeled",
+      "context": "al ecology Existing evidence → unresolved developmental problem → AIMR construct → candidate empirical move. Reflective pathway articulation → differentiation → integration → coherence Practical pat",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/app.js",
+      "line": 38,
+      "category": "theoretical/mislabeled",
+      "context": "p focus';bannerText.textContent=focusN+' '+nodes[focusN].title+' → linked territories, fault lines, AIMR constructs, and study families.'}}",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/app.js",
+      "line": 55,
+      "category": "theoretical/mislabeled",
+      "context": "[0]);if(isMobile())closeMobileSheet();renderAll();syncHash();openModal();announce(nodes[id].title+' AIMR Bridge Card opened.')}function renderAll(){",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/app.js",
+      "line": 59,
+      "category": "theoretical/mislabeled",
+      "context": "pen');modal.hidden=false;modal.setAttribute('aria-hidden','false');close.focus();announce(n.title+' AIMR Bridge Card opened.')}",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/app.js",
+      "line": 60,
+      "category": "theoretical/mislabeled",
+      "context": "sList.remove('modal-open');if(refocus&&lastFocused&&lastFocused.focus)lastFocused.focus();announce('AIMR Bridge Card closed.')}",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/app.js",
+      "line": 163,
+      "category": "theoretical/mislabeled",
+      "context": "target==='constructs'?'AIMR constructs':",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 3,
+      "category": "theoretical/mislabeled",
+      "context": "atlas connecting established human–AI research territories to unresolved developmental fault lines, AIMR constructs, and candidate empirical programs.\">",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 14,
+      "category": "program-level",
+      "context": "AIMR · Interactive field map Human–AI Development Research Landscape AIMR does not occupy an empty research territory. This map shows how its developmental questions emerge",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 14,
+      "category": "program-level",
+      "context": "ield map Human–AI Development Research Landscape AIMR does not occupy an empty research territory. This map shows how its developmental questions emerge across established research traditions—and how those literatures converge on unresolved questions about capacity, agency",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 22,
+      "category": "theoretical/mislabeled",
+      "context": "AIMR constructs",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 29,
+      "category": "program-level",
+      "context": "AIMR",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 40,
+      "category": "theoretical/mislabeled",
+      "context": "ction> Study families Cross-cutting context · ethics · governance · pri",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 40,
+      "category": "theoretical/mislabeled",
+      "context": "Empirical fault line AIMR construct Study family",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 41,
+      "category": "theoretical/mislabeled",
+      "context": "iv class=\"browser-copy\">Select a territory, search all 94 subtopics, or enter through a fault line, AIMR construct, or study family. Search all 94 research subtopics </di",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 44,
+      "category": "theoretical/mislabeled",
+      "context": "pty-copy\">Select one of the twelve research territories, search for a topic, or click a fault line, AIMR construct, or study family to see where that problem recurs across the field.",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 46,
+      "category": "theoretical/mislabeled",
+      "context": "div> AIMR connections · filter field Linked territories · navigate <but",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 46,
+      "category": "theoretical/mislabeled",
+      "context": "=\"link-chips\" class=\"chips\"> Open AIMR Bridge Card",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 47,
+      "category": "program-level",
+      "context": ">Orange marks unresolved empirical/developmental fault lines. Green marks AIMR's organizing constructs. Purple marks candidate study families. Evidence-Backed Annotated Research Map The deeper literature and evidence layer is a",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 48,
+      "category": "theoretical/mislabeled",
+      "context": "ia-modal=\"true\" aria-labelledby=\"modal-title\"> AIMR Bridge Card Show relat",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 48,
+      "category": "theoretical/mislabeled",
+      "context": "\"ghost\">Show relationships × Research Focus <div class=\"block-tag\"",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/app/index.html",
+      "line": 48,
+      "category": "theoretical/mislabeled",
+      "context": "iv> AIMR Bridge Empirical Direction <details class=\"metadata",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 1,
+      "category": "theoretical/mislabeled",
+      "context": ",initial-scale=1\">",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 1,
+      "category": "theoretical/mislabeled",
+      "context": "howing where AIMR sits relative to established research territories, unresolved developmental gaps, AIMR constructs, and candidate studies.\">",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 11,
+      "category": "theoretical/mislabeled",
+      "context": "Portfolio\"> Human–AI Development Research Landscape · Research Portfolio <link rel=\"stylesheet",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 11,
+      "category": "theoretical/mislabeled",
+      "context": "howing where AIMR sits relative to established research territories, unresolved developmental gaps, AIMR constructs, and candidate studies.\"> Human–AI Development Research Landscape · Research Portfolio",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 32,
+      "category": "program-level",
+      "context": ">Interactive research artifact Human–AI Development Research Landscape AIMR does not occupy an empty research territory. It organizes a developmental problem that is appearing independently across multiple established and emerging literatures: how sustained human–AI participation changes human",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 36,
+      "category": "program-level",
+      "context": "Existing literatures study constituent mechanisms and outcomes, but AIMR reorganizes them around a longitudinal developmental object: how configured human–AI ecologies redistribute cognition and agency through recursive participation, what forms of durable change result, where those changes",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 42,
+      "category": "theoretical/mislabeled",
+      "context": "Explore AIMR constructs",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 46,
+      "category": "theoretical/mislabeled",
+      "context": "ass=\"legend-swatch orange\"> Empirical fault lines AIMR constructs Study families Cross-cutting context",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 49,
+      "category": "program-level",
+      "context": "ries, landmark literature, recent human–AI research, established findings, contested questions, and AIMR study implications. Evidence annotations will become accessible directly from territories, subtopics, and Bridge Cards as they are completed.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/human-ai-development-research-landscape/index.html",
+      "line": 53,
+      "category": "program-level",
+      "context": "his visual overview and connect territories, theories, literature, findings, contested areas, gaps, AIMR relevance, and study implications. Evidence-backed companion map currently in development.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/index.html",
+      "line": 6,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/index.html",
+      "line": 10,
+      "category": "program-level",
+      "context": "",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/index.html",
+      "line": 24,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) is the central organizing research program. The surrounding artifacts make its architecture, empirical questions, field position, and research methods inspectable.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/index.html",
+      "line": 24,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) is the central organizing research program. The surrounding artifacts make its architecture, empirical questions, field position, and research methods inspectable.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/index.html",
+      "line": 27,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) Research-program overview, developmental architecture, and design-science framework. Open →",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/index.html",
+      "line": 27,
+      "category": "program-level",
+      "context": "AI-Mediated Reflection (AIMR) Research-program overview, developmental architecture, and design-science framework. Open →",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 28,
+      "category": "program-level",
+      "context": "ecord to identify candidate developmental phenomena, reconstruct their emergence over time, sharpen AIMR’s constructs, and derive hypotheses capable of stronger empirical testing.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 36,
+      "category": "program-level",
+      "context": "AIMR faces an earlier problem: sustained generative-AI interaction is sufficiently new that some of the developmental phenomena worth measuring may not yet be adequately characterized.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 61,
+      "category": "program-level",
+      "context": "Study 0 is organized around AIMR’s most important methodological constraint:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 161,
+      "category": "program-level",
+      "context": "AIMR therefore asks:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 175,
+      "category": "program-level",
+      "context": "In this sense, Study 0 is not the endpoint of AIMR’s empirical program.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 179,
+      "category": "program-level",
+      "context": "Study 0 is designed to help AIMR make stronger claims—but also to expose where those claims fail.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 181,
+      "category": "theoretical/mislabeled",
+      "context": "ut produces no persistent, transferable changes in human capacities after scaffold withdrawal, then AIMR’s claim that these systems can function as developmental ecologies would need substantial revision.",
+      "action": "FLAG A1: preserve proposition verbatim with a scope-of-inference note."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 197,
+      "category": "program-level",
+      "context": "Did Study 0 prove AIMR?",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 209,
+      "category": "theoretical/mislabeled",
+      "context": "Using discrepancies between retrospective interpretation and prospective performance to revise AIMR constructs and operational definitions.",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 211,
+      "category": "program-level",
+      "context": "Converting the strongest Study 0 hypotheses into controlled studies within the broader AIMR Experimental Program.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 213,
+      "category": "program-level",
+      "context": "12. Role within AIMR",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 218,
+      "category": "program-level",
+      "context": "It enables AIMR to move from:",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 229,
+      "category": "program-level",
+      "context": "How AIMR converts candidate mechanisms into controlled manipulations of developmental-ecology variables.",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 231,
+      "category": "program-level",
+      "context": "AIMR Research Program",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 233,
+      "category": "program-level",
+      "context": "Return to AIMR Overview →",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "aimr-portfolio-v2.0-post-qa/portfolio-web-shell-v0.1-v2.0/research/study-0/index.html",
+      "line": 235,
+      "category": "theoretical/mislabeled",
+      "context": "Interactive map of the surrounding literatures, unresolved developmental gaps, AIMR constructs, and candidate studies.",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "app.js",
+      "line": 21,
+      "category": "theoretical/mislabeled",
+      "context": ");const h=document.createElement('div');h.className='hub';h.innerHTML=' AIMR · organizing framework Developmental ecology Existing evidence → unresolved developmental problem → AIMR construct → candidate empirical move. <div cla",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "app.js",
+      "line": 21,
+      "category": "theoretical/mislabeled",
+      "context": "al ecology Existing evidence → unresolved developmental problem → AIMR construct → candidate empirical move. Reflective pathway articulation → differentiation → integration → coherence Practical pat",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "app.js",
+      "line": 22,
+      "category": "theoretical/mislabeled",
+      "context": "p focus';bannerText.textContent=focusN+' '+nodes[focusN].title+' → linked territories, fault lines, AIMR constructs, and study families.'}}",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "app.js",
+      "line": 28,
+      "category": "theoretical/mislabeled",
+      "context": "null;activeT=Number(id.split('.')[0]);renderAll();syncHash();openModal();announce(nodes[id].title+' AIMR Bridge Card opened.')}function renderAll(){renderGrid();renderBanner();renderBrowser();renderMeta()}",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "app.js",
+      "line": 29,
+      "category": "theoretical/mislabeled",
+      "context": "})}));modal.hidden=false;modal.setAttribute('aria-hidden','false');close.focus();announce(n.title+' AIMR Bridge Card opened.')}",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "app.js",
+      "line": 30,
+      "category": "theoretical/mislabeled",
+      "context": "bute('aria-hidden','true');if(refocus&&lastFocused&&lastFocused.focus)lastFocused.focus();announce('AIMR Bridge Card closed.')}",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 3,
+      "category": "theoretical/mislabeled",
+      "context": "atlas connecting established human–AI research territories to unresolved developmental fault lines, AIMR constructs, and candidate empirical programs.\">",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 8,
+      "category": "program-level",
+      "context": "AIMR · Interactive field map Human–AI Development Research Landscape AIMR does not occupy an empty research territory. This map shows how its developmental questions emerge",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "index.html",
+      "line": 8,
+      "category": "program-level",
+      "context": "ield map Human–AI Development Research Landscape AIMR does not occupy an empty research territory. This map shows how its developmental questions emerge across established research traditions—and how those literatures converge on unresolved questions about capacity, agency",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "index.html",
+      "line": 10,
+      "category": "theoretical/mislabeled",
+      "context": "ction> Study families Cross-cutting context · ethics · governance · pri",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 10,
+      "category": "theoretical/mislabeled",
+      "context": "Empirical fault line AIMR construct Study family",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 11,
+      "category": "theoretical/mislabeled",
+      "context": "iv class=\"browser-copy\">Select a territory, search all 94 subtopics, or enter through a fault line, AIMR construct, or study family. Search all 94 research subtopics </di",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 14,
+      "category": "theoretical/mislabeled",
+      "context": "pty-copy\">Select one of the twelve research territories, search for a topic, or click a fault line, AIMR construct, or study family to see where that problem recurs across the field.",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 16,
+      "category": "theoretical/mislabeled",
+      "context": "div> AIMR connections · filter field Linked territories · navigate <but",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 16,
+      "category": "theoretical/mislabeled",
+      "context": "=\"link-chips\" class=\"chips\"> Open AIMR Bridge Card",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 17,
+      "category": "program-level",
+      "context": ">Orange marks unresolved empirical/developmental fault lines. Green marks AIMR's organizing constructs. Purple marks candidate study families. Evidence-Backed Annotated Research Map The deeper literature and evidence layer is a",
+      "action": "Migrate to project/program language appropriate to the sentence."
+    },
+    {
+      "file": "index.html",
+      "line": 18,
+      "category": "theoretical/mislabeled",
+      "context": "ia-modal=\"true\" aria-labelledby=\"modal-title\"> AIMR Bridge Card Show relat",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 18,
+      "category": "theoretical/mislabeled",
+      "context": "\"ghost\">Show relationships × Research Focus <div class=\"block-tag\"",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    },
+    {
+      "file": "index.html",
+      "line": 18,
+      "category": "theoretical/mislabeled",
+      "context": "iv> AIMR Bridge Empirical Direction <details class=\"metadata",
+      "action": "Use a descriptive component/construct title; retain substantive content."
+    }
+  ]
+}
