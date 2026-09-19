@@ -477,3 +477,4 @@ body.relationship-mode .portfolio-return{
     top:max(10px,env(safe-area-inset-top))!important;
   }
 }
+.main-title{margin:4px 0 0}

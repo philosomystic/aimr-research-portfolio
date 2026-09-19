@@ -1,4 +1,4 @@
-/* AIMR overview bridge: original production artwork, responsive live copy. */
+/* HAIDR overview bridge: original production artwork, responsive live copy. Legacy selector names remain for compatibility. */
 .aimr-bridge{margin:3rem 0 0;padding:2.5rem 0 0;border-top:1px solid var(--line);scroll-margin-top:6rem;overflow-wrap:anywhere}
 .aimr-bridge-intro{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.65fr);gap:2.5rem;align-items:start}
 .aimr-bridge-heading .eyebrow{margin:0 0 1.1rem;font-size:.75rem;line-height:1.6;letter-spacing:.14em;color:var(--accent)}
