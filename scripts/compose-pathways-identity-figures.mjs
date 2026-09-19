@@ -1,4 +1,4 @@
-// Retain the original concept figures; compose only the current identity labels.
+// Retain the original concept figures; compose only the current HAIDR identity labels.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
@@ -19,7 +19,7 @@ function compose(name, title, labels) {
   // Embed the original bytes to preserve both the artwork and its compact size.
   const data = readFileSync(resolve(dir, `${name}.webp`)).toString('base64');
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
-  <title id="title">${title} — The Human–AI Pathways Project</title>
+  <title id="title">${title} — Human–AI Developmental Research Program (HAIDR)</title>
   <desc id="desc">Original concept illustration with the current project identity. Illustrative displays are not empirical results.</desc>
   <image width="1536" height="1024" xlink:href="data:image/webp;base64,${data}"/>
   <g fill="#0b2130" font-family="${font}">${labels}</g>
@@ -29,21 +29,20 @@ function compose(name, title, labels) {
 
 compose('developmental-dashboard', 'Developmental Dashboard', `
   ${patch('brand', 130, 16, 307, 91, ['#b8bdc9', '#c5cbd4', '#c7c7c7', '#d2d0ce'])}
-  <text x="140" y="40" font-size="20">THE HUMAN–AI</text>
-  <text x="140" y="63" font-size="20">PATHWAYS PROJECT</text>
-  <text x="140" y="88" font-size="12">Human–AI Developmental Research Program</text>
+  <text x="140" y="38" font-size="16">HUMAN–AI DEVELOPMENTAL</text>
+  <text x="140" y="62" font-size="17">RESEARCH PROGRAM</text>
+  <text x="140" y="86" font-size="13">HAIDR</text>
   ${patch('screen', 395, 271, 96, 44, ['#e0e0e0', '#e3e3e3', '#e0e0e0', '#e3e3e3'])}
-  <text x="405" y="286" font-size="10">HUMAN–AI</text>
-  <text x="405" y="303" font-size="13">PATHWAYS</text>`);
+  <text x="405" y="298" font-size="16">HAIDR</text>`);
 
 compose('wayfinder', 'Wayfinder', `
   ${patch('brand-left', 102, 20, 83, 86, ['#dddad2', '#e5e3dd', '#dfdcd4', '#e6e3db'])}
   ${patch('brand-right', 185, 20, 166, 86, ['#d2d1ca', '#c0ccd4', '#dcd8d0', '#d5d7d4'])}
-  <text x="108" y="50" font-size="20">HUMAN–AI PATHWAYS</text>
+  <text x="108" y="50" font-size="21">HAIDR</text>
   <text x="108" y="74" font-size="11" letter-spacing="1.5">DEVELOPMENTAL</text>
   <text x="108" y="92" font-size="11" letter-spacing="1.5">LEARNING ENVIRONMENTS</text>`);
 
 compose('research-methodology-acquisition', 'AI-Mediated Research Methodology Acquisition', `
   ${patch('brand', 143, 911, 370, 70, ['#f6f4f0', '#f5f3ef', '#f8f7f3', '#f8f7f3'])}
-  <text x="148" y="944" font-size="27">HUMAN–AI PATHWAYS</text>
-  <text x="148" y="970" font-size="14">Human–AI Developmental Research Program</text>`);
+  <text x="148" y="942" font-size="19">HUMAN–AI DEVELOPMENTAL</text>
+  <text x="148" y="969" font-size="15">RESEARCH PROGRAM (HAIDR)</text>`);
