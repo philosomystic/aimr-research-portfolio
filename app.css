@@ -88,3 +88,4 @@ html,body{overscroll-behavior-y:auto;touch-action:pan-y;-webkit-overflow-scrolli
     overscroll-behavior:contain!important;padding-top:max(12px,env(safe-area-inset-top))!important;
     padding-bottom:max(12px,env(safe-area-inset-bottom))!important}
 }
+.main-title{margin:4px 0 0}
