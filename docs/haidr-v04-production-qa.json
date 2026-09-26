@@ -1,0 +1,534 @@
+{
+  "date": "2026-09-26",
+  "production_commit": "c9e17901188fec5a0e32098efe4b4fb2c9c751ca",
+  "base_url": "https://andrew-nixon-research-portfolio.vercel.app",
+  "pages": [
+    {
+      "path": "/about/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/about/",
+      "bytes": 8104,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/about/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/about/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/context-method/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/context-method/",
+      "bytes": 3443,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/context-method/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/context-method/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/cv/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/cv/",
+      "bytes": 16192,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/cv/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/cv/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/",
+      "bytes": 5707,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/5-minute-overview/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/5-minute-overview/",
+      "bytes": 24957,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/5-minute-overview/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/5-minute-overview/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/aimr/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/aimr/",
+      "bytes": 11091,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/aimr/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/aimr/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/collective-intelligence/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/collective-intelligence/",
+      "bytes": 4931,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/collective-intelligence/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/collective-intelligence/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/developmental-measurement-inference/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/developmental-measurement-inference/",
+      "bytes": 6758,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/developmental-measurement-inference/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/developmental-measurement-inference/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/haidr/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/haidr/",
+      "bytes": 10790,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/haidr/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/haidr/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/human-ai-development-research-landscape/app/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/app/",
+      "bytes": 9796,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/app/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/app/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/human-ai-development-research-landscape/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/",
+      "bytes": 9678,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/human-ai-scholarship-method/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-scholarship-method/",
+      "bytes": 14801,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-scholarship-method/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-scholarship-method/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/",
+      "bytes": 4676,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/neuroscience-passive-sensing/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/neuroscience-passive-sensing/",
+      "bytes": 5657,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/neuroscience-passive-sensing/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/neuroscience-passive-sensing/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/organizational-systems/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/organizational-systems/",
+      "bytes": 4982,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/organizational-systems/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/organizational-systems/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/prospective/research-methodology-acquisition/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/prospective/research-methodology-acquisition/",
+      "bytes": 6950,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/prospective/research-methodology-acquisition/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/prospective/research-methodology-acquisition/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/prospective/wayfinder/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/prospective/wayfinder/",
+      "bytes": 6411,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/prospective/wayfinder/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/prospective/wayfinder/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/scholarly-paper/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/scholarly-paper/",
+      "bytes": 4853,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/scholarly-paper/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/scholarly-paper/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/sites/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/sites/",
+      "bytes": 8379,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/sites/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/sites/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/study-0/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/study-0/",
+      "bytes": 21587,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/study-0/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/study-0/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    },
+    {
+      "path": "/research/wunderhorn/",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/wunderhorn/",
+      "bytes": 5977,
+      "canonical": "https://andrew-nixon-research-portfolio.vercel.app/research/wunderhorn/",
+      "og": "https://andrew-nixon-research-portfolio.vercel.app/research/wunderhorn/",
+      "description": true,
+      "h1": 1,
+      "missing_alt": 0,
+      "exact_html": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/about-portrait.png",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/about-portrait.png",
+      "bytes": 2318201
+    },
+    {
+      "path": "/assets/from_scholarly_performance_to_development.png",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/from_scholarly_performance_to_development.png",
+      "bytes": 1307265
+    },
+    {
+      "path": "/assets/haidr-v04/figure-1-nested-ecology.jpg",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/haidr-v04/figure-1-nested-ecology.jpg",
+      "bytes": 536980
+    },
+    {
+      "path": "/assets/haidr-v04/figure-2-multiscale-architecture.jpg",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/haidr-v04/figure-2-multiscale-architecture.jpg",
+      "bytes": 608111
+    },
+    {
+      "path": "/assets/haidr-v04/figure-3-aimr-recognition.jpg",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/haidr-v04/figure-3-aimr-recognition.jpg",
+      "bytes": 540795
+    },
+    {
+      "path": "/assets/haidr-v04/figure-4-aimr-trajectory.jpg",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/haidr-v04/figure-4-aimr-trajectory.jpg",
+      "bytes": 600791
+    },
+    {
+      "path": "/assets/haidr-v04/figure-5-configuration-trajectory.jpg",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/haidr-v04/figure-5-configuration-trajectory.jpg",
+      "bytes": 529330
+    },
+    {
+      "path": "/assets/haidr-v04/figure-6-program-architecture.jpg",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/haidr-v04/figure-6-program-architecture.jpg",
+      "bytes": 681031
+    },
+    {
+      "path": "/assets/haidr-v04/wunderhorn-hypothesis-generator.jpg",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/haidr-v04/wunderhorn-hypothesis-generator.jpg",
+      "bytes": 383154
+    },
+    {
+      "path": "/assets/overview.css",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/overview.css",
+      "bytes": 3810
+    },
+    {
+      "path": "/assets/reconciliation.css",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/reconciliation.css",
+      "bytes": 6608
+    },
+    {
+      "path": "/assets/site.js",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/site.js",
+      "bytes": 1057
+    },
+    {
+      "path": "/assets/styles.css",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/styles.css",
+      "bytes": 9340
+    },
+    {
+      "path": "/assets/topology_of_scholarly_participation.png",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/assets/topology_of_scholarly_participation.png",
+      "bytes": 1322865
+    },
+    {
+      "path": "/documents/HAIDR-Scholarly-Positioning-Paper-v0.4.pdf",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/documents/HAIDR-Scholarly-Positioning-Paper-v0.4.pdf",
+      "bytes": 1393619
+    },
+    {
+      "path": "/research/human-ai-development-research-landscape/app/app.css",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/app/app.css",
+      "bytes": 30268
+    },
+    {
+      "path": "/research/human-ai-development-research-landscape/app/app.js",
+      "status": 200,
+      "url": "https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/app/app.js",
+      "bytes": 20747
+    }
+  ],
+  "redirects": [
+    {
+      "from": "/research/human-ai-pathways/",
+      "status": 308,
+      "location": "/research/haidr/"
+    },
+    {
+      "from": "/research/human-ai-pathways",
+      "status": 308,
+      "location": "/research/human-ai-pathways/"
+    },
+    {
+      "from": "/research/experimental-program/",
+      "status": 308,
+      "location": "/research/sites/"
+    },
+    {
+      "from": "/research/experimental-program",
+      "status": 308,
+      "location": "/research/experimental-program/"
+    },
+    {
+      "from": "/research/experimental-program/wunderhorn/",
+      "status": 308,
+      "location": "/research/wunderhorn/"
+    },
+    {
+      "from": "/research/experimental-program/wunderhorn",
+      "status": 308,
+      "location": "/research/experimental-program/wunderhorn/"
+    },
+    {
+      "from": "/research/experimental-program/developmental-dashboard/",
+      "status": 308,
+      "location": "/research/developmental-measurement-inference/"
+    },
+    {
+      "from": "/research/experimental-program/developmental-dashboard",
+      "status": 308,
+      "location": "/research/experimental-program/developmental-dashboard/"
+    },
+    {
+      "from": "/research/experimental-program/research-methodology-acquisition/",
+      "status": 308,
+      "location": "/research/prospective/research-methodology-acquisition/"
+    },
+    {
+      "from": "/research/experimental-program/research-methodology-acquisition",
+      "status": 308,
+      "location": "/research/experimental-program/research-methodology-acquisition/"
+    },
+    {
+      "from": "/research/experimental-program/wayfinder/",
+      "status": 308,
+      "location": "/research/prospective/wayfinder/"
+    },
+    {
+      "from": "/research/experimental-program/wayfinder",
+      "status": 308,
+      "location": "/research/experimental-program/wayfinder/"
+    },
+    {
+      "from": "/teaching/",
+      "status": 308,
+      "location": "/cv/#teaching"
+    },
+    {
+      "from": "/teaching",
+      "status": 308,
+      "location": "/teaching/"
+    },
+    {
+      "from": "/scholarship/",
+      "status": 308,
+      "location": "/cv/#scholarship-writing"
+    },
+    {
+      "from": "/scholarship",
+      "status": 308,
+      "location": "/scholarship/"
+    },
+    {
+      "from": "/practice/",
+      "status": 308,
+      "location": "/cv/#practice-making-public-life"
+    },
+    {
+      "from": "/practice",
+      "status": 308,
+      "location": "/practice/"
+    }
+  ],
+  "source_integrity": [
+    {
+      "path": "/documents/HAIDR-Scholarly-Positioning-Paper-v0.4.pdf",
+      "status": 200,
+      "sha256": "7b627729ae8aab8d6175ad0df784871cb1f1e1d2b73a85a5c3d8e66df8b11362",
+      "match": true
+    },
+    {
+      "path": "/assets/haidr-v04/figure-1-nested-ecology.jpg",
+      "status": 200,
+      "sha256": "923688652007bfb47ca7b9f5bee19b83b07fdd88fe394cede14bd113aa312c78",
+      "match": true
+    },
+    {
+      "path": "/assets/haidr-v04/figure-2-multiscale-architecture.jpg",
+      "status": 200,
+      "sha256": "c87d9e798ce78746174a4c3ec97ba6e236908009ec31eb3754c56036534fd176",
+      "match": true
+    },
+    {
+      "path": "/assets/haidr-v04/figure-3-aimr-recognition.jpg",
+      "status": 200,
+      "sha256": "16cd2030492fc76b17983f4fcc86becf6708d6df7889e55e48953327da76b214",
+      "match": true
+    },
+    {
+      "path": "/assets/haidr-v04/figure-4-aimr-trajectory.jpg",
+      "status": 200,
+      "sha256": "c4d3c94bbea5ed5228db808274acb9fe0d6809a01e64f847bacaa9336766df7d",
+      "match": true
+    },
+    {
+      "path": "/assets/haidr-v04/figure-5-configuration-trajectory.jpg",
+      "status": 200,
+      "sha256": "b958e348479d60596861760ab5b889e225d5f5d8ebd98338839acea47c8b3408",
+      "match": true
+    },
+    {
+      "path": "/assets/haidr-v04/figure-6-program-architecture.jpg",
+      "status": 200,
+      "sha256": "ace0fa64ec7bd078c810f0baec3e680a7b76292ed1a8f229d0fbfcb3607d8026",
+      "match": true
+    },
+    {
+      "path": "/assets/haidr-v04/wunderhorn-hypothesis-generator.jpg",
+      "status": 200,
+      "sha256": "1764cd1779fe8f930b7c1182a2d04743f60180ad2ee544d67c09a6b15c32e4f1",
+      "match": true
+    }
+  ],
+  "old_domain": {
+    "status": 308,
+    "location": "https://andrew-nixon-research-portfolio.vercel.app/research/aimr/?continuity=1",
+    "path_query_preserved": true
+  },
+  "extra_routes": [
+    {
+      "path": "/__qa__/",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "path": "/research/cdava/",
+      "status": 200,
+      "expected": 200,
+      "noindex": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "expected": 200
+    }
+  ],
+  "issues": []
+}

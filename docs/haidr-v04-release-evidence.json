@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-26",
+  "production_url": "https://andrew-nixon-research-portfolio.vercel.app/",
+  "deployment_id": "dpl_BCWmcG9YjHuBjDDXD7Noz3kg5biL",
+  "deployment_state": "READY",
+  "deployment_target": "production",
+  "deployment_source": "git",
+  "commit": "c9e17901188fec5a0e32098efe4b4fb2c9c751ca",
+  "framework": "static (Vercel Other)",
+  "build_duration_seconds": 5.283,
+  "release_preview_url": "https://andrew-nixon-research-portfolio-oszq5tkgn-andrew-nixon.vercel.app/",
+  "release_preview_deployment_id": "dpl_Gs7u1qAcaSHBRGmNL7z3qfkMDrCX",
+  "release_preview_same_commit": true,
+  "release_preview_metadata_pages_passed": 21,
+  "release_preview_redirects_passed": 9,
+  "temporary_qa_harness_removed": true,
+  "production_reading_path_clicked": [
+    "/",
+    "/research/5-minute-overview/",
+    "/research/haidr/",
+    "/research/sites/",
+    "/research/aimr/",
+    "/research/study-0/"
+  ],
+  "production_reading_path_passed": true,
+  "production_screenshot": "qa/haidr-v04-production-home.jpg",
+  "project_rename": "Observed already completed after sign-in; new production domain and old-domain redirect were then configured in this task."
+}
