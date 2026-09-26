@@ -3,13 +3,48 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/research/aimr",
-      "destination": "/research/human-ai-pathways/",
+      "source": "/research/human-ai-pathways",
+      "destination": "/research/haidr/",
       "permanent": true
     },
     {
-      "source": "/research/aimr/",
-      "destination": "/research/human-ai-pathways/",
+      "source": "/research/experimental-program",
+      "destination": "/research/sites/",
+      "permanent": true
+    },
+    {
+      "source": "/research/experimental-program/wunderhorn",
+      "destination": "/research/wunderhorn/",
+      "permanent": true
+    },
+    {
+      "source": "/research/experimental-program/developmental-dashboard",
+      "destination": "/research/developmental-measurement-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/research/experimental-program/research-methodology-acquisition",
+      "destination": "/research/prospective/research-methodology-acquisition/",
+      "permanent": true
+    },
+    {
+      "source": "/research/experimental-program/wayfinder",
+      "destination": "/research/prospective/wayfinder/",
+      "permanent": true
+    },
+    {
+      "source": "/teaching",
+      "destination": "/cv/#teaching",
+      "permanent": true
+    },
+    {
+      "source": "/scholarship",
+      "destination": "/cv/#scholarship-writing",
+      "permanent": true
+    },
+    {
+      "source": "/practice",
+      "destination": "/cv/#practice-making-public-life",
       "permanent": true
     }
   ]

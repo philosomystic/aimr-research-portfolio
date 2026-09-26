@@ -1,76 +1,81 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Interactive field-positioning map showing where HAIDR sits relative to established research territories, unresolved developmental gaps, developmental constructs, and candidate studies."><meta name="theme-color" content="#f8f8f6"><script>
-(function(){
-  var q = new URLSearchParams(location.search);
-  var isMobileLandscape = window.matchMedia('(max-width: 840px)').matches;
-  if (isMobileLandscape && !q.has('desktop')) {
-    var target = '/research/human-ai-development-research-landscape/app/?from=portfolio';
-    if (location.hash) target += location.hash;
-    location.replace(target);
-  }
-})();
-</script><meta property="og:type" content="website"><meta property="og:title" content="Human–AI Development Research Landscape · Research Portfolio"><meta property="og:description" content="Interactive field-positioning map showing where HAIDR sits relative to established research territories, unresolved developmental gaps, developmental constructs, and candidate studies."><title>Human–AI Development Research Landscape · Research Portfolio</title><link rel="stylesheet" href="/assets/styles.css"><script defer src="/assets/site.js"></script>
-<style>
-.landscape-actions{display:flex;justify-content:flex-end;margin:0 0 .75rem}
-.fullscreen-cta{display:inline-flex;align-items:center;min-height:42px;padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:.78rem;font-weight:750;text-decoration:none}
-.fullscreen-cta:hover{border-color:var(--accent);color:var(--accent)}
-@media(max-width:840px){.landscape-actions{justify-content:flex-start}.fullscreen-cta{min-height:44px}}
-@media(max-width:840px){.landscape-shell{overflow:hidden}.landscape-shell iframe{display:block;width:100%;height:72dvh;min-height:560px;max-height:760px;border:0;background:var(--surface);}}
-.landscape-orientation{padding:0 0 1.6rem;border-bottom:1px solid var(--line);margin-bottom:1.25rem}
-.landscape-orientation h2{font-size:clamp(1.7rem,3.4vw,2.5rem);margin:.35rem 0 .8rem}
-.landscape-orientation>p{max-width:880px;color:var(--muted);font-family:var(--serif);font-size:1.04rem;line-height:1.7;margin:0}
-.orientation-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1.2rem}
-.orientation-card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:1rem}
-.orientation-links{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.55rem}
-.orientation-links a,.orientation-links button{display:inline-flex;align-items:center;min-height:34px;padding:.35rem .6rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:.74rem;background:var(--surface);color:inherit;cursor:pointer}
-.legend-grid{display:grid;grid-template-columns:1fr 1fr;gap:.45rem .8rem;margin-top:.6rem;font-size:.78rem;color:var(--muted)}
-.legend-grid span{display:flex;align-items:center;gap:.45rem}
-.legend-swatch{width:12px;height:12px;border-radius:3px;border:1px solid var(--line);display:inline-block;flex:0 0 auto}
-.legend-swatch.blue{background:#557b9e}.legend-swatch.orange{background:#bd7b3d}.legend-swatch.green{background:#4f846f}.legend-swatch.purple{background:#80669b}.legend-swatch.gray{background:#a1a6a2}
-.cross-context,.evidence-rollout{margin-top:.8rem;padding:.8rem 1rem;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:.82rem;line-height:1.55;color:var(--muted)}
-.cross-context strong,.evidence-rollout strong{color:var(--text)}
-@media(max-width:840px){.orientation-grid{grid-template-columns:1fr}.landscape-orientation{margin-top:.5rem}.legend-grid{grid-template-columns:1fr}.orientation-links a,.orientation-links button{min-height:40px}}
-</style></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="/">Andrew Nixon <span aria-hidden="true">·</span> Research Portfolio</a><nav class="nav" aria-label="Primary"><a href="/research/" aria-current="page">Research</a><a href="/about/">About</a><a href="/cv/">CV</a></nav></div></header><main id="main"><div class="page-head"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/research/">Research</a> / Human–AI Development Research Landscape</div><div class="eyebrow">Interactive research artifact</div><h1>Human–AI Development Research Landscape</h1><p class="lede">HAIDR does not occupy an empty research territory. It organizes a developmental problem that is appearing independently across multiple established and emerging literatures: how sustained human–AI participation changes human capacities, agency, relationships, and trajectories over time, and how the surrounding ecology should be structured to shape those changes.</p><div class="meta-row"><span class="pill">12 research territories</span><span class="pill">94 Level-2 nodes</span><span class="pill">9 empirical fault lines</span><span class="pill">7 study families</span></div></div>
-<section class="landscape-orientation" aria-labelledby="landscape-orientation-title">
-<div class="eyebrow">What this landscape is showing</div>
-<h2 id="landscape-orientation-title">A developmental ecology of human–AI interaction</h2>
-<p>Existing literatures study constituent mechanisms and outcomes, but HAIDR reorganizes them around a longitudinal developmental object: how configured human–AI ecologies redistribute cognition and agency through recursive participation, what forms of durable change result, where those changes reside, and whether they remain corrigible through contact.</p>
-<div class="orientation-grid">
-<div class="orientation-card"><div class="eyebrow">Choose a way in</div><div class="orientation-links">
-<button type="button" data-landscape-jump="territories">Browse territories</button>
-<button type="button" data-landscape-jump="browser">Search 94 subtopics</button>
-<button type="button" data-landscape-jump="faults">Explore fault lines</button>
-<button type="button" data-landscape-jump="constructs">Explore developmental constructs</button>
-<button type="button" data-landscape-jump="studies">Explore study families</button>
-</div></div>
-<div class="orientation-card"><div class="eyebrow">How to read the map</div><div class="legend-grid" aria-label="Landscape legend">
-<span><i class="legend-swatch blue"></i>Research territories</span><span><i class="legend-swatch orange"></i>Empirical fault lines</span><span><i class="legend-swatch green"></i>Developmental constructs</span><span><i class="legend-swatch purple"></i>Study families</span><span><i class="legend-swatch gray"></i>Cross-cutting context</span>
-</div></div></div>
-<div class="cross-context"><strong>Cross-cutting context:</strong> privacy/data governance · bias/fairness/equity · transparency/explainability · safety/reliability · accountability/responsibility · developmental vulnerability · dependency/manipulation · rights/dignity/autonomy · societal/institutional impact · policy/regulation</div>
-<div class="evidence-rollout"><strong>Evidence layer — in development.</strong> The landscape is being progressively connected to an evidence-backed annotated research map containing representative theories, landmark literature, recent human–AI research, established findings, contested questions, and implications for human–AI developmental research. Evidence annotations will become accessible directly from territories, subtopics, and Bridge Cards as they are completed.</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Research Landscape · Andrew Nixon</title><meta name="description" content="Established literatures and unresolved inferential interfaces across configurations, levels, and timescales."><meta name="theme-color" content="#f8f8f6"><link rel="canonical" href="https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/"><meta property="og:type" content="website"><meta property="og:site_name" content="Andrew Nixon Research Portfolio"><meta property="og:title" content="Research Landscape · Andrew Nixon"><meta property="og:description" content="Established literatures and unresolved inferential interfaces across configurations, levels, and timescales."><meta property="og:url" content="https://andrew-nixon-research-portfolio.vercel.app/research/human-ai-development-research-landscape/"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Research Landscape · Andrew Nixon"><meta name="twitter:description" content="Established literatures and unresolved inferential interfaces across configurations, levels, and timescales."><link rel="stylesheet" href="/assets/styles.css"><link rel="stylesheet" href="/assets/overview.css"><link rel="stylesheet" href="/assets/reconciliation.css"><script defer src="/assets/site.js"></script></head>
+<body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="/">Andrew Nixon <span aria-hidden="true">·</span> Research Portfolio</a><nav class="nav" aria-label="Primary"><details class="nav-group"><summary>Research</summary><div class="nav-menu"><a href="/research/">Research</a><a href="/research/5-minute-overview/">5-Minute HAIDR Overview</a><a href="/research/haidr/">HAIDR Overview</a><a href="/research/scholarly-paper/">Full Scholarly Paper</a><a href="/research/sites/">Research Sites &amp; Studies</a></div></details><details class="nav-group"><summary>Context &amp; Method</summary><div class="nav-menu"><a href="/research/human-ai-development-research-landscape/" aria-current="page">Research Landscape</a><a href="/research/human-ai-scholarship-method/">Human–AI Scholarship Method</a></div></details><details class="nav-group"><summary>About</summary><div class="nav-menu"><a href="/about/">About</a><a href="/cv/">CV</a></div></details></nav>
+</div></header>
+<main id="main"><div class="page-head"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/context-method/">Context &amp; Method</a> / <span aria-current="page">Research Landscape</span></nav>
+<div class="eyebrow">Context &amp; Method</div><h1>Research Landscape</h1>
+<p class="lede">Established literatures provide substantial parts of the problem. HAIDR is a candidate attempt to connect their partially overlapping questions and findings.</p>
+</div><article class="article"><p>The landscape does not depict an empty territory owned by HAIDR. It distinguishes established research from unresolved inferential interfaces: what warrants moving from evidence about a configuration to claims about later capability at another level or timescale?</p>
+<p>The ancestry below follows Scholarly Positioning Paper v0.4. The interactive atlas remains a broader organizing aid, not a systematic review or evidence that every proposed bridge is a confirmed gap.</p>
+</article>
+<section class="section section-first"><h2>Intellectual ancestry and inferential interfaces</h2>
+<div class="ancestry-grid"><section class="ancestry-item"><h3>Distributed cognition</h3>
+<p class="source-note">Hollan, Hutchins &amp; Kirsh (2000)</p>
+<p>People, artifacts, and environments as a unit of cognitive analysis.</p>
+<p><strong>Interface to investigate:</strong> How does recurrent participation change the capacities of particular components and the coupled system?</p>
 </section>
-<div class="landscape-actions"><a class="fullscreen-cta" href="/research/human-ai-development-research-landscape/app/?from=portfolio">Open full-screen interactive atlas →</a></div>
-<div id="landscape-embed" class="landscape-shell"><iframe id="landscape-frame" title="Human–AI Development Research Landscape interactive atlas" src="/research/human-ai-development-research-landscape/app/?embed=1" loading="eager"></iframe></div>
-<section class="section"><div class="section-head"><div><div class="eyebrow">Companion artifact</div><h2>Evidence-Backed Annotated Research Map</h2></div></div><p class="section-intro">The deeper literature-and-evidence layer will sit behind this visual overview and connect territories, theories, literature, findings, contested areas, gaps, relevance to human–AI developmental research, and study implications.</p><div class="notice"><strong>Evidence-backed companion map currently in development.</strong></div></section>
-</main><footer class="site-footer"><div class="footer-inner"><span>Andrew Nixon · Research Portfolio</span><span>© <span data-current-year></span></span></div></footer>
-<script>
-(function(){
-  const frame = document.getElementById('landscape-frame');
-  const embed = document.getElementById('landscape-embed');
-  if (!frame || !embed) return;
-  function placeMap(){
-    const header=document.querySelector('.site-header');
-    const offset=(header?header.offsetHeight:0)+8;
-    const top=window.pageYOffset+embed.getBoundingClientRect().top-offset;
-    window.scrollTo({top:Math.max(0,top),behavior:'smooth'});
-  }
-  document.querySelectorAll('[data-landscape-jump]').forEach(btn=>{
-    btn.addEventListener('click',()=>{
-      const target=btn.dataset.landscapeJump;
-      placeMap();
-      setTimeout(()=>{
-        frame.contentWindow?.postMessage({type:'aimr-jump',target},location.origin);
-      },320);
-    });
-  });
-})();
-</script></body></html>
+<section class="ancestry-item"><h3>Cognitive offloading</h3>
+<p class="source-note">Risko &amp; Gilbert (2016)</p>
+<p>External supports alter internal information-processing demands and may be adaptive.</p>
+<p><strong>Interface to investigate:</strong> Which supports produce retained competence, stable specialization, or dependence under changed conditions?</p>
+</section>
+<section class="ancestry-item"><h3>Automation and function allocation</h3>
+<p class="source-note">Parasuraman, Sheridan &amp; Wickens (2000); Bainbridge (1983); Endsley &amp; Kiris (1995)</p>
+<p>Automation reorganizes human work, supervision, and practical intervention.</p>
+<p><strong>Interface to investigate:</strong> Which repeated operations preserve or reorganize expertise, judgment, and recovery capacity?</p>
+</section>
+<section class="ancestry-item"><h3>Coactive Design</h3>
+<p class="source-note">Johnson et al. (2014)</p>
+<p>Interdependence, observability, predictability, and directability in joint activity.</p>
+<p><strong>Interface to investigate:</strong> Does a longitudinal record of operation distribution add explanatory or predictive value?</p>
+</section>
+<section class="ancestry-item"><h3>Learning versus performance</h3>
+<p class="source-note">Soderstrom &amp; Bjork (2015)</p>
+<p>Immediate performance and durable learning are distinct.</p>
+<p><strong>Interface to investigate:</strong> Which supported gains persist, transfer, or reorganize under delay and scaffold withdrawal?</p>
+</section>
+<section class="ancestry-item"><h3>Organizational AI</h3>
+<p class="source-note">Bankins et al. (2024, 2026)</p>
+<p>AI outcomes are contingent on individual, group, organizational, and wider conditions.</p>
+<p><strong>Interface to investigate:</strong> How do workflows and incentives stabilize long-term expertise and capability trajectories?</p>
+</section>
+<section class="ancestry-item"><h3>Reflective agency and self-regulated learning</h3>
+<p class="source-note">Kim et al. (2025); Xia et al. (2026)</p>
+<p>Self-understanding, goal setting, monitoring, strategy selection, feedback, and reflection.</p>
+<p><strong>Interface to investigate:</strong> Which distributions of reflective work cultivate durable human reflective agency?</p>
+</section>
+<section class="ancestry-item"><h3>Collective intelligence</h3>
+<p class="source-note">Woolley et al. (2010); de Rooij &amp; Biskjaer (2026)</p>
+<p>Group capability is distinct from individual performance; local gains can coexist with homogenization.</p>
+<p><strong>Interface to investigate:</strong> How do shared AI sources affect diversity, correlated error, expertise, and information aggregation over time?</p>
+</section>
+<section class="ancestry-item"><h3>Neuroscience and digital sensing</h3>
+<p class="source-note">Kosmyna et al. (2025, preprint); Akre et al. (2024); Leaning et al. (2024)</p>
+<p>Candidate neural and naturalistic evidence, with substantial inferential and validity limits.</p>
+<p><strong>Interface to investigate:</strong> Do neural and passive traces add useful triangulation to behavioral transfer and perturbation evidence?</p>
+</section>
+<section class="ancestry-item"><h3>Resilience and adaptive governance</h3>
+<p class="source-note">Walker et al. (2004); Folke et al. (2005)</p>
+<p>Adaptation, reorganization, distributed knowledge, and interacting institutional levels.</p>
+<p><strong>Interface to investigate:</strong> How do human–AI configurations preserve or erode capability when conditions change?</p>
+</section>
+<section class="ancestry-item"><h3>Design science</h3>
+<p class="source-note">Denyer, Tranfield &amp; van Aken (2008)</p>
+<p>Conditional propositions connect context, intervention, mechanism, and outcome.</p>
+<p><strong>Interface to investigate:</strong> Which configurations support which trajectories, for whom, at which levels and timescales?</p>
+</section>
+<section class="ancestry-item"><h3>Political-economic and institutional AI effects</h3>
+<p class="source-note">Brynjolfsson, Korinek &amp; Agrawal (2025)</p>
+<p>Distribution, decision-making power, information flows, wellbeing, and transition dynamics.</p>
+<p><strong>Interface to investigate:</strong> How do infrastructure ownership, incentives, and dependencies shape local participation and aggregate outcomes?</p>
+</section>
+</div><p><a href="/documents/HAIDR-Scholarly-Positioning-Paper-v0.4.pdf#page=32">Full bibliographic references in v0.4 (PDF)</a></p>
+</section>
+<section class="section"><h2>Interactive research atlas</h2>
+<p>Twelve research territories · 94 subtopics · candidate study contrasts. Bridge cards pose questions and possible tests; they do not establish developmental effects or claim exclusive intellectual territory.</p>
+<p><a class="button-link" href="/research/human-ai-development-research-landscape/app/">Open the full-screen interactive atlas</a></p>
+<div class="landscape-shell"><iframe title="Research landscape interactive atlas" src="/research/human-ai-development-research-landscape/app/?embed=1" data-auto-height="aimr-landscape" loading="lazy"></iframe></div><p class="source-note">The detailed evidence annotation layer remains in development. The paper provides the current scholarly argument and references.</p>
+</section>
+<nav class="related-links" aria-label="Related research"><a href="/research/scholarly-paper/">Full Scholarly Paper →</a><a href="/research/sites/">Research Sites &amp; Studies →</a><a href="/research/human-ai-scholarship-method/">Human–AI Scholarship Method →</a></nav>
+</main>
+<footer class="site-footer"><div class="footer-inner"><span>Andrew Nixon · Research Portfolio</span><span>© <span data-current-year>2026</span></span></div></footer>
+</body></html>

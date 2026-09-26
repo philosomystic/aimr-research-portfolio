@@ -1,20 +1,13 @@
-# Portfolio Web Shell v0.1 + Human–AI Development Research Landscape V2.0
+# Andrew Nixon Research Portfolio
 
-Static, deployable research portfolio.
+Static HTML/CSS/JavaScript portfolio implementing the September 2026 HAIDR v0.4 program-state reconciliation.
 
-The canonical V2.0 landscape is integrated at:
-`/research/human-ai-development-research-landscape/app/`
+The Vercel project uses this directory as its root. No build command or package installation is required. `vercel.json` defines legacy route redirects.
 
-Production assets:
-- `app/index.html`
-- `app/app.css`
-- `app/app.js`
-- `app/corpus.json` — canonical 12-territory / 94-card bridge corpus
+- Current research hub: `/research/haidr/`
+- Frozen short introduction: `/research/5-minute-overview/`
+- Full unchanged paper: `/research/scholarly-paper/`
+- Research sites, study, measurement work, and prospective interventions: `/research/sites/`
+- Context: `/research/human-ai-development-research-landscape/` and `/research/human-ai-scholarship-method/`
 
-No build command is required for Vercel.
-
-
-## Production QA
-
-Browser QA is performed against the exact static production build in Chromium at desktop and mobile viewport sizes. The landscape app uses direct JSON loading (with CDN compression), keyboard territory navigation, focus-managed dialog behavior, responsive touch targets, and a full-screen route in addition to the portfolio embed.
-deployment trigger 2
+Source integrity and route disposition audits are stored in the repository `docs/` directory. Older filenames and documents there are historical provenance.

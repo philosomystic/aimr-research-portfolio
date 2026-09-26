@@ -82,7 +82,7 @@
     "F6": "friction reduction → development",
     "F7": "memory → developmental continuity",
     "F8": "initiative → agency / responsibility",
-    "F9": "coherence → corrigibility by contact"
+    "F9": "organization → corrigibility / perturbation"
   },
   "studyFamilies": {
     "S1": "Recursive scaffolding / withdrawal / transfer",
@@ -102,13 +102,13 @@
     "topology of participation",
     "developmental continuity",
     "productive friction",
-    "corrigibility by contact",
+    "corrigibility",
     "developmental ecology",
-    "recursive participation",
-    "co-intelligent enaction",
-    "temporal initiative",
+    "recurrent participation",
+    "coupled capability",
+    "initiative allocation",
     "responsibility allocation",
-    "embodiment/world contact"
+    "embodied and ecological context"
   ],
   "nodes": {
     "1.1": {
@@ -118,7 +118,7 @@
       "gap": "Which interaction architectures merely improve momentary usability, and which reorganize users' subsequent capacities and patterns of participation?",
       "aimr": [
         "developmental ecology",
-        "recursive participation",
+        "recurrent participation",
         "topology of participation"
       ],
       "empirical": "Hold model/task constant while varying AI role and interaction protocol; test downstream changes in independent judgment, strategy, and participation.",
@@ -144,7 +144,7 @@
       "aimr": [
         "differentiation",
         "coherence",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Compare explanation regimes and test delayed transfer to unfamiliar systems, misleading outputs, and scaffold-free evaluation.",
       "faults": [
@@ -169,7 +169,7 @@
       "aimr": [
         "agency",
         "responsibility allocation",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Manipulate contestability and override affordances; measure actual intervention, responsibility attribution, calibration, and independent decision quality.",
       "faults": [
@@ -191,7 +191,7 @@
       "focus": "Systems that change through active human correction, preference signaling, steering, or iterative feedback.",
       "gap": "How does repeatedly shaping the AI alter the human's own discrimination, judgment, and expectations?",
       "aimr": [
-        "recursive participation",
+        "recurrent participation",
         "differentiation",
         "developmental continuity"
       ],
@@ -242,7 +242,7 @@
       "gap": "Short-term satisfaction and performance may miss whether interaction is developmentally beneficial, neutral, or erosive.",
       "aimr": [
         "developmental continuity",
-        "corrigibility by contact",
+        "corrigibility",
         "agency"
       ],
       "empirical": "Extend evaluation beyond session outcomes to transfer, persistence, scaffold withdrawal, and longitudinal changes in agency or capacity.",
@@ -268,7 +268,7 @@
       "aimr": [
         "differentiation",
         "integration",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Track mental-model change longitudinally and perturb users with failures, contradictory evidence, and model changes.",
       "faults": [
@@ -290,7 +290,7 @@
       "focus": "How text, speech, vision, gesture, embodied interfaces, and other modalities alter human–AI interaction.",
       "gap": "Do different interfaces reorganize which human capacities remain exercised versus transferred to the system?",
       "aimr": [
-        "embodiment/world contact",
+        "embodied and ecological context",
         "topology of participation",
         "developmental ecology"
       ],
@@ -315,7 +315,7 @@
       "focus": "Conditions under which human–AI combinations outperform either participant alone.",
       "gap": "Superior joint performance does not establish whether the human develops, the coupled system stabilizes a capability, or AI simply supplies the advantage.",
       "aimr": [
-        "co-intelligent enaction",
+        "coupled capability",
         "topology of participation",
         "developmental continuity"
       ],
@@ -338,7 +338,7 @@
       "id": "2.2",
       "title": "Task Allocation & Division of Cognitive Labor",
       "focus": "Which subtasks should be performed by humans, AI, or jointly.",
-      "gap": "Equal amounts of AI assistance can produce radically different developmental consequences depending on what cognition is delegated.",
+      "gap": "How do different distributions of cognitive operations affect later capability when the amount of assistance is comparable?",
       "aimr": [
         "topology of participation",
         "productive friction",
@@ -366,7 +366,7 @@
       "focus": "Collaboration in which either human or AI can initiate, redirect, or hand off activity.",
       "gap": "How does sustained initiative allocation shape human initiation, responsibility, vigilance, and experienced authorship?",
       "aimr": [
-        "temporal initiative",
+        "initiative allocation",
         "agency",
         "topology of participation"
       ],
@@ -388,7 +388,7 @@
       "id": "2.4",
       "title": "Shared Mental Models & Team Cognition",
       "focus": "Alignment of task representations, expectations, roles, and strategies across human–AI teams.",
-      "gap": "Is apparent alignment genuine shared understanding, human adaptation to AI, or merely smooth coordination without internal development?",
+      "gap": "How can shared understanding, human adaptation, and smooth coordination be distinguished, and what persists under changed conditions?",
       "aimr": [
         "integration",
         "coherence",
@@ -416,7 +416,7 @@
       "focus": "How humans and AI exchange information and coordinate actions toward shared goals.",
       "gap": "Which communication patterns cultivate better human sense-making and agency versus encourage passive compliance?",
       "aimr": [
-        "recursive participation",
+        "recurrent participation",
         "articulation",
         "agency"
       ],
@@ -442,7 +442,7 @@
       "gap": "Can repeated team success produce overgeneralized trust that outlasts warranted system competence?",
       "aimr": [
         "coherence",
-        "corrigibility by contact",
+        "corrigibility",
         "developmental continuity"
       ],
       "empirical": "Longitudinally vary reliability and task domain; test recalibration after success histories and failure perturbations.",
@@ -466,7 +466,7 @@
       "gap": "Team improvement can occur without corresponding human capacity development, or vice versa.",
       "aimr": [
         "developmental continuity",
-        "co-intelligent enaction",
+        "coupled capability",
         "topology of participation"
       ],
       "empirical": "Track coupled and independent capabilities separately across repeated collaboration and role changes.",
@@ -490,9 +490,9 @@
       "focus": "Emergent intelligence distributed across humans, AI systems, and sometimes institutions.",
       "gap": "What makes collective AI-supported capability stable, corrigible, and beneficial rather than merely high-performing?",
       "aimr": [
-        "co-intelligent enaction",
+        "coupled capability",
         "developmental ecology",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Compare collective architectures on robustness, correction, transfer, member development, and environmental consequences.",
       "faults": [
@@ -568,7 +568,7 @@
       "focus": "Excessive acceptance of automated recommendations despite contrary evidence or system error.",
       "gap": "Does repeated reliance change users' independent judgment, vigilance, or willingness to challenge AI?",
       "aimr": [
-        "corrigibility by contact",
+        "corrigibility",
         "agency",
         "developmental continuity"
       ],
@@ -596,7 +596,7 @@
       "aimr": [
         "differentiation",
         "coherence",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Manipulate system reliability, confidence cues, and verification cost; test whether calibrated reliance persists under novel conditions.",
       "faults": [
@@ -646,7 +646,7 @@
       "gap": "What capabilities degrade when humans become supervisors, and can productive participation be preserved without inefficient manual work?",
       "aimr": [
         "productive friction",
-        "temporal initiative",
+        "initiative allocation",
         "agency"
       ],
       "empirical": "Vary active participation during automation and test recovery performance, anomaly detection, and independent execution.",
@@ -698,7 +698,7 @@
       "focus": "AI systems providing individualized instruction, practice, explanation, and feedback.",
       "gap": "High supported learning performance does not establish independent capacity after tutoring ends.",
       "aimr": [
-        "recursive participation",
+        "recurrent participation",
         "developmental continuity",
         "productive friction"
       ],
@@ -774,7 +774,7 @@
       "gap": "AI-supported gains may remain task-specific or scaffold-specific rather than reorganizing broader capacity.",
       "aimr": [
         "developmental continuity",
-        "corrigibility by contact",
+        "corrigibility",
         "agency"
       ],
       "empirical": "Use novel tasks, context shifts, delayed testing, and AI removal to distinguish performance from development.",
@@ -800,7 +800,7 @@
       "aimr": [
         "differentiation",
         "coherence",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Gradually remove evaluative feedback and test independent error detection and revision.",
       "faults": [
@@ -873,8 +873,8 @@
       "focus": "Learning through interaction with peers, tutors, or artificial partners.",
       "gap": "Artificial companions may scaffold reflection while becoming permanent substitutes for independent or human-social learning.",
       "aimr": [
-        "recursive participation",
-        "co-intelligent enaction",
+        "recurrent participation",
+        "coupled capability",
         "developmental continuity"
       ],
       "empirical": "Compare transient versus persistent AI companions and examine independent, collaborative, and relational outcomes.",
@@ -951,7 +951,7 @@
       "gap": "Does AI teach adaptive regulation or become the regulator?",
       "aimr": [
         "agency",
-        "recursive participation",
+        "recurrent participation",
         "developmental continuity"
       ],
       "empirical": "Manipulate whether strategy changes are AI-suggested or self-generated and test independent adaptation after withdrawal.",
@@ -1001,7 +1001,7 @@
       "gap": "Fluent AI responses may improve confidence without improving warranted understanding.",
       "aimr": [
         "coherence",
-        "corrigibility by contact",
+        "corrigibility",
         "agency"
       ],
       "empirical": "Manipulate AI confidence cues and challenge; measure calibration accuracy and persistence after AI removal.",
@@ -1024,7 +1024,7 @@
       "aimr": [
         "differentiation",
         "integration",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Longitudinally track epistemic judgments under different AI argumentation and evidence protocols.",
       "faults": [
@@ -1048,7 +1048,7 @@
       "aimr": [
         "differentiation",
         "coherence",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Manipulate evidence availability and reasoning prompts; fade support and test spontaneous source evaluation on novel claims.",
       "faults": [
@@ -1145,9 +1145,9 @@
       "id": "6.3",
       "title": "Initiative Allocation & Shared Control",
       "focus": "Distribution of action initiation and control between human and AI.",
-      "gap": "When AI repeatedly initiates, humans may retain formal control while losing temporal initiative.",
+      "gap": "When AI repeatedly initiates, humans may retain formal control while losing initiative allocation.",
       "aimr": [
-        "temporal initiative",
+        "initiative allocation",
         "agency",
         "topology of participation"
       ],
@@ -1171,7 +1171,7 @@
       "focus": "AI systems capable of proactively planning, monitoring, or sustaining action across time.",
       "gap": "What happens to persistence, monitoring, troubleshooting, and authorship when long-duration initiative migrates to AI?",
       "aimr": [
-        "temporal initiative",
+        "initiative allocation",
         "responsibility allocation",
         "productive friction"
       ],
@@ -1197,7 +1197,7 @@
       "gap": "Oversight may fail developmentally if humans cease maintaining the expertise or vigilance necessary to exercise control.",
       "aimr": [
         "agency",
-        "corrigibility by contact",
+        "corrigibility",
         "responsibility allocation"
       ],
       "empirical": "Test whether different oversight architectures preserve anomaly detection, intervention competence, and responsibility.",
@@ -1298,7 +1298,7 @@
       "aimr": [
         "developmental continuity",
         "coherence",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Track anthropomorphic framing longitudinally and test responses to contradictory system behavior.",
       "faults": [
@@ -1320,9 +1320,9 @@
       "focus": "Experience of AI as a socially present interaction partner.",
       "gap": "Does repeated social response to AI alter social cognition or merely produce context-specific engagement?",
       "aimr": [
-        "recursive participation",
+        "recurrent participation",
         "developmental continuity",
-        "co-intelligent enaction"
+        "coupled capability"
       ],
       "empirical": "Compare socially framed and tool-framed systems across repeated interaction and social transfer tasks.",
       "faults": [
@@ -1345,7 +1345,7 @@
       "gap": "AI intimacy may support articulation and recognition while also creating dependency or displacing human relationships.",
       "aimr": [
         "articulation",
-        "recursive participation",
+        "recurrent participation",
         "developmental continuity"
       ],
       "empirical": "Track disclosure, integration, human relational transfer, and dependency under different continuity conditions.",
@@ -1369,7 +1369,7 @@
       "gap": "When does support enable regulation and agency versus reinforce self-confirming coherence or avoidance of difficult contact?",
       "aimr": [
         "coherence",
-        "corrigibility by contact",
+        "corrigibility",
         "agency"
       ],
       "empirical": "Compare validating, challenging, and mixed-support protocols and examine downstream coping and real-world participation.",
@@ -1393,7 +1393,7 @@
       "gap": "Can stable AI relationships become developmentally generative without becoming substitutive or dependency-producing?",
       "aimr": [
         "developmental continuity",
-        "recursive participation",
+        "recurrent participation",
         "agency"
       ],
       "empirical": "Longitudinally compare attachment trajectories with human-social participation, agency, and scaffold dependence.",
@@ -1468,7 +1468,7 @@
       "gap": "AI may alter developmental ecologies indirectly by reorganizing where emotional and social participation occurs.",
       "aimr": [
         "developmental ecology",
-        "corrigibility by contact",
+        "corrigibility",
         "developmental continuity"
       ],
       "empirical": "Examine how sustained AI relationships change human relational behavior and environmental feedback.",
@@ -1494,7 +1494,7 @@
       "gap": "Immediate interaction effects cannot establish whether trajectories stabilize, compound, reverse, or disappear.",
       "aimr": [
         "developmental continuity",
-        "recursive participation",
+        "recurrent participation",
         "agency"
       ],
       "empirical": "Track repeated interaction across time; separate human, coupled, and ecological outcomes; test robustness under change.",
@@ -1518,7 +1518,7 @@
       "gap": "Conversational continuity is not necessarily developmental continuity.",
       "aimr": [
         "developmental continuity",
-        "recursive participation",
+        "recurrent participation",
         "developmental ecology"
       ],
       "empirical": "Compare stateless, history-based, summarized, and curated continuity while holding model/task constant.",
@@ -1542,7 +1542,7 @@
       "aimr": [
         "developmental continuity",
         "developmental ecology",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Manipulate memory architecture and test developmental outcomes alongside exposure and error-propagation risks.",
       "faults": [
@@ -1567,7 +1567,7 @@
       "aimr": [
         "developmental ecology",
         "developmental continuity",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Compare personalization regimes differing in challenge, novelty, and user-state modeling.",
       "faults": [
@@ -1590,8 +1590,8 @@
       "focus": "Reciprocal change in human and AI behavior through sustained interaction.",
       "gap": "System adaptation can mask whether the human is also changing or merely being increasingly accommodated.",
       "aimr": [
-        "recursive participation",
-        "co-intelligent enaction",
+        "recurrent participation",
+        "coupled capability",
         "developmental continuity"
       ],
       "empirical": "Separately estimate model adaptation, human adaptation, and coupled capability across repeated interaction.",
@@ -1643,7 +1643,7 @@
       "aimr": [
         "developmental continuity",
         "responsibility allocation",
-        "temporal initiative"
+        "initiative allocation"
       ],
       "empirical": "Track changes from tool → advisor → collaborator → agent and associated human agency outcomes.",
       "faults": [
@@ -1668,7 +1668,7 @@
       "gap": "Developmentally useful continuity may require selective memory rather than maximal retention.",
       "aimr": [
         "developmental continuity",
-        "corrigibility by contact",
+        "corrigibility",
         "developmental ecology"
       ],
       "empirical": "Compare full-history, compressed, curated, and forgetting-aware memory architectures.",
@@ -1719,7 +1719,7 @@
       "gap": "AI co-regulation may either scaffold self-regulation or become a persistent substitute for it.",
       "aimr": [
         "developmental continuity",
-        "recursive participation",
+        "recurrent participation",
         "agency"
       ],
       "empirical": "Compare co-regulatory AI with fading versus persistent support across developmental stages.",
@@ -1771,7 +1771,7 @@
       "gap": "Artificial relationships may supplement or reorganize developmental exposure to human social complexity.",
       "aimr": [
         "developmental ecology",
-        "embodiment/world contact",
+        "embodied and ecological context",
         "developmental continuity"
       ],
       "empirical": "Compare AI-mediated and human-social interaction effects on social transfer and relationship formation.",
@@ -1795,7 +1795,7 @@
       "gap": "Generative AI is becoming a new mediational layer through which norms, practices, and cognition are organized.",
       "aimr": [
         "developmental ecology",
-        "recursive participation",
+        "recurrent participation",
         "agency"
       ],
       "empirical": "Study how AI-mediated practices alter participation and capability across communities or institutions.",
@@ -1816,11 +1816,11 @@
       "id": "9.6",
       "title": "Developmental Systems & Dynamic Systems",
       "focus": "Development as emergent from interacting capacities, contexts, histories, and environments.",
-      "gap": "Human–AI research often isolates model effects despite development arising from configured systems.",
+      "gap": "Which configurational and temporal variables add explanatory value beyond existing developmental and sociotechnical models?",
       "aimr": [
         "developmental ecology",
         "developmental continuity",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Model longitudinal human–AI change as multivariate trajectories rather than simple treatment effects.",
       "faults": [
@@ -1873,7 +1873,7 @@
       "aimr": [
         "productive friction",
         "agency",
-        "embodiment/world contact"
+        "embodied and ecological context"
       ],
       "empirical": "Compare assistance designs on independence, retained competence, wellbeing, and long-term reliance.",
       "faults": [
@@ -1897,7 +1897,7 @@
       "focus": "Cognition whose functional organization extends through external artifacts or systems.",
       "gap": "If AI becomes functionally constitutive of cognition, independent human capacity may cease to be the only relevant developmental locus.",
       "aimr": [
-        "co-intelligent enaction",
+        "coupled capability",
         "topology of participation",
         "developmental continuity"
       ],
@@ -1925,7 +1925,7 @@
       "aimr": [
         "topology of participation",
         "developmental ecology",
-        "co-intelligent enaction"
+        "coupled capability"
       ],
       "empirical": "Map information transformation and agency across the system longitudinally.",
       "faults": [
@@ -1948,8 +1948,8 @@
       "focus": "Dependence of cognition on bodily capacities and sensorimotor experience.",
       "gap": "Linguistically coherent AI interaction may not transfer into embodied competence or action.",
       "aimr": [
-        "embodiment/world contact",
-        "corrigibility by contact",
+        "embodied and ecological context",
+        "corrigibility",
         "developmental ecology"
       ],
       "empirical": "Require transfer from linguistic interaction to embodied, situated, or behavioral tasks.",
@@ -1973,9 +1973,9 @@
       "focus": "Cognition emerging through ongoing embodied action and sense-making.",
       "gap": "What changes when language models participate in sense-making without sharing human embodiment?",
       "aimr": [
-        "recursive participation",
-        "co-intelligent enaction",
-        "embodiment/world contact"
+        "recurrent participation",
+        "coupled capability",
+        "embodied and ecological context"
       ],
       "empirical": "Compare reflective dialogue with subsequent real-world enactment and environmental feedback.",
       "faults": [
@@ -1999,8 +1999,8 @@
       "gap": "AI may abstract cognition away from the contexts that make judgment competent and corrigible.",
       "aimr": [
         "developmental ecology",
-        "embodiment/world contact",
-        "corrigibility by contact"
+        "embodied and ecological context",
+        "corrigibility"
       ],
       "empirical": "Compare context-rich versus decontextualized AI support and test situated transfer.",
       "faults": [
@@ -2022,8 +2022,8 @@
       "focus": "Meaning and coordinated action emerging through interaction among agents.",
       "gap": "Can human–AI interaction generate stable participatory capacities without falsely equating linguistic fluency with reciprocal human sense-making?",
       "aimr": [
-        "recursive participation",
-        "co-intelligent enaction",
+        "recurrent participation",
+        "coupled capability",
         "agency"
       ],
       "empirical": "Examine coordination, correction, and transfer across repeated joint-action tasks.",
@@ -2074,7 +2074,7 @@
       "gap": "System optimization can conceal deterioration or displacement of human agency and capacity.",
       "aimr": [
         "developmental ecology",
-        "co-intelligent enaction",
+        "coupled capability",
         "topology of participation"
       ],
       "empirical": "Evaluate human, coupled, and environmental outcomes separately within the same system.",
@@ -2150,7 +2150,7 @@
       "focus": "Joint ideation and production in creative work.",
       "gap": "AI may expand the creative possibility space while reducing independent generative effort or self-efficacy.",
       "aimr": [
-        "co-intelligent enaction",
+        "coupled capability",
         "productive friction",
         "agency"
       ],
@@ -2179,7 +2179,7 @@
       "aimr": [
         "articulation",
         "integration",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Compare AI rewriting with elicited self-revision and test later independent articulation.",
       "faults": [
@@ -2278,7 +2278,7 @@
       "gap": "Repeated persuasive interaction may alter epistemic standards, agency, or susceptibility beyond individual encounters.",
       "aimr": [
         "coherence",
-        "corrigibility by contact",
+        "corrigibility",
         "developmental continuity"
       ],
       "empirical": "Test repeated exposure to aligned versus challenging AI persuasion and later independent judgment.",
@@ -2326,7 +2326,7 @@
       "focus": "Capacity to critically analyze AI assumptions, power, consequences, and limitations.",
       "gap": "Critical awareness may remain abstract unless it becomes enacted during actual AI participation.",
       "aimr": [
-        "corrigibility by contact",
+        "corrigibility",
         "agency",
         "developmental ecology"
       ],
@@ -2351,7 +2351,7 @@
       "focus": "Competence in intentionally eliciting useful AI behavior through interaction.",
       "gap": "Better prompting can increase system performance without improving underlying human reasoning or judgment.",
       "aimr": [
-        "recursive participation",
+        "recurrent participation",
         "topology of participation",
         "agency"
       ],
@@ -2378,7 +2378,7 @@
       "aimr": [
         "differentiation",
         "coherence",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Train evaluation strategies, fade support, and test spontaneous competent use across novel models, tasks, and contexts.",
       "faults": [
@@ -2402,7 +2402,7 @@
       "gap": "Users may know abstractly that AI is fallible while behaving as though particular fluent outputs are reliable.",
       "aimr": [
         "coherence",
-        "corrigibility by contact",
+        "corrigibility",
         "agency"
       ],
       "empirical": "Test whether calibration competence transfers from explicit training to high-fluency, low-salience failure contexts.",
@@ -2427,7 +2427,7 @@
       "aimr": [
         "developmental ecology",
         "agency",
-        "corrigibility by contact"
+        "corrigibility"
       ],
       "empirical": "Use situated dilemmas and longitudinal projects to test enactment rather than recall of ethical principles.",
       "faults": [
@@ -2453,7 +2453,7 @@
       "gap": "High self-efficacy can reflect either genuine competence or overconfidence produced by successful AI-supported performance.",
       "aimr": [
         "agency",
-        "corrigibility by contact",
+        "corrigibility",
         "developmental continuity"
       ],
       "empirical": "Compare confidence with independent transfer, calibration, and appropriate help-seeking after scaffold reduction.",

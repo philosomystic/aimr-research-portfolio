@@ -1,0 +1,107 @@
+[
+  {
+    "old_route": "/404.html",
+    "disposition": "KEEP + new navigation",
+    "title": "Page not found · Research Portfolio"
+  },
+  {
+    "old_route": "/about/",
+    "disposition": "REFRAME current scholarly identity",
+    "title": "About · Andrew Nixon"
+  },
+  {
+    "old_route": "/cv/",
+    "disposition": "REFRAME current research and working documents; retain history",
+    "title": "CV · Andrew Nixon"
+  },
+  {
+    "old_route": "/",
+    "disposition": "REBUILD",
+    "title": "HAIDR · Andrew Nixon"
+  },
+  {
+    "old_route": "/practice/",
+    "disposition": "KEEP redirect to CV anchor",
+    "title": "Practice, Making & Public Life · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/5-minute-overview/",
+    "disposition": "REBUILD — exact frozen DOCX content",
+    "title": "Human–AI Developmental Research · 5-Minute HAIDR Overview · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/aimr/",
+    "disposition": "REBUILD — substantive AIMR site",
+    "title": "HAIDR · Research overview"
+  },
+  {
+    "old_route": "/research/cdava/",
+    "disposition": "DEPRECATE — unlisted provenance pointer",
+    "title": "Candidate Developmental & Augmentation Variable Architecture · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/experimental-program/developmental-dashboard/",
+    "disposition": "MOVE + REFRAME → /research/developmental-measurement-inference/",
+    "title": "Developmental Dashboard · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/experimental-program/",
+    "disposition": "REDIRECT → /research/sites/",
+    "title": "Experimental Program · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/experimental-program/research-methodology-acquisition/",
+    "disposition": "MOVE → /research/prospective/research-methodology-acquisition/",
+    "title": "AI-Mediated Research Methodology Acquisition · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/experimental-program/wayfinder/",
+    "disposition": "MOVE + REFRAME → /research/prospective/wayfinder/",
+    "title": "Wayfinder · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/experimental-program/wunderhorn/",
+    "disposition": "MOVE + REFRAME → /research/wunderhorn/",
+    "title": "Wunderhorn Project · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/human-ai-development-research-landscape/app/",
+    "disposition": "REFRAME — preserve interactive atlas; qualify bridges",
+    "title": "Human–AI Development Research Landscape"
+  },
+  {
+    "old_route": "/research/human-ai-development-research-landscape/",
+    "disposition": "REFRAME — established ancestry and inferential interfaces",
+    "title": "Human–AI Development Research Landscape · Research Portfolio"
+  },
+  {
+    "old_route": "/research/human-ai-pathways/",
+    "disposition": "REDIRECT → /research/haidr/",
+    "title": "Human–AI Developmental Research Program (HAIDR) · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/human-ai-scholarship-method/",
+    "disposition": "KEEP + boundary clarification",
+    "title": "Human–AI Scholarship Method · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/",
+    "disposition": "REBUILD",
+    "title": "Research · Andrew Nixon"
+  },
+  {
+    "old_route": "/research/study-0/",
+    "disposition": "REFRAME — retain study detail and frozen boundary",
+    "title": "Study 0 · Andrew Nixon"
+  },
+  {
+    "old_route": "/scholarship/",
+    "disposition": "KEEP redirect to CV anchor",
+    "title": "Scholarship & Writing · Andrew Nixon"
+  },
+  {
+    "old_route": "/teaching/",
+    "disposition": "KEEP redirect to CV anchor",
+    "title": "Teaching · Andrew Nixon"
+  }
+]

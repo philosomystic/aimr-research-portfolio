@@ -1,0 +1,42 @@
+{
+  "scholarly_pdf_sha256": "7b627729ae8aab8d6175ad0df784871cb1f1e1d2b73a85a5c3d8e66df8b11362",
+  "overview_docx_sha256": "508243b390a9b3bb8a4d4a7babe7342aac9b5355a362d626fadbe7f396179611",
+  "figures": {
+    "ecology": {
+      "source": "7359D2DF-4972-432A-99E8-07650E7865A4.jpeg",
+      "destination": "assets/haidr-v04/figure-1-nested-ecology.jpg",
+      "sha256": "923688652007bfb47ca7b9f5bee19b83b07fdd88fe394cede14bd113aa312c78"
+    },
+    "multiscale": {
+      "source": "492ED7B0-BBCA-42E8-A39F-22C0419C3FA9.jpeg",
+      "destination": "assets/haidr-v04/figure-2-multiscale-architecture.jpg",
+      "sha256": "c87d9e798ce78746174a4c3ec97ba6e236908009ec31eb3754c56036534fd176"
+    },
+    "loop": {
+      "source": "81ADA4A3-1189-4119-B05B-CEE17BEDE4B7.jpeg",
+      "destination": "assets/haidr-v04/figure-3-aimr-recognition.jpg",
+      "sha256": "16cd2030492fc76b17983f4fcc86becf6708d6df7889e55e48953327da76b214"
+    },
+    "trajectory": {
+      "source": "BD34FABE-1B13-42D7-A193-5FE143329CD6.jpeg",
+      "destination": "assets/haidr-v04/figure-4-aimr-trajectory.jpg",
+      "sha256": "c4d3c94bbea5ed5228db808274acb9fe0d6809a01e64f847bacaa9336766df7d"
+    },
+    "design": {
+      "source": "D13AB3C6-A51F-4F36-B52D-C3B37226B095.jpeg",
+      "destination": "assets/haidr-v04/figure-5-configuration-trajectory.jpg",
+      "sha256": "b958e348479d60596861760ab5b889e225d5f5d8ebd98338839acea47c8b3408"
+    },
+    "program": {
+      "source": "48124431-F266-4002-B445-73BA1A16C256.jpeg",
+      "destination": "assets/haidr-v04/figure-6-program-architecture.jpg",
+      "sha256": "ace0fa64ec7bd078c810f0baec3e680a7b76292ed1a8f229d0fbfcb3607d8026"
+    },
+    "wunderhorn": {
+      "source": "C28F952D-25BF-4060-B26C-2266967A506F.jpeg",
+      "destination": "assets/haidr-v04/wunderhorn-hypothesis-generator.jpg",
+      "sha256": "1764cd1779fe8f930b7c1182a2d04743f60180ad2ee544d67c09a6b15c32e4f1"
+    }
+  },
+  "source_precedence": "Supplied Scholarly Positioning Paper v0.4 > supplied frozen overview > user program-state reconciliation > former site."
+}
