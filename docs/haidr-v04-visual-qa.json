@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-26",
+  "preview_commit": "729dd176531c055a5b87bc9d39f30ab3748b8fbd",
+  "widths": [
+    1180,
+    390
+  ],
+  "canonical_destinations_inspected": 21,
+  "narrow_navigation_width": 320,
+  "scope": "Browser frame CSS widths; not physical-device emulation",
+  "checks": [
+    "Major page layouts",
+    "Long headings",
+    "Cards and figures",
+    "Table wrapping",
+    "CV link wrapping",
+    "Mobile atlas search and detail dialog",
+    "Escape closes atlas dialog",
+    "Navigation menu bounds and Escape focus",
+    "No site-origin console errors"
+  ],
+  "fixes": [
+    "Research landing duplicate breadcrumb",
+    "About duplicate breadcrumb",
+    "Context & Method misplaced Research breadcrumb",
+    "CV breadcrumb label",
+    "Provider redirect trailing-slash matching"
+  ],
+  "limitations": [
+    "Historical ULSF external article returned HTTP 406"
+  ]
+}
