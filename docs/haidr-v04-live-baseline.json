@@ -1,0 +1,149 @@
+[
+  {
+    "route": "/404.html",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/404/",
+    "title": "Page not found \u00b7 Research Portfolio",
+    "bytes": 1459
+  },
+  {
+    "route": "/about/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/about/",
+    "title": "About \u00b7 Andrew Nixon",
+    "bytes": 6679
+  },
+  {
+    "route": "/cv/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/cv/",
+    "title": "CV \u00b7 Andrew Nixon",
+    "bytes": 16223
+  },
+  {
+    "route": "/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/",
+    "title": "HAIDR \u00b7 Andrew Nixon",
+    "bytes": 4515
+  },
+  {
+    "route": "/practice/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/practice/",
+    "title": "Practice, Making & Public Life \u00b7 Andrew Nixon",
+    "bytes": 465
+  },
+  {
+    "route": "/research/5-minute-overview/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/5-minute-overview/",
+    "title": "Human\u2013AI Developmental Research \u00b7 5-Minute HAIDR Overview \u00b7 Andrew Nixon",
+    "bytes": 18182
+  },
+  {
+    "route": "/research/aimr/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/human-ai-pathways/",
+    "title": "Human\u2013AI Developmental Research Program (HAIDR) \u00b7 Andrew Nixon",
+    "bytes": 43350
+  },
+  {
+    "route": "/research/cdava/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/cdava/",
+    "title": "Candidate Developmental & Augmentation Variable Architecture \u00b7 Andrew Nixon",
+    "bytes": 25225
+  },
+  {
+    "route": "/research/experimental-program/developmental-dashboard/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/experimental-program/developmental-dashboard/",
+    "title": "Developmental Dashboard \u00b7 Andrew Nixon",
+    "bytes": 5877
+  },
+  {
+    "route": "/research/experimental-program/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/experimental-program/",
+    "title": "Experimental Program \u00b7 Andrew Nixon",
+    "bytes": 27868
+  },
+  {
+    "route": "/research/experimental-program/research-methodology-acquisition/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/experimental-program/research-methodology-acquisition/",
+    "title": "AI-Mediated Research Methodology Acquisition \u00b7 Andrew Nixon",
+    "bytes": 6592
+  },
+  {
+    "route": "/research/experimental-program/wayfinder/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/experimental-program/wayfinder/",
+    "title": "Wayfinder \u00b7 Andrew Nixon",
+    "bytes": 5952
+  },
+  {
+    "route": "/research/experimental-program/wunderhorn/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/experimental-program/wunderhorn/",
+    "title": "Wunderhorn Project \u00b7 Andrew Nixon",
+    "bytes": 5265
+  },
+  {
+    "route": "/research/human-ai-development-research-landscape/app/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/human-ai-development-research-landscape/app/",
+    "title": "Human\u2013AI Development Research Landscape",
+    "bytes": 9265
+  },
+  {
+    "route": "/research/human-ai-development-research-landscape/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/human-ai-development-research-landscape/",
+    "title": "Human\u2013AI Development Research Landscape \u00b7 Research Portfolio",
+    "bytes": 9506
+  },
+  {
+    "route": "/research/human-ai-pathways/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/human-ai-pathways/",
+    "title": "Human\u2013AI Developmental Research Program (HAIDR) \u00b7 Andrew Nixon",
+    "bytes": 43350
+  },
+  {
+    "route": "/research/human-ai-scholarship-method/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/human-ai-scholarship-method/",
+    "title": "Human\u2013AI Scholarship Method \u00b7 Andrew Nixon",
+    "bytes": 13245
+  },
+  {
+    "route": "/research/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/",
+    "title": "Research \u00b7 Andrew Nixon",
+    "bytes": 4208
+  },
+  {
+    "route": "/research/study-0/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/research/study-0/",
+    "title": "Study 0 \u00b7 Andrew Nixon",
+    "bytes": 21402
+  },
+  {
+    "route": "/scholarship/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/scholarship/",
+    "title": "Scholarship & Writing \u00b7 Andrew Nixon",
+    "bytes": 423
+  },
+  {
+    "route": "/teaching/",
+    "status": 200,
+    "resolved": "https://aimr-research-portfolio.vercel.app/teaching/",
+    "title": "Teaching \u00b7 Andrew Nixon",
+    "bytes": 364
+  }
+]
