@@ -127,7 +127,7 @@ AI-assisted coding, representation learning, and statistical analysis could reco
 
 Which recurrent distributions of consequential operations predict unusually large subsequent increases in independently demonstrated capability?
 
-Such analysis would generate candidate configurations, not establish developmental causality. Automated agreement would not establish construct validity, and observational associations would still require independent developmental measures and prospective causal tests. HAIDR-Scholarly-Positioning-Paper-v0.5.pdf
+Such analysis would generate candidate configurations, not establish developmental causality. Automated agreement would not establish construct validity, and observational associations would still require independent developmental measures and prospective causal tests. HAIDR-Scholarly-Positioning-Paper-v0.5.1.pdf
 
 ## A multiscale research architecture
 
@@ -221,7 +221,7 @@ The epistemic boundary is explicit:
 
 Analogy generates hypotheses; it does not establish mechanisms.
 
-Wunderhorn becomes scientifically useful only if candidate principles generated in the musical domain produce distinctions, variables, or intervention hypotheses that demonstrate incremental explanatory or predictive value elsewhere. HAIDR-Scholarly-Positioning-Paper-v0.5.pdf
+Wunderhorn becomes scientifically useful only if candidate principles generated in the musical domain produce distinctions, variables, or intervention hypotheses that demonstrate incremental explanatory or predictive value elsewhere. HAIDR-Scholarly-Positioning-Paper-v0.5.1.pdf
 
 ## Toward a design science
 
@@ -246,7 +246,7 @@ configuration ontology / trace reconstruction
 → replicate / test transfer and perturbation
 → only then optimize configurations
 
-Large observational datasets may help identify candidate configurations, but they do not establish developmental causality. Candidate associations must become explicit causal hypotheses tested by manipulating features such as initiative, planning, monitoring, correction, feedback, scaffolding, friction, persistence, or memory and examining later independent capability. HAIDR-Scholarly-Positioning-Paper-v0.5.pdf
+Large observational datasets may help identify candidate configurations, but they do not establish developmental causality. Candidate associations must become explicit causal hypotheses tested by manipulating features such as initiative, planning, monitoring, correction, feedback, scaffolding, friction, persistence, or memory and examining later independent capability. HAIDR-Scholarly-Positioning-Paper-v0.5.1.pdf
 
 Eventually, a mature design science would seek propositions of approximately this form:
 
@@ -290,4 +290,4 @@ Full scholarly positioning paper: From Human–AI Performance to Sustained Capab
 
 Research program: AIMR · Study 0 · Organizational Systems · Developmental Measurement & Inference · Neuroscience & Passive Sensing · Collective Intelligence · Wunderhorn · Prospective Studies
 
-Note: This 5-minute overview is the canonical public-facing orientation derived from Scholarly Positioning Paper v0.5. Detailed citations, literature positioning, methodological qualifications, and falsification conditions are retained in the full paper.
+Note: This 5-minute overview is the canonical public-facing orientation derived from Scholarly Positioning Paper v0.5.1. Detailed citations, literature positioning, methodological qualifications, and falsification conditions are retained in the full paper.
