@@ -1,3 +1,10 @@
+// PHF front door is visible across the established HAIDR research archive.
+const phfNav=document.querySelector('.site-header .nav');
+if(phfNav&&!phfNav.querySelector('.phf-nav-link')){
+  const link=document.createElement('a');link.className='phf-nav-link';link.href='/philosophy/';link.textContent='Philosophy';
+  if(location.pathname.startsWith('/philosophy/'))link.setAttribute('aria-current','page');
+  phfNav.prepend(link);
+}
 document.querySelectorAll('[data-current-year]').forEach(el=>el.textContent=new Date().getFullYear());
 
 const navigationGroups=[...document.querySelectorAll('.nav-group')];

@@ -55,3 +55,15 @@
 .article h4{font-family:var(--sans);font-size:1rem;margin:1.6rem 0 .5rem}
 @media(max-width:620px){.hero{padding-top:1rem;padding-bottom:2rem}.hero .pathways-title,.page-head .pathways-title{font-size:clamp(1.9rem,8.4vw,2.7rem)}.program-descriptor{font-size:.875rem}.pathways-subtitle{font-size:1.17rem}.pathways-tagline{font-size:1.1rem}}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Philosophy of Human–AI Futures entrance and long-form reading surfaces. */
+.nav .phf-nav-link{display:inline-flex;align-items:center;font-size:.78rem;font-weight:800;color:var(--accent);text-decoration:none;white-space:nowrap}
+.nav .phf-nav-link:hover,.nav .phf-nav-link[aria-current=page]{text-decoration:underline}
+.longform{max-width:850px;margin:2rem auto 3.2rem}
+.longform h2{font-size:clamp(1.65rem,3vw,2.2rem);line-height:1.25;scroll-margin-top:5rem}
+.longform p{overflow-wrap:break-word}
+.section-first{padding-top:1.5rem}
+.related-links{display:flex;flex-wrap:wrap;gap:1.4rem;margin-top:1.5rem}
+.related-links a{font-size:.84rem;color:var(--accent);font-weight:700;text-decoration:none}
+.overview-cta a{font-weight:700;color:var(--accent)}
+@media(max-width:620px){.nav .phf-nav-link{margin-right:.25rem}.longform{margin:1.4rem auto 2rem}}
