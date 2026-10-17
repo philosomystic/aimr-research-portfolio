@@ -67,3 +67,14 @@
 .related-links a{font-size:.84rem;color:var(--accent);font-weight:700;text-decoration:none}
 .overview-cta a{font-weight:700;color:var(--accent)}
 @media(max-width:620px){.nav .phf-nav-link{margin-right:.25rem}.longform{margin:1.4rem auto 2rem}}
+
+/* Source-aligned PHF master diagram: displayed as an accessible responsive figure. */
+.master-architecture-figure{margin:3rem 0 2.2rem}
+.master-architecture-figure h2{margin:.55rem 0 1rem}
+.master-architecture-figure .section-intro{margin-bottom:1.4rem;max-width:52rem}
+.phf-diagram{margin:0;max-width:880px;background:var(--surface);border:1px solid var(--line);padding:clamp(.55rem,2vw,1.1rem);border-radius:18px}
+.phf-diagram-link{display:block;line-height:0;border-radius:10px;overflow:hidden}
+.phf-diagram img{display:block;width:100%;height:auto;border:0;border-radius:10px}
+.phf-diagram figcaption{font-family:var(--sans);font-size:.82rem;line-height:1.6;color:var(--muted);padding:.8rem .25rem .2rem}
+.phf-diagram figcaption a{color:var(--accent);font-weight:700}
+@media(max-width:620px){.master-architecture-figure{margin-top:2.2rem}.phf-diagram{padding:.4rem}.phf-diagram figcaption{padding:.75rem .55rem .35rem}}
