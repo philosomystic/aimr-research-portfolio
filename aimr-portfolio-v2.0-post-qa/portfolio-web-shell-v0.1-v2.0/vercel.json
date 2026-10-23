@@ -3,6 +3,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/context-method/",
+      "destination": "/research/human-ai-development-research-landscape/",
+      "permanent": false
+    },
+    {
       "source": "/research/human-ai-pathways/",
       "destination": "/research/haidr/",
       "permanent": true
