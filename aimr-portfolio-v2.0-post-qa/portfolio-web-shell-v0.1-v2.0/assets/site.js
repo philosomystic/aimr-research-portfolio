@@ -1,9 +1,48 @@
-// PHF front door is visible across the established HAIDR research archive.
-const phfNav=document.querySelector('.site-header .nav');
-if(phfNav&&!phfNav.querySelector('.phf-nav-link')){
-  const link=document.createElement('a');link.className='phf-nav-link';link.href='/philosophy/';link.textContent='Philosophy';
-  if(location.pathname.startsWith('/philosophy/'))link.setAttribute('aria-current','page');
-  phfNav.prepend(link);
+// Canonical menus shared by all portfolio pages, including older archive pages.
+const nav=document.querySelector('.site-header .nav');
+const menuItems={
+  Philosophy:[
+    ['Philosophy of Human–AI Futures','/philosophy/'],
+    ['Benevolent Governance and the Right to Revise','/philosophy/benevolent-governance/'],
+    ['Master Philosophical Argument','/philosophy/master-argument/']
+  ],
+  Research:[
+    ['5-Minute HAIDR Overview','/research/5-minute-overview/'],
+    ['Extended HAIDR Overview','/research/haidr/'],
+    ['Full Scholarly Paper','/research/scholarly-paper/'],
+    ['Research Sites & Studies','/research/sites/'],
+    ['Research Landscape','/research/human-ai-development-research-landscape/'],
+    ['All Research','/research/',true]
+  ],
+  About:[
+    ['About','/about/'],
+    ['CV','/cv/']
+  ]
+};
+if(nav){
+  // Remove the legacy extra Philosophy link; Philosophy already has a dropdown.
+  nav.querySelector('.phf-nav-link')?.remove();
+  const normalizePath=path=>path.replace(/\/+$/,'')||'/';
+  for(const group of nav.querySelectorAll(':scope > .nav-group')){
+    const title=group.querySelector('summary')?.textContent.trim();
+    const menu=group.querySelector('.nav-menu');
+    if(!menu || !menuItems[title])continue;
+    const links=document.createDocumentFragment();
+    let isCurrent=false;
+    for(const [label,href,secondary] of menuItems[title]){
+      const a=document.createElement('a');
+      a.href=href;
+      a.textContent=label;
+      if(secondary)a.className='menu-secondary';
+      if(normalizePath(location.pathname)===normalizePath(href)){
+        a.setAttribute('aria-current','page');
+        isCurrent=true;
+      }
+      links.appendChild(a);
+    }
+    menu.replaceChildren(links);
+    group.classList.toggle('is-current',isCurrent);
+  }
 }
 document.querySelectorAll('[data-current-year]').forEach(el=>el.textContent=new Date().getFullYear());
 
