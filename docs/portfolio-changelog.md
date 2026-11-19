@@ -1,5 +1,11 @@
 # Portfolio changelog
 
+## 18 November 2026 — Governing PHF integrative proposition
+
+- **Authority:** PHF-2026-108 / LINK-054; researcher-approved public propagation of the living PHF canon’s assimilative conceptual refinement.
+- **Verbatim proposition:** AI is not merely a new technology operating within existing human developmental and social conditions. It is increasingly becoming part of the conditions through which human capacities, agency, and future possibilities are constituted.
+- **Propagation:** Landing-page orientation callout and PHF overview, “An intellectual orientation.” No change to the frozen Intellectual Map v1.0, historical PHF essay or Master Diagram, or independently governed HAIDR scientific canon v0.15. This is a philosophical orientation, not a claim of universally demonstrated or beneficial development.
+
 ## 18 November 2026 — Intellectual map v1.0
 
 - **Change classification:** Representational extension; no canonical revision or synchronized-document propagation.
