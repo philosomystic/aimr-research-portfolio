@@ -3,3 +3,16 @@ html{scroll-padding-top:7rem}body{font-size:1rem}img{max-width:100%}h1,h2,h3{ove
 @media(max-width:900px){.header-inner{flex-direction:column;align-items:flex-start;gap:.25rem;padding-top:.8rem;padding-bottom:.4rem}.nav{width:100%;justify-content:flex-start}.nav-group:first-child .nav-menu{left:0;right:auto}.hero{gap:1.6rem}.nav-group:nth-child(2) .nav-menu{left:0;right:auto}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}html{scroll-padding-top:9rem}}
 @media(max-width:620px){main{padding:1.5rem 1.1rem 3.5rem}.header-inner{padding-left:1.1rem;padding-right:1.1rem}.brand{font-size:.75rem;letter-spacing:.065em}.nav{gap:.1rem;justify-content:space-between}.nav-group summary{padding:.55rem .2rem;font-size:.82rem}.nav-group summary::after{margin-left:.3rem}.nav-menu{width:min(285px,calc(100vw - 2.2rem))}.nav-group:nth-child(2) .nav-menu{left:auto;right:-4.7rem}.hero{padding-top:1rem;padding-bottom:2.5rem}.hero .pathways-title{font-size:2.7rem}.pathways-subtitle{font-size:1.3rem}.page-head{padding-top:.8rem;margin-bottom:1.5rem}.page-head h1{font-size:2.5rem}.grid,.ancestry-grid{grid-template-columns:1fr}.card{min-height:180px}.article,.about-copy{font-size:1.05rem}.article>h2{margin-top:2.6rem}.section{padding:2.5rem 0}.program-figure{margin:1.8rem 0 2.2rem}.program-figure figcaption{font-size:.875rem}.program-figure img{border-radius:6px}.related-links{gap:.4rem 1.2rem}.related-links a{font-size:.9rem}.frozen-overview>h1{font-size:2.7rem}.frozen-overview>h1+p{font-size:1.3rem}th,td{padding:.75rem .65rem}tbody th{width:30%}.landscape-shell iframe{height:850px}.table-scroll{font-size:.95rem}}
 @media print{.site-header,.site-footer,.skip-link,.related-links{display:none}main{padding:0}.article{max-width:100%}.program-figure{break-inside:avoid}body{background:#fff}.page-head{padding-top:0}}
+
+/* Landing-page orientation figure: a frozen, illustrative intellectual map. */
+.hero-with-map{grid-template-areas:"intro note" "map map" "links links";row-gap:1.5rem}
+.hero-with-map .hero-intro{grid-area:intro;min-width:0}
+.hero-with-map .hero-note{grid-area:note}
+.hero-with-map .intellectual-map{grid-area:map;min-width:0;margin:0}
+.hero-with-map .overview-cta{grid-area:links;margin:0}
+.intellectual-map-link{display:block;text-decoration:none;border-radius:12px;color:var(--accent)}
+.intellectual-map img{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:12px}
+.intellectual-map-expand{display:block;min-height:44px;padding:.55rem .3rem;text-align:right;font-size:.875rem;font-weight:650;color:var(--accent)}
+.intellectual-map-link:hover .intellectual-map-expand{text-decoration:underline}
+@media(max-width:850px){.hero-with-map{grid-template-areas:"intro" "map" "links" "note";gap:1.25rem}.intellectual-map img{border-radius:6px}}
+@media print{.intellectual-map{break-inside:avoid}.intellectual-map-expand{display:none}}
